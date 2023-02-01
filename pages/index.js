@@ -194,7 +194,7 @@ function Home() {
           >
             <div class="md:max-w-2xl text-center mx-auto">
               <span class="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                Innovate for a Better Future, Together.
+                Innovate for a Better Future, Together!
               </span>
               <h1
                 class="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
