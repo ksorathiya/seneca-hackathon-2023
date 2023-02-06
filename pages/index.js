@@ -335,7 +335,7 @@ function Home() {
           <p class="text-center font-bold">
             <span>Ⓒ Copyright. All rights reserved by </span>
             <a class="text-red-600 hover:text-red-700" href="#">
-              Seneca Smart City Hackathon
+              Smart Cities Hackathon
             </a>
           </p>
         </div>
