@@ -37,7 +37,7 @@ function Home() {
             <div class="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
               <div class="w-auto">
                 <div class="flex flex-wrap items-center">
-                  <div class="w-auto p-4">
+                  <div class="w-auto p-2">
                     <a href="#">
                       <img
                         src="/assets/seneca-hackathon-logo.png"
