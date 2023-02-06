@@ -34,14 +34,14 @@ function Home() {
       <section class="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="mb-6">
-            <div class="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-full">
+            <div class="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
               <div class="w-auto">
                 <div class="flex flex-wrap items-center">
-                  <div class="w-auto p-4">
+                  <div class="w-auto p-2">
                     <a href="#">
                       <img
                         src="/assets/seneca-hackathon-logo.png"
-                        width="150"
+                        width="250"
                         alt=""
                       />
                     </a>
@@ -335,7 +335,7 @@ function Home() {
           <p class="text-center font-bold">
             <span>Ⓒ Copyright. All rights reserved by </span>
             <a class="text-red-600 hover:text-red-700" href="#">
-              Seneca Smart City Hackathon
+              Smart Cities Hackathon
             </a>
           </p>
         </div>
