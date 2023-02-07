@@ -31,7 +31,8 @@ function Home() {
   }, [increment]);
 
   return (
-    <><title>Seneca Hackathon</title>
+  <>
+    <title>Seneca Hackathon</title>
       {/* // HERO SECTION */}
       <section class="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
@@ -255,11 +256,14 @@ function Home() {
       {/* York University Design JAM */}
 <section class="py-10 bg-white overflow-hidden">
   <div class="container mx-auto px-4">
-    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('https://media.licdn.com/dms/image/C5622AQH5plFDr8F_NQ/feedshare-shrink_800/0/1675613293085?e=1678320000&v=beta&t=fgaAQAAcByWtRULXzeVdXOeBpo2XIBD50hvG-Fk5EH4'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; filter: brightness(75%);"}}>
-      <div class="mb-6 max-w-lg mx-auto text-center" 
-      style={{"filter": "brightness(100%);"}}>
-        <span class="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest;">Applications</span>
-        <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Be a part of York University Design Jam now!</h2>
+    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('/assets/designJam.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; background-size: 100%"}}>
+      <div class="mb-6 max-w-lg mx-auto text-center"  >
+        <span class="inline-block mb-2 text-sm text-white font-bold uppercase tracking-widest;">Accepting Applications until March 17</span>
+        <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">Be a part of York University Design Jam now!</h2>
+        <br></br>
+        <p class="mb-8 text-l text-white">
+                  Am amazing opportunity to win $325 stipend! Participate in the Design Jam as a team or an individual. Prepare for upcoming Hackathon and learn how Design Thinking works.
+        </p>
       </div>
       <div class="md:max-w-sm mx-auto mb-10">
         <div class="flex flex-wrap -m-2">
@@ -268,7 +272,8 @@ function Home() {
           </div> */}
           <div class="w-full p-2">
             <div class="flex flex-wrap justify-center -m-2">
-              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=pp_url" target="_blank">Register</a></div>
+              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=sf_link" target="_blank">Register</a></div>
+              <span class="inline-block mb-2 text-sm text-white font-bold uppercase tracking-widest;">Limiited Spots!</span>
             </div>
           </div>
         </div>
@@ -282,7 +287,7 @@ function Home() {
               </svg>
             </div>
             <div class="flex-1">
-              <p class="text-sm text-gray-900 font-bold">Cash Prize</p>
+              <p class="text-sm text-white font-bold">Cash Prize</p>
             </div>
           </div>
         </div>
@@ -294,7 +299,7 @@ function Home() {
               </svg>
             </div>
             <div class="flex-1">
-              <p class="text-sm text-gray-900 font-bold">Design Thinking Lab</p>
+              <p class="text-sm text-white font-bold">Design Thinking Lab</p>
             </div>
           </div>
         </div>
@@ -306,7 +311,7 @@ function Home() {
               </svg>
             </div>
             <div class="flex-1">
-              <p class="text-sm text-gray-900 font-bold">Prepare for Hackathon</p>
+              <p class="text-sm text-white font-bold">Prepare for Hackathon</p>
             </div>
           </div>
         </div>
@@ -314,6 +319,7 @@ function Home() {
     </div>
   </div>
 </section>
+
 
 
 
