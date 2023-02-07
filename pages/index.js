@@ -5,6 +5,8 @@ import styles from "../styles/home.module.css";
 
 import Image from "next/image";
 
+
+
 function throwError() {
   console.log(
     // The function body() is not defined
@@ -29,7 +31,7 @@ function Home() {
   }, [increment]);
 
   return (
-    <>
+    <><title>Seneca Hackathon</title>
       {/* // HERO SECTION */}
       <section class="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
@@ -254,7 +256,8 @@ function Home() {
 <section class="py-10 bg-white overflow-hidden">
   <div class="container mx-auto px-4">
     <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('https://media.licdn.com/dms/image/C5622AQH5plFDr8F_NQ/feedshare-shrink_800/0/1675613293085?e=1678320000&v=beta&t=fgaAQAAcByWtRULXzeVdXOeBpo2XIBD50hvG-Fk5EH4'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; filter: brightness(75%);"}}>
-      <div class="mb-6 max-w-lg mx-auto text-center" style={{"filter": "brightness(100%);"}}>
+      <div class="mb-6 max-w-lg mx-auto text-center" 
+      style={{"filter": "brightness(100%);"}}>
         <span class="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest;">Applications</span>
         <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Be a part of York University Design Jam now!</h2>
       </div>
