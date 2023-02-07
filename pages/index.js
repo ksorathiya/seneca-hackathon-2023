@@ -247,6 +247,73 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+
+      {/* York University Design JAM */}
+<section class="py-10 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('https://media.licdn.com/dms/image/C5622AQH5plFDr8F_NQ/feedshare-shrink_800/0/1675613293085?e=1678320000&v=beta&t=fgaAQAAcByWtRULXzeVdXOeBpo2XIBD50hvG-Fk5EH4'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; filter: brightness(75%);"}}>
+      <div class="mb-6 max-w-lg mx-auto text-center" style={{"filter": "brightness(100%);"}}>
+        <span class="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest;">Applications</span>
+        <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Be a part of York University Design Jam now!</h2>
+      </div>
+      <div class="md:max-w-sm mx-auto mb-10">
+        <div class="flex flex-wrap -m-2">
+          {/* <div class="w-full p-2">
+            <input class="px-6 py-3.5 w-full text-lg text-gray-500 text-center font-bold bg-gray-100 outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightBorderInput4-1" type="text" placeholder="Email address">
+          </div> */}
+          <div class="w-full p-2">
+            <div class="flex flex-wrap justify-center -m-2">
+              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=pp_url" target="_blank">Register</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center -m-3" >
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-gray-900 font-bold">Cash Prize</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-gray-900 font-bold">Design Thinking Lab</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-gray-900 font-bold">Prepare for Hackathon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
       {/* FAQ SECTION */}
       {/* <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
