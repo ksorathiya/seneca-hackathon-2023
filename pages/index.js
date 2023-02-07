@@ -232,95 +232,6 @@ function Home() {
           </div>
         </div>
       </section>
-
-      {/* HACKATHON TIMELINE */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="font-heading max-w-xl mb-20 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                Hackathon Timeline
-              </h2>
-              <div className="flex flex-wrap -m-3">
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        1
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Connect
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-white font-black rounded-full bg-red-600">
-                        2
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Store
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        3
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Ship
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        4
-                      </div>
-                    </div>
-                    <div className="flex-1 lg:hidden p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Deliver
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-
       {/* DESIGN JAM SECTION 1 */}
       <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
@@ -723,7 +634,6 @@ function Home() {
                         adipiscing elit.
                       </p>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -732,21 +642,101 @@ function Home() {
         </div>
       </section>
       {/* DESIGN JAM SECTION 3 */}
-      {/* FAQ SECTION */}
-      {/* <section class="py-16 bg-gray-100 overflow-hidden">
+      {/* HACKATHON TIMELINE SECTION */}
+      <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
-          <div class="md:max-w-lg mb-10">
-            <span class="inline-block mb-5 text-sm text-red-600 font-bold uppercase tracking-widest">
-              Frequently asked questions
-            </span>
-            <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
-              Common Answers
-            </h2>
-
+          <div class="py-16 px-8 bg-white rounded-3xl">
+            <div class="max-w-7xl mx-auto">
+              <h2 class="font-heading max-w-xl mb-20 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+                Hackathon Timeline
+              </h2>
+              <div class="flex flex-wrap -m-3">
+                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+                  <div class="flex flex-wrap items-center -m-3 mb-2">
+                    <div class="w-auto p-3">
+                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                        1
+                      </div>
+                    </div>
+                    <div class="flex-1 p-3">
+                      <div class="bg-gray-200 h-px"></div>
+                    </div>
+                  </div>
+                  <div class="md:w-3/4">
+                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
+                      Connect
+                    </h3>
+                    <p class="text-gray-700 font-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+                  <div class="flex flex-wrap items-center -m-3 mb-2">
+                    <div class="w-auto p-3">
+                      <div class="flex items-center justify-center w-16 h-16 text-xl text-white font-black rounded-full bg-red-600">
+                        2
+                      </div>
+                    </div>
+                    <div class="flex-1 p-3">
+                      <div class="bg-gray-200 h-px"></div>
+                    </div>
+                  </div>
+                  <div class="md:w-3/4">
+                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
+                      Store
+                    </h3>
+                    <p class="text-gray-700 font-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+                  <div class="flex flex-wrap items-center -m-3 mb-2">
+                    <div class="w-auto p-3">
+                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                        3
+                      </div>
+                    </div>
+                    <div class="flex-1 p-3">
+                      <div class="bg-gray-200 h-px"></div>
+                    </div>
+                  </div>
+                  <div class="md:w-3/4">
+                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
+                      Ship
+                    </h3>
+                    <p class="text-gray-700 font-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+                  <div class="flex flex-wrap items-center -m-3 mb-2">
+                    <div class="w-auto p-3">
+                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                        4
+                      </div>
+                    </div>
+                    <div class="flex-1 lg:hidden p-3">
+                      <div class="bg-gray-200 h-px"></div>
+                    </div>
+                  </div>
+                  <div class="md:w-3/4">
+                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
+                      Deliver
+                    </h3>
+                    <p class="text-gray-700 font-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      {/* HACKATHON TIMELINE */}
+      {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
@@ -845,7 +835,7 @@ function Home() {
       </section>
       {/* CTA SECTION */}
       {/* TESTIMONIALS SECTION */}
-      <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
+      {/* <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="px-8 pt-16 bg-white border border-gray-100 rounded-t-3xl">
             <div className="max-w-7xl mx-auto">
@@ -1146,7 +1136,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* TESTIMONIALS SECTION */}
       {/* PREVIOUS HACKATHONS SECTION */}
       <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
