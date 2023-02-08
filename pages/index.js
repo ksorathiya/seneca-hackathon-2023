@@ -240,13 +240,21 @@ function Home() {
               <div class="flex flex-wrap -m-8 mb-10">
                 <div class="w-full md:w-1/2 p-8">
                   <div class="md:max-w-lg">
-                    <h2 class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                      Design Jam by York University
+                    <h2
+                      class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
+                      contenteditable="false"
+                    >
+                      Design Jam by{" "}
+                      <img
+                        class="mt-5"
+                        src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
+                        alt=""
+                      />
                     </h2>
-                    <p class="mb-8 text-xl font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit bibendum
-                      a. Maecenas accumsan fermentum nisl.
+
+                    <p class="mb-8 text-xl font-bold" contenteditable="false">
+                      Win a $325 stipend by participating in the Design Jam by
+                      York University.{" "}
                     </p>
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
@@ -263,7 +271,7 @@ function Home() {
                 <div class="w-full md:w-1/2 p-8">
                   <img
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="zanrly-assets/images/features/invest.png"
+                    src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/37547.jpg"
                     alt=""
                   />
                 </div>
@@ -274,34 +282,20 @@ function Home() {
                     <div class="flex flex-wrap -m-3">
                       <div class="w-auto md:w-full lg:w-auto p-3">
                         <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
+                          <Image
+                            src="/assets/dollar-symbol-money-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
                         </div>
                       </div>
                       <div class="flex-1 p-3">
                         <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
+                          Earn a $325 Stipend
                         </h3>
                         <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
+                          Participate and earn a stipend for your efforts. *Only
+                          domestic students are eligible for the stipend.
                         </p>
                       </div>
                     </div>
@@ -310,34 +304,20 @@ function Home() {
                     <div class="flex flex-wrap -m-3">
                       <div class="w-auto md:w-full lg:w-auto p-3">
                         <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
+                          <Image
+                            src="/assets/speed-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
                         </div>
                       </div>
                       <div class="flex-1 p-3">
                         <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
+                          Accelerate Your Skills
                         </h3>
                         <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
+                          Gain design thinking skills for a better chance at
+                          winning the Smart Cities Hackathon.
                         </p>
                       </div>
                     </div>
@@ -346,34 +326,20 @@ function Home() {
                     <div class="flex flex-wrap -m-3">
                       <div class="w-auto md:w-full lg:w-auto p-3">
                         <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
+                          <Image
+                            src="/assets/sofa-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
                         </div>
                       </div>
                       <div class="flex-1 p-3">
                         <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
+                          Limited Spots Available
                         </h3>
                         <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
+                          50 spots for domestic and 50 for international
+                          students. First-come, first-served basis.
                         </p>
                       </div>
                     </div>
@@ -386,125 +352,6 @@ function Home() {
       </section>
       {/* DESIGN JAM SECTION 1 */}
       {/* DESIGN JAM SECTION 2 */}
-      <section class="py-16 bg-gray-100 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div
-            class="py-16 px-8 md:px-16 rounded-3xl"
-            style={{
-              "background-image":
-                "url(zanrly-assets/images/features/people.png)",
-              "background-size": "cover",
-              "background-position": "center",
-              "background-repeat": "no-repeat",
-            }}
-          >
-            <h2 class="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
-              Build website animations and interactions visually.
-            </h2>
-            <p class="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              venenatis volutpat velit, quis iaculis velit bibendum a. Maecenas
-              accumsan fermentum nisl.
-            </p>
-            <div class="flex flex-wrap -m-2">
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Exportable code
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Easy integration
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Satisfied customers
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Increased conversion
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* DESIGN JAM SECTION 2 */}
-      {/* DESIGN JAM SECTION 3 */}
       <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="max-w-lg mx-auto text-center">
@@ -634,6 +481,126 @@ function Home() {
                         adipiscing elit.
                       </p>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* DESIGN JAM SECTION 2 */}
+      {/* DESIGN JAM SECTION 3 */}
+      <section class="py-16 bg-gray-100 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <div
+            class="py-16 px-8 md:px-16 rounded-3xl"
+            style={{
+              "background-image":
+                "url(zanrly-assets/images/features/people.png)",
+              "background-size": "cover",
+              "background-position": "center",
+              "background-repeat": "no-repeat",
+            }}
+          >
+            <h2 class="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
+              Build website animations and interactions visually.
+            </h2>
+            <p class="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              venenatis volutpat velit, quis iaculis velit bibendum a. Maecenas
+              accumsan fermentum nisl.
+            </p>
+            <div class="flex flex-wrap -m-2">
+              <div class="w-auto p-2">
+                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div class="w-auto mr-2 pt-1">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
+                        fill="#3B82F6"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <p class="text-sm text-gray-900 font-bold">
+                      Exportable code
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-auto p-2">
+                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div class="w-auto mr-2 pt-1">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
+                        fill="#3B82F6"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <p class="text-sm text-gray-900 font-bold">
+                      Easy integration
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-auto p-2">
+                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div class="w-auto mr-2 pt-1">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
+                        fill="#3B82F6"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <p class="text-sm text-gray-900 font-bold">
+                      Satisfied customers
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-auto p-2">
+                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div class="w-auto mr-2 pt-1">
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
+                        fill="#3B82F6"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <p class="text-sm text-gray-900 font-bold">
+                      Increased conversion
+                    </p>
                   </div>
                 </div>
               </div>
