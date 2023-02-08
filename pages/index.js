@@ -5,6 +5,8 @@ import styles from "../styles/home.module.css";
 
 import Image from "next/image";
 
+
+
 function throwError() {
   console.log(
     // The function body() is not defined
@@ -29,7 +31,8 @@ function Home() {
   }, [increment]);
 
   return (
-    <>
+  <>
+    <title>Seneca Hackathon</title>
       {/* // HERO SECTION */}
       <section class="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
@@ -247,296 +250,95 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* DESIGN JAM SECTION 1 */}
-      <section class="py-10 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="py-16 px-8 bg-white rounded-3xl">
-            <div class="max-w-7xl mx-auto">
-              <div class="flex flex-wrap -m-8 mb-10">
-                <div class="w-full md:w-1/2 p-8">
-                  <div class="md:max-w-lg">
-                    <h2 class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                      Design Jam by York University
-                    </h2>
-                    <p class="mb-8 text-xl font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit bibendum
-                      a. Maecenas accumsan fermentum nisl.
-                    </p>
-                    <div class="flex flex-wrap -m-2">
-                      <div class="w-full md:w-auto p-2">
-                        <a
-                          class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          Register Here
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2 p-8">
-                  <img
-                    class="mx-auto md:mr-0 rounded-3xl"
-                    src="zanrly-assets/images/features/invest.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="p-8 md:p-12 bg-gray-100 rounded-3xl">
-                <div class="flex flex-wrap -m-8">
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
-                        </div>
-                      </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
-                        </h3>
-                        <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
-                        </div>
-                      </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
-                        </h3>
-                        <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
-                        </div>
-                      </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Lorem ipsum dolores
-                        </h3>
-                        <p class="text-sm text-gray-700 font-bold">
-                          Lorem ipsum dolor sit amet sectetur adip elit donec.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+
+
+      {/* York University Design JAM */}
+<section class="py-10 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('/assets/designJam2.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; background-size: 100%"}}>
+      <div class="mb-6 max-w-lg mx-auto text-center"  >
+        <span class="inline-block mb-2 text-sm text-red-500 font-bold uppercase tracking-widest;">Accepting Applications until March 17</span>
+        <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">Be a part of York University Design Jam now!</h2>
+        <br></br>
+        <p class="mb-8 text-l text-white">
+                  Am amazing opportunity to win $325 stipend! Participate in the Design Jam as a team or an individual. Prepare for upcoming Hackathon and learn how Design Thinking works.
+        </p>
+      </div>
+      <div class="md:max-w-sm mx-auto mb-10">
+        <div class="flex flex-wrap -m-2">
+          {/* <div class="w-full p-2">
+            <input class="px-6 py-3.5 w-full text-lg text-gray-500 text-center font-bold bg-gray-100 outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightBorderInput4-1" type="text" placeholder="Email address">
+          </div> */}
+          <div class="w-full p-2">
+            <div class="flex flex-wrap justify-center -m-2">
+              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=sf_link" target="_blank">Register</a></div>
+              <span class="inline-block mb-2 text-sm text-white font-bold uppercase tracking-widest;">Limiited Spots!</span>
             </div>
           </div>
         </div>
-      </section>
-      {/* DESIGN JAM SECTION 1 */}
-      {/* DESIGN JAM SECTION 2 */}
-      <section class="py-16 bg-gray-100 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div
-            class="py-16 px-8 md:px-16 rounded-3xl"
-            style={{
-              "background-image":
-                "url(zanrly-assets/images/features/people.png)",
-              "background-size": "cover",
-              "background-position": "center",
-              "background-repeat": "no-repeat",
-            }}
-          >
-            <h2 class="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
-              Build website animations and interactions visually.
-            </h2>
-            <p class="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              venenatis volutpat velit, quis iaculis velit bibendum a. Maecenas
-              accumsan fermentum nisl.
-            </p>
-            <div class="flex flex-wrap -m-2">
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Exportable code
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Easy integration
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Satisfied customers
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
-                      Increased conversion
-                    </p>
-                  </div>
-                </div>
-              </div>
+      </div>
+      <div class="flex flex-wrap justify-center -m-3" >
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-white font-bold">Cash Prize</p>
             </div>
           </div>
         </div>
-      </section>
-      {/* DESIGN JAM SECTION 2 */}
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-white font-bold">Design Thinking Lab</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-auto p-3">
+          <div class="flex flex-wrap">
+            <div class="w-auto mr-2 pt-1">
+              <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
+              </svg>
+            </div>
+            <div class="flex-1">
+              <p class="text-sm text-white font-bold">Prepare for Hackathon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+      
       {/* DESIGN JAM SECTION 3 */}
       <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="max-w-lg mx-auto text-center">
-            <h2 class="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+            <h2 class="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-red-500 font-black tracking-tight">
               How to register for the Design Jam
             </h2>
             <p class="mb-12 text-gray-700 font-bold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-              tempor condimentum commodo tincidunt sit dictumst. Eu placerat
-              arcu at sem vitae eros.
+              Follow three easy steps to complete your registration for Design Jam. 
             </p>
           </div>
           <div
             class="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
             style={{
               "background-image":
-                "url('zanrly-assets/images/how-it-works/work.png')",
+                "url('assets/designJam.png')",
               "background-size": "cover",
               "background-position": "center",
               "background-repeat": "no-repeat",
@@ -571,11 +373,10 @@ function Home() {
                         Step 1
                       </span>
                       <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Choose A Package
+                        Apply
                       </h3>
                       <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        Submit your application to participate in the Smart Cities Design Jam, whether as a team or an individual 
                       </p>
                     </div>
                   </div>
@@ -607,11 +408,10 @@ function Home() {
                         Step 2
                       </span>
                       <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Pay with One Click
+                        Enhance Your Skills
                       </h3>
                       <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        Attend the accelerator program and gain valuable design thinking skills to improve your chances in the Smart Cities Hackathon. 
                       </p>
                     </div>
                   </div>
@@ -642,11 +442,10 @@ function Home() {
                         Step 3
                       </span>
                       <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Get Instant Access
+                        Earn a Stipend
                       </h3>
                       <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        Domestic students are eligible to earn $325 stipend for their participation in the Design Jam. This is unique opportunity not only to improve your skills, but also to revive financial compensation. 
                       </p>
                     </div>
                   </div>
