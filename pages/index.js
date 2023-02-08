@@ -53,7 +53,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-auto lg:hidden">
+                  <div className="w-auto hidden">
                     <a className="inline-block" href="#">
                       <svg
                         className="navbar-burger text-blue-500"
@@ -255,8 +255,11 @@ function Home() {
 
                     <p class="mb-8 text-xl font-bold" contenteditable="false">
                       A 12 - 16 hours asynchronous online learning organized by
-                      Smart Cities Hackathon, in association with York
-                      University's YSpace.
+                      &nbsp;
+                      <span className="text-red-600">
+                        Smart Cities Hackathon
+                      </span>
+                      , in association with York University's YSpace.
                     </p>
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
@@ -286,7 +289,7 @@ function Home() {
                       <div class="w-auto md:w-full lg:w-auto p-3">
                         <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
-                            src="/assets/dollar-symbol-money-svgrepo-com.svg"
+                            src="/assets/flag-svgrepo-com.svg"
                             height={30}
                             width={30}
                           />
@@ -294,11 +297,12 @@ function Home() {
                       </div>
                       <div class="flex-1 p-3">
                         <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Earn a $325 Stipend
+                          Enhance Your Chances
                         </h3>
                         <p class="text-sm text-gray-700 font-bold">
-                          Participate and earn a stipend for your efforts. *Only
-                          domestic students are eligible for the stipend.
+                          Improve your chances of success in the upcoming Smart
+                          Cities Hackathon by participating in the Design Jam
+                          and learning valuable design thinking skills.
                         </p>
                       </div>
                     </div>
@@ -343,6 +347,74 @@ function Home() {
                         <p class="text-sm text-gray-700 font-bold">
                           50 spots for domestic and 50 for international
                           students. First-come, first-served basis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/3 p-8">
+                    <div class="flex flex-wrap -m-3">
+                      <div class="w-auto md:w-full lg:w-auto p-3">
+                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                          <Image
+                            src="/assets/dollar-symbol-money-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
+                        </div>
+                      </div>
+                      <div class="flex-1 p-3">
+                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                          Earn a $325 Stipend
+                        </h3>
+                        <p class="text-sm text-gray-700 font-bold">
+                          Participate and earn a stipend for your efforts. *Only
+                          domestic students are eligible for the stipend.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/3 p-8">
+                    <div class="flex flex-wrap -m-3">
+                      <div class="w-auto md:w-full lg:w-auto p-3">
+                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                          <Image
+                            src="/assets/fast-forward-button-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
+                        </div>
+                      </div>
+                      <div class="flex-1 p-3">
+                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                          Fast Track to the Hackathon
+                        </h3>
+                        <p class="text-sm text-gray-700 font-bold">
+                          Participating in the Design Jam provides a fast track
+                          to the Smart Cities Hackathon qualifier event.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/3 p-8">
+                    <div class="flex flex-wrap -m-3">
+                      <div class="w-auto md:w-full lg:w-auto p-3">
+                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                          <Image
+                            src="/assets/deadline-stopwatch-hourglass-svgrepo-com.svg"
+                            height={30}
+                            width={30}
+                          />
+                        </div>
+                      </div>
+                      <div class="flex-1 p-3">
+                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                          Submission Deadline
+                        </h3>
+                        <p class="text-sm text-gray-700 font-bold">
+                          The submission deadline for the playbook and video
+                          pitch or in-person feedback session at Seneca HELIX is
+                          March 10th at 11:59pm. Make sure to submit your
+                          application in time.
                         </p>
                       </div>
                     </div>
@@ -708,78 +780,138 @@ function Home() {
       </section> */}
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      {/* <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <h2 className="font-heading mb-10 mx-auto text-center text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-            Our Sponsors
+      <section class="py-10 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <h2 class="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
+            Sponsors
           </h2>
         </div>
-        <div className="container mx-auto px-4">
-          <div className="bg-white border border-gray-50 rounded-3xl">
-            <div className="flex flex-wrap items-stretch">
-              <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand.svg"
-                    alt=""
-                  />
+        <div class="container mx-auto px-4">
+          <div class="bg-white border border-gray-50 rounded-3xl">
+            <div class="flex flex-wrap items-center">
+              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://www.yorku.ca/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/yu-logo-header-1.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand3.svg"
-                    alt=""
-                  />
+              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a
+                    href="https://www.senecacollege.ca/alumni.html"
+                    target="_blank"
+                  >
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/file-img-Alumni-logo-RGB-Primary-1.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3 border-b border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand4.svg"
-                    alt=""
-                  />
+              <div class="w-full sm:w-1/3 border-b border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://thinkingnorth.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
+                      width="150px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand7.svg"
-                    alt=""
-                  />
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://cpos.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Logo-1.svg"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand5.svg"
-                    alt=""
-                  />
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://getoppos.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Oppos20Logo20-20actual20black-1-at-2x.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3">
-                <div className="py-12 lg:py-20 px-8">
-                  <img
-                    className="mx-auto"
-                    src="zanrly-assets/brands/brand6.svg"
-                    alt=""
-                  />
+              <div class="w-full sm:w-1/3">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://www.ridealike.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/RideAlike.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8 bg-black">
+                  <a href="https://raceatlas.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/raceatlas-logo.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://inheritchain.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/inheritchainDK-web.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/3 border-b border-gray-50">
+                <div class="py-12 lg:py-20 px-8 bg-purple-900">
+                  <a href="https://trinetra.ca/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Trinetra-Logo-White-1536x477.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
+              <div class="w-full sm:w-1/3"></div> */}
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* SPONSORS SECTION */}
       {/* CTA SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="py-16 px-8 text-center rounded-3xl bg-red-600">
+          <div className="py-16 px-8 text-center rounded-3xl bg-red-700">
             <div className="md:max-w-lg mx-auto">
               <h2 className="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
                 Innovate, Connect, and Make a Difference.
@@ -1455,18 +1587,45 @@ function Home() {
                 <div className="w-auto p-4">
                   <div className="flex flex-wrap -m-4">
                     <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
+                      <a
+                        className="block"
+                        href="https://www.instagram.com/senecahackathon/"
+                        target="_blank"
+                      >
+                        <Image
+                          src="/zanrly-assets/images/insta.svg"
+                          width="25"
+                          height="25"
+                          alt=""
+                        />
                       </a>
                     </div>
                     <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
+                      <a
+                        className="block"
+                        href="https://twitter.com/SenecaHackathon"
+                        target="_blank"
+                      >
+                        <Image
+                          width="25"
+                          height="25"
+                          src="/zanrly-assets/images/twitter.svg"
+                          alt=""
+                        />
                       </a>
                     </div>
                     <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/footers/fb.svg" alt="" />
+                      <a
+                        className="block"
+                        href="https://www.facebook.com/SenecaHackathon2022"
+                        target="_blank"
+                      >
+                        <Image
+                          width="25"
+                          height="25"
+                          src="/zanrly-assets/images/footers/fb.svg"
+                          alt=""
+                        />
                       </a>
                     </div>
                   </div>
