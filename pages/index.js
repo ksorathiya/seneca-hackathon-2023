@@ -233,6 +233,7 @@ function Home() {
         </div>
       </section>
       {/* DESIGN JAM SECTION 1 */}
+
       <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="py-16 px-8 bg-white rounded-3xl">
@@ -253,16 +254,18 @@ function Home() {
                     </h2>
 
                     <p class="mb-8 text-xl font-bold" contenteditable="false">
-                      Win a $325 stipend by participating in the Design Jam by
-                      York University.{" "}
+                      A 12 - 16 hours asynchronous online learning organized by
+                      Smart Cities Hackathon, in association with York
+                      University's YSpace.
                     </p>
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
                         <a
                           class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
+                          href="https://yspace.apps01.yorku.ca/forms/view.php?id=104364"
+                          target="_blank"
                         >
-                          Register Here
+                          Enroll Now
                         </a>
                       </div>
                     </div>
@@ -316,8 +319,8 @@ function Home() {
                           Accelerate Your Skills
                         </h3>
                         <p class="text-sm text-gray-700 font-bold">
-                          Gain design thinking skills for a better chance at
-                          winning the Smart Cities Hackathon.
+                          Gain lifelong design thinking skills for a better
+                          chance at winning the Smart Cities Hackathon.
                         </p>
                       </div>
                     </div>
@@ -352,7 +355,7 @@ function Home() {
       </section>
       {/* DESIGN JAM SECTION 1 */}
       {/* DESIGN JAM SECTION 2 */}
-      <section class="py-16 bg-gray-100 overflow-hidden">
+      {/* <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="max-w-lg mx-auto text-center">
             <h2 class="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
@@ -487,11 +490,11 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* DESIGN JAM SECTION 2 */}
       {/* DESIGN JAM SECTION 3 */}
-      <section class="py-16 bg-gray-100 overflow-hidden">
+      {/* <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
           <div
             class="py-16 px-8 md:px-16 rounded-3xl"
@@ -607,10 +610,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      <section class="py-10 bg-gray-50 overflow-hidden">
+      {/* <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
           <div class="py-16 px-8 bg-white rounded-3xl">
             <div class="max-w-7xl mx-auto">
@@ -702,10 +705,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      {/* <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <h2 className="font-heading mb-10 mx-auto text-center text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
             Our Sponsors
@@ -771,31 +774,34 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* SPONSORS SECTION */}
       {/* CTA SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 text-center rounded-3xl bg-red-600">
             <div className="md:max-w-lg mx-auto">
-              <h2 className="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight">
-                Invest in a better way to work online.
+              <h2 className="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
+                Innovate, Connect, and Make a Difference.
               </h2>
-              <p className="mb-10 text-xl font-bold text-gray-100">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                venenatis volutpat velit, quis iaculis velit bibendum a.
-                Maecenas accumsan fermentum nisl.
-              </p>
-              <div className="flex flex-wrap justify-center -m-2 mb-4">
+              {/* <p className="mb-10 text-xl font-bold text-gray-100">
+                "Discover new opportunities, network with like-minded
+                individuals, and contribute to a sustainable future. Join the
+                Smart City Hackathon and be part of a world-changing event where
+                you can bring your innovative ideas to life. With experienced
+                mentors and a supportive community, the hackathon is the perfect
+                platform to unlock your potential and make a positive impact.
+              </p> */}
+              {/* <div className="flex flex-wrap justify-center -m-2 mb-4">
                 <div className="w-auto p-2">
                   <a
                     className="block w-full px-8 py-3.5 text-lg text-center font-bold focus:ring-4 focus:ring-gray-600 rounded-full hover:bg-gray-300 text-black bg-gray-100"
                     href="#"
                   >
-                    Register Now
+                    Registration Opening Soon...
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -1106,7 +1112,7 @@ function Home() {
       </section> */}
       {/* TESTIMONIALS SECTION */}
       {/* PREVIOUS HACKATHONS SECTION */}
-      <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
+      {/* <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
         <div className="container mx-auto px-4">
           <span className="inline-block mb-5 text-sm text-red-600 font-bold uppercase tracking-widest">
             What we found
@@ -1151,10 +1157,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* PREVIOUS HACKATHONS SECTION */}
       {/* FAQs SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      {/* <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
             <div className="absolute top-0 left-1/2 min-w-max transform -translate-x-1/2">
@@ -1292,7 +1298,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
@@ -1306,47 +1312,34 @@ function Home() {
                 <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
                   Want to reach out directly?
                 </h2>
-                <p className="md:max-w-md text-gray-500 font-bold">
+                {/* <p className="md:max-w-md text-gray-500 font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Malesuada tellus vestibulum, commodo pulvinar.
-                </p>
+                </p> */}
               </div>
-              <div className="mb-6 p-10 bg-gray-100 border border-gray-100 rounded-3xl">
+              <div className="mb-10 p-10 bg-gray-100 border border-gray-100 rounded-3xl">
                 <div className="flex flex-wrap -m-3 mb-3">
                   <div className="w-auto p-3">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
-                      <svg
-                        width="32"
-                        height="32"
-                        viewBox="0 0 32 32"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M18.666 21.3334C18.666 23.6934 17.6393 25.8267 15.9993 27.2801C14.586 28.5601 12.7193 29.3334 10.666 29.3334C6.25268 29.3334 2.66602 25.7467 2.66602 21.3334C2.66602 18.6338 4.01797 16.2419 6.07321 14.7965C6.40413 14.5638 6.85175 14.723 7.03033 15.086C8.28888 17.6443 10.6049 19.56 13.3593 20.3067C14.1993 20.5467 15.0793 20.6667 15.9993 20.6667C16.649 20.6667 17.2713 20.6051 17.8759 20.4917C18.2604 20.4196 18.6431 20.666 18.66 21.0568C18.664 21.1495 18.666 21.2419 18.666 21.3334Z"
-                          fill="#3B82F6"
-                        ></path>
-                        <path
-                          d="M24 10.6666C24 11.7066 23.8 12.7066 23.44 13.6133C22.52 15.9333 20.5467 17.72 18.1067 18.3866C17.44 18.5733 16.7333 18.6666 16 18.6666C15.2667 18.6666 14.56 18.5733 13.8933 18.3866C11.4533 17.72 9.48 15.9333 8.56 13.6133C8.2 12.7066 8 11.7066 8 10.6666C8 6.25329 11.5867 2.66663 16 2.66663C20.4133 2.66663 24 6.25329 24 10.6666Z"
-                          fill="#3B82F6"
-                        ></path>
-                        <path
-                          d="M29.3327 21.3334C29.3327 25.7467 25.746 29.3334 21.3327 29.3334C20.34 29.3334 19.3851 29.1524 18.5075 28.8188C18.0826 28.6573 18.0033 28.1135 18.2991 27.7683C19.8218 25.9918 20.666 23.7147 20.666 21.3334C20.666 20.8801 20.626 20.4267 20.5593 20.0001V20.0001C20.5197 19.7541 20.6452 19.5123 20.8631 19.3917C22.6286 18.4143 24.0702 16.9168 24.9687 15.0871C25.1472 14.7237 25.5951 14.5641 25.9263 14.797C27.9811 16.2425 29.3327 18.6341 29.3327 21.3334Z"
-                          fill="#3B82F6"
-                        ></path>
-                      </svg>
+                      <Image
+                        src="/assets/map-marker-svgrepo-com.svg"
+                        width="50"
+                        height="50"
+                      />
                     </div>
                   </div>
                   <div className="flex-1 p-3">
                     <p className="text-gray-500 font-bold">Address</p>
                     <h3 className="font-heading text-xl text-gray-900 font-black">
-                      380 St Killda Road, Mellbourne VIC 3004, Australia
+                      Seneca College Newnham Campus, Finch, Seneca Hill,
+                      Toronto, ON M2J 5G3
                     </h3>
                   </div>
                 </div>
                 <iframe
                   className="w-full h-96 rounded-3xl"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                  src="https://maps.google.com/maps?q=Seneca College Newnham Campus, Finch, Seneca Hill,
+                      Toronto, ON M2J 5G3&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
                 ></iframe>
               </div>
               <div className="flex flex-wrap -m-4">
@@ -1355,62 +1348,32 @@ function Home() {
                     <div className="flex flex-wrap -m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
-                          <svg
-                            width="32"
-                            height="32"
-                            viewBox="0 0 32 32"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.666 21.3334C18.666 23.6934 17.6393 25.8267 15.9993 27.2801C14.586 28.5601 12.7193 29.3334 10.666 29.3334C6.25268 29.3334 2.66602 25.7467 2.66602 21.3334C2.66602 18.6338 4.01797 16.2419 6.07321 14.7965C6.40413 14.5638 6.85175 14.723 7.03033 15.086C8.28888 17.6443 10.6049 19.56 13.3593 20.3067C14.1993 20.5467 15.0793 20.6667 15.9993 20.6667C16.649 20.6667 17.2713 20.6051 17.8759 20.4917C18.2604 20.4196 18.6431 20.666 18.66 21.0568C18.664 21.1495 18.666 21.2419 18.666 21.3334Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M24 10.6666C24 11.7066 23.8 12.7066 23.44 13.6133C22.52 15.9333 20.5467 17.72 18.1067 18.3866C17.44 18.5733 16.7333 18.6666 16 18.6666C15.2667 18.6666 14.56 18.5733 13.8933 18.3866C11.4533 17.72 9.48 15.9333 8.56 13.6133C8.2 12.7066 8 11.7066 8 10.6666C8 6.25329 11.5867 2.66663 16 2.66663C20.4133 2.66663 24 6.25329 24 10.6666Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M29.3327 21.3334C29.3327 25.7467 25.746 29.3334 21.3327 29.3334C20.34 29.3334 19.3851 29.1524 18.5075 28.8188C18.0826 28.6573 18.0033 28.1135 18.2991 27.7683C19.8218 25.9918 20.666 23.7147 20.666 21.3334C20.666 20.8801 20.626 20.4267 20.5593 20.0001V20.0001C20.5197 19.7541 20.6452 19.5123 20.8631 19.3917C22.6286 18.4143 24.0702 16.9168 24.9687 15.0871C25.1472 14.7237 25.5951 14.5641 25.9263 14.797C27.9811 16.2425 29.3327 18.6341 29.3327 21.3334Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
+                          <Image
+                            src="/assets/email-message-mail-envelope-svgrepo-com.svg"
+                            width="40"
+                            height="40"
+                          />
                         </div>
                       </div>
                       <div className="flex-1 p-3">
                         <p className="text-gray-500 font-bold">Email</p>
                         <h3 className="font-heading text-xl text-gray-900 font-black">
-                          support@zanrly.com
+                          mark.buchner@senecacollege.ca
                         </h3>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 p-4">
+                {/* <div className="w-full md:w-1/2 p-4">
                   <div className="p-10 h-full bg-gray-100 border border-gray-100 rounded-3xl">
                     <div className="flex flex-wrap -m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
-                          <svg
-                            width="32"
-                            height="32"
-                            viewBox="0 0 32 32"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M18.666 21.3334C18.666 23.6934 17.6393 25.8267 15.9993 27.2801C14.586 28.5601 12.7193 29.3334 10.666 29.3334C6.25268 29.3334 2.66602 25.7467 2.66602 21.3334C2.66602 18.6338 4.01797 16.2419 6.07321 14.7965C6.40413 14.5638 6.85175 14.723 7.03033 15.086C8.28888 17.6443 10.6049 19.56 13.3593 20.3067C14.1993 20.5467 15.0793 20.6667 15.9993 20.6667C16.649 20.6667 17.2713 20.6051 17.8759 20.4917C18.2604 20.4196 18.6431 20.666 18.66 21.0568C18.664 21.1495 18.666 21.2419 18.666 21.3334Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M24 10.6666C24 11.7066 23.8 12.7066 23.44 13.6133C22.52 15.9333 20.5467 17.72 18.1067 18.3866C17.44 18.5733 16.7333 18.6666 16 18.6666C15.2667 18.6666 14.56 18.5733 13.8933 18.3866C11.4533 17.72 9.48 15.9333 8.56 13.6133C8.2 12.7066 8 11.7066 8 10.6666C8 6.25329 11.5867 2.66663 16 2.66663C20.4133 2.66663 24 6.25329 24 10.6666Z"
-                              fill="#3B82F6"
-                            ></path>
-                            <path
-                              d="M29.3327 21.3334C29.3327 25.7467 25.746 29.3334 21.3327 29.3334C20.34 29.3334 19.3851 29.1524 18.5075 28.8188C18.0826 28.6573 18.0033 28.1135 18.2991 27.7683C19.8218 25.9918 20.666 23.7147 20.666 21.3334C20.666 20.8801 20.626 20.4267 20.5593 20.0001V20.0001C20.5197 19.7541 20.6452 19.5123 20.8631 19.3917C22.6286 18.4143 24.0702 16.9168 24.9687 15.0871C25.1472 14.7237 25.5951 14.5641 25.9263 14.797C27.9811 16.2425 29.3327 18.6341 29.3327 21.3334Z"
-                              fill="#3B82F6"
-                            ></path>
-                          </svg>
+                          <Image
+                            src="/assets/phone-call-phone-svgrepo-com.svg"
+                            width="40"
+                            height="40"
+                          />
                         </div>
                       </div>
                       <div className="flex-1 p-3">
@@ -1421,7 +1384,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
