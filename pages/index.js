@@ -256,9 +256,9 @@ function Home() {
       {/* York University Design JAM */}
 <section class="py-10 bg-white overflow-hidden">
   <div class="container mx-auto px-4">
-    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('/assets/designJam.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; background-size: 100%"}}>
+    <div class="py-16 px-8 border border-gray-100 overflow-hidden rounded-3xl" style={{"background-image": "url('/assets/designJam2.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: contain; background-size: 100%"}}>
       <div class="mb-6 max-w-lg mx-auto text-center"  >
-        <span class="inline-block mb-2 text-sm text-white font-bold uppercase tracking-widest;">Accepting Applications until March 17</span>
+        <span class="inline-block mb-2 text-sm text-red-500 font-bold uppercase tracking-widest;">Accepting Applications until March 17</span>
         <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">Be a part of York University Design Jam now!</h2>
         <br></br>
         <p class="mb-8 text-l text-white">
@@ -272,7 +272,7 @@ function Home() {
           </div> */}
           <div class="w-full p-2">
             <div class="flex flex-wrap justify-center -m-2">
-              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=sf_link" target="_blank">Register</a></div>
+              <div class="w-full p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-200 rounded-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfG5LlNoyex58EwgIXxDDhq8t0xhZSX_qW67JyMCtIoSvD-Yw/viewform?usp=sf_link" target="_blank">Register</a></div>
               <span class="inline-block mb-2 text-sm text-white font-bold uppercase tracking-widest;">Limiited Spots!</span>
             </div>
           </div>
@@ -283,7 +283,7 @@ function Home() {
           <div class="flex flex-wrap">
             <div class="w-auto mr-2 pt-1">
               <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
               </svg>
             </div>
             <div class="flex-1">
@@ -295,7 +295,7 @@ function Home() {
           <div class="flex flex-wrap">
             <div class="w-auto mr-2 pt-1">
               <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
               </svg>
             </div>
             <div class="flex-1">
@@ -307,7 +307,7 @@ function Home() {
           <div class="flex flex-wrap">
             <div class="w-auto mr-2 pt-1">
               <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#FC0328"></path>
               </svg>
             </div>
             <div class="flex-1">
@@ -322,7 +322,140 @@ function Home() {
 
 
 
-
+      
+      {/* DESIGN JAM SECTION 3 */}
+      <section class="py-16 bg-gray-100 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <div class="max-w-lg mx-auto text-center">
+            <h2 class="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-red-500 font-black tracking-tight">
+              How to register for the Design Jam
+            </h2>
+            <p class="mb-12 text-gray-700 font-bold">
+              Follow three easy steps to complete your registration for Design Jam. 
+            </p>
+          </div>
+          <div
+            class="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
+            style={{
+              "background-image":
+                "url('assets/designJam.png')",
+              "background-size": "cover",
+              "background-position": "center",
+              "background-repeat": "no-repeat",
+            }}
+          >
+            <div class="max-w-md">
+              <div class="flex flex-wrap">
+                <div class="w-full">
+                  <div class="flex flex-wrap -m-3.5">
+                    <div class="flex flex-col items-center w-auto p-3.5">
+                      <div class="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
+                        <svg
+                          width="21"
+                          height="21"
+                          viewBox="0 0 21 21"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="w-px flex-1 border border-gray-600 border-dashed"></div>
+                    </div>
+                    <div class="flex-1 p-3.5 pb-14">
+                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                        Step 1
+                      </span>
+                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
+                        Apply
+                      </h3>
+                      <p class="text-gray-300 font-bold">
+                        Submit your application to participate in the Smart Cities Design Jam, whether as a team or an individual 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="flex flex-wrap -m-3.5">
+                    <div class="flex flex-col items-center w-auto p-3.5">
+                      <div class="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
+                        <svg
+                          width="21"
+                          height="21"
+                          viewBox="0 0 21 21"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="w-px flex-1 border border-gray-600 border-dashed"></div>
+                    </div>
+                    <div class="flex-1 p-3.5 pb-14">
+                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                        Step 2
+                      </span>
+                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
+                        Enhance Your Skills
+                      </h3>
+                      <p class="text-gray-300 font-bold">
+                        Attend the accelerator program and gain valuable design thinking skills to improve your chances in the Smart Cities Hackathon. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="flex flex-wrap -m-3.5">
+                    <div class="flex flex-col items-center w-auto p-3.5">
+                      <div class="flex items-center justify-center w-9 h-9 border border-gray-700 rounded-full bg-red-600">
+                        <svg
+                          width="21"
+                          height="21"
+                          viewBox="0 0 21 21"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1 p-3.5">
+                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                        Step 3
+                      </span>
+                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
+                        Earn a Stipend
+                      </h3>
+                      <p class="text-gray-300 font-bold">
+                        Domestic students are eligible to earn $325 stipend for their participation in the Design Jam. This is unique opportunity not only to improve your skills, but also to revive financial compensation. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* DESIGN JAM SECTION 3 */}
       {/* FAQ SECTION */}
       {/* <section class="py-16 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
