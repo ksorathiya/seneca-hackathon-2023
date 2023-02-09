@@ -900,6 +900,18 @@ function Home() {
                   </a>
                 </div>
               </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://innovatecities.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://innovatecities.com/wp-content/uploads/2021/04/IC_Logo_CL.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -1610,6 +1622,20 @@ function Home() {
                           width="25"
                           height="25"
                           src="/zanrly-assets/images/twitter.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div className="w-auto p-4">
+                      <a
+                        className="block"
+                        href="https://www.linkedin.com/company/seneca-hackathon/"
+                        target="_blank"
+                      >
+                        <Image
+                          width="25"
+                          height="25"
+                          src="/assets/linkedin.svg"
                           alt=""
                         />
                       </a>
