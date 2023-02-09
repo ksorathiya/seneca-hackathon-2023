@@ -900,7 +900,6 @@ function Home() {
                   </a>
                 </div>
               </div>
-<<<<<<< HEAD
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
                 <div class="py-12 lg:py-20 px-8">
                   <a href="https://innovatecities.com/" target="_blank">
@@ -913,8 +912,6 @@ function Home() {
                   </a>
                 </div>
               </div>
-=======
->>>>>>> main
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -1632,7 +1629,6 @@ function Home() {
                     <div className="w-auto p-4">
                       <a
                         className="block"
-<<<<<<< HEAD
                         href="https://www.linkedin.com/company/seneca-hackathon/"
                         target="_blank"
                       >
@@ -1647,8 +1643,6 @@ function Home() {
                     <div className="w-auto p-4">
                       <a
                         className="block"
-=======
->>>>>>> main
                         href="https://www.facebook.com/SenecaHackathon2022"
                         target="_blank"
                       >
