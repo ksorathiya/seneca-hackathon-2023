@@ -227,6 +227,39 @@ function Home() {
                     </div>
                   </div>
                 </div>
+                <div class="flex flex-col justify-between w-full h-full">
+                  <div class="pt-8">
+                    <div class="flex flex-wrap justify-center">
+                      <div class="w-auto p-1.5">
+                        <a
+                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                          href="https://www.instagram.com/senecahackathon/"
+                          target="_blank"
+                        >
+                          <img src="zanrly-assets/images/insta.svg" alt="" />
+                        </a>
+                      </div>
+                      <div class="w-auto p-1.5">
+                        <a
+                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                          href="https://twitter.com/SenecaHackathon"
+                          target="_blank"
+                        >
+                          <img src="zanrly-assets/images/twitter.svg" alt="" />
+                        </a>
+                      </div>
+                      <div class="w-auto p-1.5">
+                        <a
+                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                          href="https://www.facebook.com/SenecaHackathon2022"
+                          target="_blank"
+                        >
+                          <img src="zanrly-assets/images/fb.svg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1475,8 +1508,8 @@ function Home() {
                   <div className="flex-1 p-3">
                     <p className="text-gray-500 font-bold">Address</p>
                     <h3 className="font-heading text-xl text-gray-900 font-black">
-                      Seneca College Newnham Campus, Finch, Seneca Hill,
-                      Toronto, ON M2J 5G3
+                      Seneca College Newnham Campus, 1750 Finch Ave E, North
+                      York, Toronto, ON M2J 2X5
                     </h3>
                   </div>
                 </div>
