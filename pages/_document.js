@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Smart Cities Hackathon</title>
+        <title>Smart Cities Hackathon powered by Thinking North</title>
         <script async defer src="https://analytics.umami.is/script.js" data-website-id="bcb5aac6-7cb2-4d1b-900d-c350b4598429"></script>
         <link
           rel="apple-touch-icon"

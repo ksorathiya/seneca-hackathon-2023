@@ -997,6 +997,40 @@ function Home() {
         </div>
       </section>
       {/* CTA SECTION */}
+      {/* INSTAFEED */}
+      <section class="py-10 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+          <div class="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
+            <div class="flex flex-wrap items-center -m-4">
+              <div class="w-full md:w-1/2 p-4">
+                <h2 class="font-heading text-4xl md:text-5xl text-white font-black ">
+                  A few glimpses from our Instagram. <br />
+                  <div className="mt-10 text-2xl ">
+                    Follow us for more{" "}
+                    <a
+                      href="https://www.instagram.com/senecahackathon/"
+                      className="hover:underline"
+                      target="_blank"
+                    >
+                      @senecahackathon
+                    </a>
+                  </div>
+                </h2>
+              </div>
+              <div class="w-full md:w-1/2 p-4">
+                <figure data-behold-id="b6fLoGUYdeONBNwzRmgi"></figure>
+                <script
+                  src="https://w.behold.so/widget.js"
+                  type="module"
+                ></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* INSTAFEED */}
+
       {/* TESTIMONIALS SECTION */}
       {/* <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
         <div className="container mx-auto px-4">
