@@ -1598,50 +1598,19 @@ function Home() {
                     />
                   </a>
                 </div>
-                {/* <div className="w-auto p-4">
+                <div className="w-auto p-4">
                   <ul className="-m-6">
                     <li className="inline-flex p-6">
                       <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                        href="#"
+                        className="inline-block text-black hover:underline font-bold"
+                        href="https://analytics.umami.is/share/BKAQfqM8MxFHd9Z6/Seneca%20Hackathon"
+                        target="_blank"
                       >
-                        Products
-                      </a>
-                    </li>
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                        href="#"
-                      >
-                        About Us
-                      </a>
-                    </li>
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                        href="#"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                        href="#"
-                      >
-                        Portfolio
-                      </a>
-                    </li>
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
-                        href="#"
-                      >
-                        Contact Us
+                        Site Analytics
                       </a>
                     </li>
                   </ul>
-                </div> */}
+                </div>
                 <div className="w-auto p-4">
                   <div className="flex flex-wrap -m-4">
                     <div className="w-auto p-4">
