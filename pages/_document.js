@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Smart Cities Hackathon</title>
+        <title>Smart Cities Hackathon powered by Thinking North</title>
         <link
           rel="apple-touch-icon"
           sizes="57x57"
