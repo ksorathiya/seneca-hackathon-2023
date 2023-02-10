@@ -254,6 +254,15 @@ function Home() {
                       </div>
                       <div class="w-auto p-1.5">
                         <a
+                          class="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
+                          href="https://twitter.com/SenecaHackathon"
+                          target="_blank"
+                        >
+                          <img src="assets/linkedin.svg" alt="" />
+                        </a>
+                      </div>
+                      <div class="w-auto p-1.5">
+                        <a
                           class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
                           href="https://twitter.com/SenecaHackathon"
                           target="_blank"
