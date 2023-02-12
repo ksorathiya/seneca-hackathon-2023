@@ -220,9 +220,8 @@ function Home() {
                   <br />
                   {/* <span>build innovation for the future</span> */}
                 </h1>
-                <p className="mb-8 text-xl text-gray-300 ">
-                  Join the brightest minds from across the globe and help solve
-                  real-world challenges in making cities smarter.
+                <p className="mb-8 text-xl text-white ">
+                  Join the brightest minds from across the globe and help solve real-world challenges in making cities smarter.
                 </p>
                 <div className="max-w-lg mx-auto">
                   <div className="flex-wrap -m-2">
@@ -856,6 +855,18 @@ function Home() {
                   </a>
                 </div>
               </div>
+              <div class="w-full sm:w-1/3 border-b border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://thinkingnorth.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
+                      width="150px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
               <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
                 <div class="py-12 lg:py-20 px-8">
                   <a
@@ -866,18 +877,6 @@ function Home() {
                       class="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/file-img-Alumni-logo-RGB-Primary-1.png"
                       width="300px"
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/3 border-b border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
-                  <a href="https://thinkingnorth.com/" target="_blank">
-                    <img
-                      class="mx-auto"
-                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
-                      width="150px"
                       alt=""
                     />
                   </a>
@@ -975,37 +974,40 @@ function Home() {
         </div>
       </section>
       {/* SPONSORS SECTION */}
-      {/* CTA SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 text-center rounded-3xl bg-red-700">
-            <div className="md:max-w-lg mx-auto">
-              <h2 className="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
-                Innovate, Connect, and Make a Difference.
-              </h2>
-              {/* <p className="mb-10 text-xl font-bold text-gray-100">
-                "Discover new opportunities, network with like-minded
-                individuals, and contribute to a sustainable future. Join the
-                Smart City Hackathon and be part of a world-changing event where
-                you can bring your innovative ideas to life. With experienced
-                mentors and a supportive community, the hackathon is the perfect
-                platform to unlock your potential and make a positive impact.
-              </p> */}
-              {/* <div className="flex flex-wrap justify-center -m-2 mb-4">
-                <div className="w-auto p-2">
-                  <a
-                    className="block w-full px-8 py-3.5 text-lg text-center font-bold focus:ring-4 focus:ring-gray-600 rounded-full hover:bg-gray-300 text-black bg-gray-100"
-                    href="#"
-                  >
-                    Registration Opening Soon...
-                  </a>
-                </div>
-              </div> */}
+
+
+        {/* CTA SECTION */}
+<section class="py-10 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
+      <div class="flex flex-wrap items-center -m-4">
+        <div class="w-full md:w-1/2 p-4 items-left">
+          <div class="md:max-w-md md:ml-auto">
+            <div class="flex flex-wrap -m-2">
+              {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+          {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+          <img src="/assets/smart-cities-thinking-north2.png" width="250" alt="" style={{"background-color":"white; border-radius:10%"}}/>
             </div>
           </div>
         </div>
-      </section>
+        <div class="w-full md:w-1/2 p-4">
+          <div class="w-full lg:flex-1 p-2">
+                {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">SMART CITIES REVOLUTION</h2>
+          </div>
+          <br></br>
+              <div class="w-full lg:w-auto p-2">
+                <div class="flex flex-wrap justify-center -m-2">
+                  <div class="w-full lg:w-auto p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       {/* CTA SECTION */}
+    
       {/* INSTAFEED */}
       <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
