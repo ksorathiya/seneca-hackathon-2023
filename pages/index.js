@@ -1625,6 +1625,366 @@ function Home() {
       </section>
       {/* CONTACT US SECTION */}
 
+
+      {/* TEAM SECTION */}
+      
+<section class="py-16 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="mb-16 max-w-xl mx-auto text-center">
+      <span class="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">Our team</span>
+      <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Ben Rogers</h3>
+            <p class="text-sm text-gray-500 font-bold">Board Excecutive</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Suzanne Abraham</h3>
+            <p class="text-sm text-gray-500 font-bold">Board Excecutive</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Mehdi Akbari</h3>
+            <p class="text-sm text-gray-500 font-bold">Board Excecutive</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Namrata Barai</h3>
+            <p class="text-sm text-gray-500 font-bold">Board Excecutive</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-1 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    {/* <div class="mb-16 max-w-xl mx-auto text-center">
+      <span class="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">Our team</span>
+      <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
+    </div> */}
+    <div class="flex flex-wrap -m-4">
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Mark Buchner</h3>
+            <p class="text-sm text-gray-500 font-bold">Academic Chair</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Kumar Rajendra</h3>
+            <p class="text-sm text-gray-500 font-bold">Industry Chair</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Shirlene Phyllis Feliciano</h3>
+            <p class="text-sm text-gray-500 font-bold">Cheif of Staff</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/4 p-4">
+        <div class="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-gray-100 rounded-3xl">
+          <div class="flex-initial mb-8">
+            <img class="mb-8 mx-auto rounded-3xl" src="zanrly-assets/images/teams/avatar.png" alt=""/>
+            <h3 class="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">Negar</h3>
+            <p class="text-sm text-gray-500 font-bold">Human Resource Manager</p>
+          </div>
+          <div class="flex-initial">
+            <div class="flex flex-wrap justify-center -m-1.5">
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/insta.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/twitter.svg" alt=""/>
+                </a>
+              </div>
+              <div class="w-auto p-1.5">
+                <a class="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#">
+                  <img src="zanrly-assets/images/fb.svg" alt=""/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-20 bg-white overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap items-center -m-8 lg:-m-16">
+      <div class="w-full md:w-1/2 p-8 lg:p-16">
+        <div class="p-8 bg-gray-100 rounded-3xl">
+          {/* <img class="mb-40" src="zanrly-assets/logos/zanrly-logo.svg" alt=""/> */}
+          <a className="block w-1/2 px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700" href="#">
+          Smart Cities Hackathon Team
+          </a>
+          <br></br><br></br><br></br><br></br>
+          <h2 class="font-heading mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Meet out Leadership Team!</h2>
+          <p class="text-gray-700 font-bold">We believe that collaboration and open communication are key to success. Our team members worked closely together, shared ideas and feedback, and ensured that everyone is aligned on our goals. We held regular meetings to keep everyone up-to-date and to ensure that we're always moving forward together to make this Hackathon a success.</p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 p-8 lg:p-16">
+        <div class="flex flex-wrap -m-4">
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Kartik Sarothiya</h3>
+                <p class="text-sm text-gray-500 font-bold">IT Consultant</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Santosh Bohara</h3>
+                <p class="text-sm text-gray-500 font-bold">IT Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Fenil Mehulkumar Mehta</h3>
+                <p class="text-sm text-gray-500 font-bold">Partner Experience Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Aliraza Mutanza Versi</h3>
+                <p class="text-sm text-gray-500 font-bold">Student Experience Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Neil Javiya</h3>
+                <p class="text-sm text-gray-500 font-bold">Operations Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Daisy Le</h3>
+                <p class="text-sm text-gray-500 font-bold">Finance Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">David Jeong</h3>
+                <p class="text-sm text-gray-500 font-bold">Marketing Consultant</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-auto lg:w-1/2 p-4">
+            <div class="flex flex-wrap items-center -m-2">
+              <div class="w-auto p-2">
+                <img class="rounded-3xl" src="zanrly-assets/images/teams/avatar2.png" alt=""/>
+              </div>
+              <div class="flex-1 p-2">
+                <h3 class="font-heading mb-0.5 text-xl font-bold">Hleb Klymenko</h3>
+                <p class="text-sm text-gray-500 font-bold">Marketing Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      {/* TEAM SECTION */}
+
       {/* // FOOTER SECTION */}
 
       <section className="py-10 bg-gray-50 overflow-hidden">
