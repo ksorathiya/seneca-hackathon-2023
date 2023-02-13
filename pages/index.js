@@ -1635,7 +1635,7 @@ function Home() {
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
-                      src="assets/seneca-hackathon-logo.png"
+                      src="assets/thinkingnorthsmartcitieslogosec.png"
                       width="200"
                       alt=""
                     />
