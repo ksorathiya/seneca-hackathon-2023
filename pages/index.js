@@ -981,8 +981,8 @@ function Home() {
   <div class="container mx-auto px-4">
     <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
       <div class="flex flex-wrap items-center -m-4">
-        <div class="w-full md:w-1/2 p-4 items-left">
-          <div class="md:max-w-md md:ml-auto">
+        <div class="w-full md:w-1/5 p-4 items-left">
+          <div class="md:max-w-md md:mr-auto">
             <div class="flex flex-wrap -m-2">
               {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
           {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
@@ -990,17 +990,17 @@ function Home() {
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 p-4">
+        <div class="w-full md:w-4/5 p-4">
           <div class="w-full lg:flex-1 p-2">
                 {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">SMART CITIES REVOLUTION</h2>
+                <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">SMART CITIES REVOLUTION - GET CONNECTED</h2>
           </div>
-          <br></br>
+          {/* <br></br>
               <div class="w-full lg:w-auto p-2">
                 <div class="flex flex-wrap justify-center -m-2">
                   <div class="w-full lg:w-auto p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
                 </div>
-              </div>
+              </div> */}
         </div>
       </div>
     </div>
