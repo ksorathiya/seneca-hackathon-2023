@@ -1533,8 +1533,6 @@ function Home() {
         </div>
       </section> */}
       {/* FAQs SECTION */}
-
-{/* FAQ SECTION 
 <section class="pt-24 pb-36 overflow-hidden">
   <div class="container mx-auto px-4">
     <h2 class="mb-14 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Frequently asked question</h2>
@@ -1678,7 +1676,7 @@ function Home() {
     </div>
   </div>
 </section>
-*/}
+
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
