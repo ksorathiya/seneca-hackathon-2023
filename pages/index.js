@@ -31,6 +31,19 @@ function Home() {
                       />
                     </a>
                   </div>
+
+                  <div className="visible md:invisible">
+                  <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2 mr-3">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700 mr-3"
+                          href="/about"
+                        >
+                          About Us
+                        </a>
+                      </div>
+                  </div>
+
                   <div className="visible md:invisible">
                   <div className="w-full w-auto p-2"></div>
                       <div className="w-full w-auto p-2">
@@ -51,6 +64,21 @@ function Home() {
               </div>
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
+
+                  <div className="invisible md:visible">
+                  <div className="w-auto hidden sm:block">
+                    <div className="flex flex-wrap -m-2">
+                      <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2 mr-3">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                          href="/about"
+                        >
+                          About Us
+                        </a>
+                      </div>
+                    </div>
+                  </div></div>
 
                   <div className="invisible md:visible">
                   <div className="w-auto hidden sm:block">
