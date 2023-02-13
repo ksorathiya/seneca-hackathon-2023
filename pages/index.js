@@ -25,7 +25,7 @@ function Home() {
                   <div className="w-auto p-2">
                     <a className="inline-block" href="#">
                       <img
-                        src="/assets/seneca-hackathon-logo.png"
+                        src="/assets/thinkingnorthsmartcitieslogosec.png"
                         width="250" 
                         alt=""
                       />
