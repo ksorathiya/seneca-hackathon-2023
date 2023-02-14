@@ -55,7 +55,7 @@ function About(params){
                 </div>
               </div>
               <div className="w-auto">
-                <div className="flex flex-wrap items-center">
+                <div className="flex flex-wrap items-left">
 
                   <div className="invisible md:visible">
                   <div className="w-auto hidden sm:block">
