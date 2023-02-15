@@ -322,8 +322,8 @@ function Home() {
             <div class="max-w-7xl mx-auto">
               <div class="flex flex-wrap -m-8 mb-10">
 
-                <div class="w-full md:w-1/2 p-8 ">
-                  <div class="md:max-w-lg">
+                <div class="w-full md:w-1/2 p-8">
+                  <div class="md:max-w-xl">
                     <h2
                       class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
                       contenteditable="false"
