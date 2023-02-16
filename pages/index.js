@@ -321,8 +321,9 @@ function Home() {
           <div class="py-16 px-8 bg-white rounded-3xl">
             <div class="max-w-7xl mx-auto">
               <div class="flex flex-wrap -m-8 mb-10">
+
                 <div class="w-full md:w-1/2 p-8">
-                  <div class="md:max-w-lg">
+                  <div class="md:max-w-xl">
                     <h2
                       class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
                       contenteditable="false"
@@ -356,10 +357,19 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="w-full md:w-1/2 p-8">
-                  <img
+
+                <div class="w-full md:w-1/4 p-8">
+                  <video autoplay="{true}" loop muted controls
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/37547.jpg"
+                    src="/assets/design-jam1.mov"
+                    alt=""
+                  />
+                </div>
+
+                <div class="w-full md:w-1/4 p-8">
+                  <img 
+                    class="mx-auto md:mr-0 rounded-3xl"
+                    src="/assets/design-jam.JPG"
                     alt=""
                   />
                 </div>
