@@ -31,6 +31,19 @@ function Home() {
                       />
                     </a>
                   </div>
+
+                  <div className="visible md:invisible">
+                  <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2 mr-3">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700 mr-3"
+                          href="/about"
+                        >
+                          About Us
+                        </a>
+                      </div>
+                  </div>
+
                   <div className="visible md:invisible">
                   <div className="w-full w-auto p-2"></div>
                       <div className="w-full w-auto p-2">
@@ -51,6 +64,21 @@ function Home() {
               </div>
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
+
+                  <div className="invisible md:visible">
+                  <div className="w-auto hidden sm:block">
+                    <div className="flex flex-wrap -m-2">
+                      <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2 mr-3">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                          href="/about"
+                        >
+                          About Us
+                        </a>
+                      </div>
+                    </div>
+                  </div></div>
 
                   <div className="invisible md:visible">
                   <div className="w-auto hidden sm:block">
@@ -293,8 +321,9 @@ function Home() {
           <div class="py-16 px-8 bg-white rounded-3xl">
             <div class="max-w-7xl mx-auto">
               <div class="flex flex-wrap -m-8 mb-10">
+
                 <div class="w-full md:w-1/2 p-8">
-                  <div class="md:max-w-lg">
+                  <div class="md:max-w-xl">
                     <h2
                       class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
                       contenteditable="false"
@@ -328,10 +357,19 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="w-full md:w-1/2 p-8">
-                  <img
+
+                <div class="w-full md:w-1/4 p-8">
+                  <video autoplay="{true}" loop muted controls
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/37547.jpg"
+                    src="/assets/design-jam1.mov"
+                    alt=""
+                  />
+                </div>
+
+                <div class="w-full md:w-1/4 p-8">
+                  <img 
+                    class="mx-auto md:mr-0 rounded-3xl"
+                    src="/assets/design-jam.JPG"
                     alt=""
                   />
                 </div>
@@ -1532,6 +1570,66 @@ function Home() {
           </div>
         </div>
       </section> */}
+      {/* FAQs SECTION */}
+
+
+
+
+<section class="py-20">
+  <div class="container px-4 mx-auto">
+    <div class="max-w-4xl mx-auto">
+      <ul class="space-y-4">
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="group w-full flex justify-between items-center text-left font-bold font-heading" type="button">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+            </svg>
+          </button>
+          <div id="dropdown" class="dropdown-item max-w-2xl mt-2 text-lg text-gray-500 leading-loose"  data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
+          <p id="dropdown" aria-labelledby="dropdownDefaultButton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p></div>
+        </li>
+        <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Mauris vitae ex ut lectus cursus ornare?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Nam consequat, augue sed rutrum faucibus?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Cras at ante non ligula pharetra elementum?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
       {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
