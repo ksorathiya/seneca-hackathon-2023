@@ -367,9 +367,9 @@ function Home() {
                 </div>
 
                 <div class="w-full md:w-1/4 p-8">
-                  <video autoplay="{true}" loop muted controls
+                  <img 
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/design-jam2.mov"
+                    src="/assets/design-jam.JPG"
                     alt=""
                   />
                 </div>
