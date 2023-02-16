@@ -1571,6 +1571,150 @@ function Home() {
         </div>
       </section> */}
       {/* FAQs SECTION */}
+<section class="pt-24 pb-36 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <h2 class="mb-14 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Frequently asked question</h2>
+    <div class="max-w-2xl mx-auto bg-gradient-cyan p-0.5">
+      <div class="flex flex-wrap">
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">1. What is a Smart City?</p>
+                    <p class="text-base text-black">A Smart City is an urban development vision to integrate information and communication technology (ICT) and Internet of Things (IoT) technology in a secure fashion to manage a city's assets and resources more efficiently for the city's future development.</p>
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap justify-between -m-2">
+                  <div class="flex-1 p-2">
+                    <p class="mb-5 font-heading font-semibold text-lg text-gray-900">2. What are the criteria for a city to become a Smart City?</p>
+                    <p class="text-base text-black">The criteria for a city to become a Smart City include a solid and reliable ICT infrastructure with efficient energy management systems, smart transportation, and mobility solutions. Moreover, with effective waste management systems and efficient public services, including the basic needs like electricity, water, heating, and other households that need to be managed within these areas.</p>
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.75 7.5L9 2.25M9 2.25L14.25 7.5M9 2.25V15.75" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">3. What is a Smart Cities hackathon?</p>
+                  <p class="text-base text-black">A Smart Cities hackathon is where developers, designers, data scientists, and other tech-savvy individuals come together to develop innovative solutions for urban problems related to the development of Smart Cities.</p>
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">4. Who can participate in a Smart Cities hackathon?</p>
+                  <p class="text-base text-black">Anyone with a passion for technology and innovation can participate in a Smart Cities hackathon, including students, developers, data scientists, and urban planners, if they think they have a solution to making an efficient and effective city transformation that is technically and realistically feasible.</p>                  
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div>
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">5. What is the format of a Smart Cities hackathon?</p>
+                  <p class="text-base text-black">A Smart Cities hackathon typically begins with a series of presentations and workshops on the theme of Smart Cities. Participants then form teams and work on a solution to a specific problem related to the development of Smart Cities. The hackathon culminates in a pitch competition, where teams present their solutions to a panel of judges.</p>                  
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">6. What solutions are typically developed during a Smart Cities hackathon?</p>
+                  <p class="text-base text-black">Solutions developed during a Smart Cities hackathon can range from smart transportation systems to efficient energy management systems, from waste management solutions to public safety systems, and from smart healthcare systems to citizen engagement platforms.</p>
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full">
+          <a href="#">
+            <div class="pb-0.5 bg-gradient-cyan">
+              <div class="py-3.5 px-5 bg-white">
+                <div class="flex flex-wrap items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                  <p class="mb-5 font-heading font-semibold text-lg text-gray-900">7. How can I get involved in a Smart Cities hackathon?</p>
+                  <p class="text-base text-black">You can get involved in a Smart Cities hackathon by searching for events in your area or by contacting organizations specializing in developing Smart Cities. You can also sign up for updates on hackathons and other events related to Smart Cities.</p>                  
+                  </div>
+                  <div class="w-auto p-2">
+                    <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
