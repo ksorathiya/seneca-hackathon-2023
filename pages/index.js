@@ -2031,8 +2031,8 @@ function Home() {
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Darren Randolph</h5>
-            <p class="mb-6">Marketing expert</p>
+            <h5 class="text-lg font-bold mb-4">Ben Rogers</h5>
+            <p class="mb-6">Board Excecutive</p>
             <ul class="list-inside flex mx-auto justify-center">
               {/* <a href="#!" class="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-4 h-4 text-blue-600">
@@ -2066,8 +2066,8 @@ function Home() {
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Darren Randolph</h5>
-            <p class="mb-6">Marketing expert</p>
+            <h5 class="text-lg font-bold mb-4">Suzanne Abraham</h5>
+            <p class="mb-6">Board Executive</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -2090,8 +2090,8 @@ function Home() {
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Darren Randolph</h5>
-            <p class="mb-6">Marketing expert</p>
+            <h5 class="text-lg font-bold mb-4">Mehdi Akbari</h5>
+            <p class="mb-6">Board Executive</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -2114,8 +2114,8 @@ function Home() {
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Darren Randolph</h5>
-            <p class="mb-6">Marketing expert</p>
+            <h5 class="text-lg font-bold mb-4">Namrata Barai</h5>
+            <p class="mb-6">Board Excecutive</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -2138,8 +2138,8 @@ function Home() {
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Ayat Black</h5>
-            <p class="mb-6">Web designer</p>
+            <h5 class="text-lg font-bold mb-4">Kumar Rajendra</h5>
+            <p class="mb-6">Industry Chair</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -2311,62 +2311,69 @@ function Home() {
 
   <section class="mb-12 text-gray-800 text-center">
 
-    <div class="grid md:grid-cols-8 xl:grid-cols-8 gap-x-6 lg:gap-xl-12">
+    <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
       <div class="mb-12">
         <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
-        <p class="font-bold mb-2">Mark Buchner</p>
-        <p class="text-gray-500">Academic Chair</p>
+        <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
+        <p class="text-gray-500">Cheif of Staff</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
-        <p class="font-bold mb-2">Lisa Ferrol</p>
-        <p class="text-gray-500">Web designer</p>
+        <p class="font-bold mb-2">Negar</p>
+        <p class="text-gray-500">Human Resource Manager</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Maria Smith</p>
-        <p class="text-gray-500">Senior consultant</p>
+        <p class="font-bold mb-2">Kartik Sorathiya</p>
+        <p class="text-gray-500">IT Consultant </p>
       </div>
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Agatha Bevos</p>
-        <p class="text-gray-500">Co-founder</p>
+        <p class="font-bold mb-2">Santosh Bohara</p>
+        <p class="text-gray-500">IT Director</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Darren Randolph</p>
-        <p class="text-gray-500">Marketing expert</p>
+        <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
+        <p class="text-gray-500">Partner Experience Director</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/9.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Soraya Letto</p>
-        <p class="text-gray-500">SEO expert</p>
+        <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
+        <p class="text-gray-500">Student Experience Director</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/10.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Maliha Welch</p>
-        <p class="text-gray-500">Web designer</p>
+        <p class="font-bold mb-2">Neil Javiya</p>
+        <p class="text-gray-500">Operations Director</p>
       </div>
 
       <div class="mb-12">
         <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Zeynep Dudley</p>
-        <p class="text-gray-500">Web developer</p>
+        <p class="font-bold mb-2">Daisy Le</p>
+        <p class="text-gray-500">Finance Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">David Jeong</p>
+        <p class="text-gray-500">Marketing Consultant</p>
       </div>
 
     </div>

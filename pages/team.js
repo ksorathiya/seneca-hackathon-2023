@@ -193,46 +193,224 @@ function  team(params){
 
   {/* ORGANIZATION TEAM */}
 
-<section class="relative pt-24 pb-36 overflow-hidden">
+<section class="relative pt-12 pb-36 overflow-hidden">
   <div class="container mx-auto px-4">
-    <h2 class="mb-5 max-w-2xl mx-auto font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Our investors</h2>
+    <h2 class="mb-5 max-w-7xl mx-auto font-heading font-semibold text-center text-5xl sm:text-5xl text-red-600">Meet the team of Smart Cities Hackathon!</h2>
+    <br></br>
+    <h2 class="mb-5 max-w-2xl mx-auto font-heading font-semibold text-center text-3xl sm:text-3xl text-gray-900">Organization Team</h2>
     <p class="mb-20 text-base max-w-md mx-auto text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-    <div class="flex flex-wrap -m-6">
+
+    <div class="flex flex-wrap -m-6 justify-center items-center">
+
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval0.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Cody Fisher</h3>
-        <p class="text-sm text-gray-500">Plains GP Holdings</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Mark Buchner</h3>
+        <p class="text-sm text-gray-500 mb-2">Academic Chair</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+      
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval1.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Guy Hawkins</h3>
-        <p class="text-sm text-gray-500">Northrop Grumman</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Ben Rogers</h3>
+        <p class="text-sm text-gray-500 mb-2">Board Executive</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval2.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Ralph Edwards</h3>
-        <p class="text-sm text-gray-500">Marathon Petroleum</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Suzanne Abraham</h3>
+        <p class="text-sm text-gray-500 mb-2">Board Excecutive</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval3.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Floyd Miles</h3>
-        <p class="text-sm text-gray-500">IBM</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Mehdi Akbari</h3>
+        <p class="text-sm text-gray-500 mb-2">Board Excecutive</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval4.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Arlene McCoy</h3>
-        <p class="text-sm text-gray-500">Chevron</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Namrata Barai</h3>
+        <p class="text-sm text-gray-500 mb-2">Board Excecutive</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+
       <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
-        <img class="mb-2 mx-auto" src="gradia-assets/images/teams/avatar-oval5.png" alt=""/>
-        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Dianne Russell</h3>
-        <p class="text-sm text-gray-500">AT&amp;T</p>
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Kumar Rajendra</h3>
+        <p class="text-sm text-gray-500 mb-2">Industry Chair</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
       </div>
+
     </div>
+
+    <div class="flex flex-wrap -m-6 items-center justify-center">
+
+      <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Negar</h3>
+        <p class="text-sm text-gray-500 mb-2">Human Resource Manager</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 xl:w-1/6 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Shirlene Phyllis Feliciano</h3>
+        <p class="text-sm text-gray-500 mb-2">Cheif of Staff</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
   {/* ORGANIZATION TEAM */}
+
+  {/* IT TEAM */}
+
+  <section class="relative pt-7 pb-36 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <h2 class="mb-5 max-w-2xl mx-auto font-heading font-semibold text-center text-3xl sm:text-3xl text-gray-900">IT Team</h2>
+    <p class="mb-20 text-base max-w-md mx-auto text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+
+    <div class="flex flex-wrap -m-6 justify-center items-center">
+
+      <div class="w-full md:w-1/2 xl:w-1/5 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Kartik Sorathiya</h3>
+        <p class="text-sm text-gray-500 mb-2">IT Consultant</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+      
+      <div class="w-full md:w-1/2 xl:w-1/5 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Santosh Bohara</h3>
+        <p class="text-sm text-gray-500 mb-2">IT Director</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 xl:w-1/5 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Shivangi Sood</h3>
+        <p class="text-sm text-gray-500 mb-2">Full-stack Developer</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 xl:w-1/5 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Rajdeep Kaur</h3>
+        <p class="text-sm text-gray-500 mb-2">Full-stack Developer</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 xl:w-1/5 text-center p-6">
+        <img class="mb-2 mx-auto" src="/assets/mark-buchner.jpg" alt=""/>
+        <h3 class="mb-1 font-heading font-bold text-lg text-gray-900">Janet</h3>
+        <p class="text-sm text-gray-500 mb-2">CRM</p> 
+        <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  {/* IT TEAM */}
 
   {/* FOOTER */}
 
