@@ -1570,67 +1570,7 @@ function Home() {
           </div>
         </div>
       </section> */}
-      {/* FAQs SECTION */}
-
-
-
-
-<section class="py-20">
-  <div class="container px-4 mx-auto">
-    <div class="max-w-4xl mx-auto">
-      <ul class="space-y-4">
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="group w-full flex justify-between items-center text-left font-bold font-heading" type="button">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-            </svg>
-          </button>
-          <div id="dropdown" class="dropdown-item max-w-2xl mt-2 text-lg text-gray-500 leading-loose"  data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
-          <p id="dropdown" aria-labelledby="dropdownDefaultButton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p></div>
-        </li>
-        <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
-        </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Mauris vitae ex ut lectus cursus ornare?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
-        </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Nam consequat, augue sed rutrum faucibus?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-        </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Cras at ante non ligula pharetra elementum?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-      {/* FAQs SECTION */}
+      
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
@@ -2085,18 +2025,21 @@ function Home() {
 
       {/* TEAM SECTION 2 */}
       {/* <!-- Container for demo purpose --> */}
-<div class="container my-24 px-6 mx-auto">
+<div class="container my-12 px-6 mx-auto">
 
   {/* <!-- Section: Design Block --> */}
-  <section class="mb-32 text-gray-800 text-center">
-    <div class="mb-32 max-w-xl mx-auto text-center">
+  <section class="mb-5 text-gray-800 text-center">
+    <div class="mb-20 max-w-xl mx-auto text-center">
       <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
       <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
+      <br></br>
+      <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Board of Directors</h2><br></br>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
-
+     
     <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
-      <div class="mb-24 md:mb-0">
+     
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2120,7 +2063,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-24 md:mb-0">
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2155,7 +2098,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-24 md:mb-0">
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2179,7 +2122,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-24 md:mb-0">
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2203,7 +2146,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-24 md:mb-0">
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2227,7 +2170,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="">
+      <div class="mb-2 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2405,13 +2348,16 @@ function Home() {
 {/* <!-- Container for demo purpose --> */}
 
 {/* Directors */}
+<div class="mb-1 max-w-xl mx-auto text-center">
+      <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
+    </div>
 <div class="container my-12 px-6 mx-auto">
 
   <section class="mb-12 text-gray-800 text-center">
-
+  
     <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
       <div class="mb-12">
-        <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="/assets/mark-buchner.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
@@ -2419,7 +2365,7 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Negar</p>
@@ -2427,54 +2373,61 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Kartik Sorathiya</p>
         <p class="text-gray-500">IT Consultant </p>
       </div>
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Santosh Bohara</p>
         <p class="text-gray-500">IT Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
         <p class="text-gray-500">Partner Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/9.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/9.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
         <p class="text-gray-500">Student Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/10.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/10.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Neil Javiya</p>
         <p class="text-gray-500">Operations Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Daisy Le</p>
         <p class="text-gray-500">Finance Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">David Jeong</p>
         <p class="text-gray-500">Marketing Consultant</p>
       </div>
 
     </div>
+
+    <div class="flex flex-wrap -m-2 items-center justify-center">
+      <div class="w-full md:w-auto p-2">
+        <a class="block w-full px-6 py-1.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700" href="/team" target="_blank"> View More </a>
+      </div>
+    </div>
+    
   </section>
 
 </div>
