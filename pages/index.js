@@ -347,7 +347,8 @@ function Home() {
                       <span className="text-red-600">
                         Deadline till March 10!
                       </span>
-                    </p>
+                    </p> 
+
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
                         <a
