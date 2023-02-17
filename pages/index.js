@@ -2039,7 +2039,7 @@ function Home() {
      
     <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
      
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2063,7 +2063,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2098,7 +2098,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2122,7 +2122,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2146,7 +2146,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -2170,7 +2170,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>

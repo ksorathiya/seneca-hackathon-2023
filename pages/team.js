@@ -192,20 +192,18 @@ function  team(params){
   {/* HERO SECTION */}
 
   {/* ORGANIZATION TEAM */}
-
 <div class="container my-12 px-6 mx-auto">
   <section class="mb-5 text-gray-800 text-center">
-    <div class="mb-20 max-w-xl mx-auto text-center">
-      <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
-      <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
-      <br></br>
-      <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Board of Directors</h2><br></br>
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <h2 class="font-heading text-5xl md:text-5xl text-red-600 font-black tracking-tight">Meet the team of Smart Cities Hackathon!</h2>
+      <br></br><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Board of Directors</h2><br></br>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-7">
      
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -229,7 +227,7 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -252,7 +250,7 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -276,7 +274,7 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -300,7 +298,7 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -324,7 +322,7 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-2 md:mb-0">
+      <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
@@ -343,14 +341,1222 @@ function  team(params){
                     d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
                 </svg>
               </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Shirlene Phyllis Feliciano</h5>
+            <p class="mb-6">Chief of Staff</p>
+            <ul class="list-inside flex mx-auto justify-center">
               
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+{/* ORGANTIZATION TEAM */}
+
+{/* IT TEAM */}
+<div class="container my-12 px-6 mx-auto">
+  <section class="mb-5 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">IT Team</h2><br></br>
+    </div>
+    {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kartik Sorathiya</h5>
+            <p class="mb-6">IT Consultant</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Santosh Bohara</h5>
+            <p class="mb-6">IT Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Shivangi Sood</h5>
+            <p class="mb-6">Full-stack Developer</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Rajdeep Kaur</h5>
+            <p class="mb-6">Full-stack Developer</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Janet</h5>
+            <p class="mb-6">CRM</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+{/* IT TEAM */}
+
+{/* PARTNER EXPERIENCE TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Partner Experience Team</h2><br></br>
+    </div>
+    {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Fenil Mehulkumar Mehta</h5>
+            <p class="mb-6">Partner Experience Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Arya Sanjay Patil</h5>
+            <p class="mb-6">Challenge Set 1</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Narayani</h5>
+            <p class="mb-6">Challenge Set 2</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Sarabjeetkaur Shamshersingh</h5>
+            <p class="mb-6">Challenge Set 3</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Aishwarya Shrestha</h5>
+            <p class="mb-6">Challenge Set 4</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Khyati Jayeshbhai</h5>
+            <p class="mb-6">Challenge Set 5</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+</div>
+{/* COLUMN 2 */}
+<div class="container my-12 px-6 mx-auto">
+  <section class="mb-5 text-gray-800 text-center">
+    {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kohulann </h5>
+            <p class="mb-6">Challenge Set 6</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Nisali Sanara</h5>
+            <p class="mb-6">Challenge Set 7</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Hugo Vega Soto</h5>
+            <p class="mb-6">Challenge Set 8</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Fenil Mehta</h5>
+            <p class="mb-6">Challenge Set 9</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Krunal Vasoya</h5>
+            <p class="mb-6">Challenge Set 10 & 11</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+  
+{/* PARTNER EXPERIENCE TEAM */}
+
+{/* STUDENT EXPERIENCE TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Student Experience Team</h2><br></br>
+    </div>
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-8">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Aliraza Mutanza Versi</h5>
+            <p class="mb-6">Student Experience Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Fenil Mehulkumar Mehta</h5>
+            <p class="mb-6">Challenge Set 1</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Estevan Augusto Perez Maia</h5>
+            <p class="mb-6">Challenge Set 1</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Nirosan Perinpanayagam</h5>
+            <p class="mb-6">Challenge Set 2</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Nithila P</h5>
+            <p class="mb-6">Challenge Set 3</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kavitha Raman</h5>
+            <p class="mb-6">Challenge Set 4</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Mohamed Ruziak Raman</h5>
+            <p class="mb-6">Challenge Set 5</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Muhammed Deensha</h5>
+            <p class="mb-6">Challenge Set 6</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+{/* COLUMN 2 */}
+{/* <div class="container my-12 px-6 mx-auto">
+  <section class="mb-5 text-gray-800 text-center">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kohulann </h5>
+            <p class="mb-6">Challenge Set 6</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Nisali Sanara</h5>
+            <p class="mb-6">Challenge Set 7</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Hugo Vega Soto</h5>
+            <p class="mb-6">Challenge Set 8</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Fenil Mehta</h5>
+            <p class="mb-6">Challenge Set 9</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Krunal Vasoya</h5>
+            <p class="mb-6">Challenge Set 10 & 11</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
+</div> */}
+{/* STUDENT EXPERIENCE TEAM */}
+
+{/* OPERATIONS TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Operations Team</h2><br></br>
+    </div>
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-7">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Neil Javiya</h5>
+            <p class="mb-6">Operations Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
+            <p class="mb-6">Finance Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Neev</h5>
+            <p class="mb-6">SWAG</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Rutt Desai</h5>
+            <p class="mb-6">Facilities</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Ayush Pankajkumar Shah</h5>
+            <p class="mb-6">Microcreds</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Tathagat Arya</h5>
+            <p class="mb-6">Registration Desk, Activities</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Tanmay Ambekar</h5>
+            <p class="mb-6">Rules/Timeline</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 </div>
+{/* OPERATIONS TEAM */}
+
+{/* MARKETING TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Marketing Team</h2><br></br>
+    </div>
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-8">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">David Jeong</h5>
+            <p class="mb-6">Marketing Consultant</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Amizthini</h5>
+            <p class="mb-6">Website Content</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Molika Tan</h5>
+            <p class="mb-6">Social Media</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kalp Nimesh Shah</h5>
+            <p class="mb-6">Communications, Channels</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kendra Terrero</h5>
+            <p class="mb-6">Creative Design</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Tonni-Ann Burgher</h5>
+            <p class="mb-6">Public Relations</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Dristi Himmatramka</h5>
+            <p class="mb-6">Design Jam</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Hleb Klymenko</h5>
+            <p class="mb-6">Audio, TikTok</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+{/* MARKETING TEAM */}
+
+{/* HUMAN RESOURCES TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Human Resources Team</h2><br></br>
+    </div>
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-1">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="/assets/mark-buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px"}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Negar</h5>
+            <p class="mb-6">Human Resources Manager</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="#!" class="px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+</div>
+{/* HUMAN RESOURCES TEAM */}
 
 
   {/* FOOTER */}
