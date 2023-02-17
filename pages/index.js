@@ -336,14 +336,18 @@ function Home() {
                       />
                     </h2>
 
-                    <p class="mb-8 text-xl font-bold" contenteditable="false">
+                    <p class="mb-3 text-xl font-bold" contenteditable="false">
                       A 12 - 16 hours asynchronous online learning organized by
                       &nbsp;
                       <span className="text-red-600">
                         Smart Cities Hackathon
                       </span>
                       , in association with York University's YSpace.
-                    </p>
+                      <br></br><br></br>
+                      <span className="text-red-600">
+                        Deadline till March 10!
+                      </span>
+                    </p> 
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
                         <a
