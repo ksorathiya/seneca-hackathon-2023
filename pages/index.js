@@ -1573,7 +1573,7 @@ function Home() {
       {/* FAQs SECTION */}
 
 
-
+{/* 
 
 <section class="py-20">
   <div class="container px-4 mx-auto">
@@ -1629,7 +1629,7 @@ function Home() {
       </ul>
     </div>
   </div>
-</section>
+</section> */}
       {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
