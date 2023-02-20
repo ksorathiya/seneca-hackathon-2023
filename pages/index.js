@@ -1701,6 +1701,98 @@ function Home() {
   </div>
 </section> */}
       {/* FAQs SECTION */}
+
+{/* TEAM SECTION */}
+{/* Directors */}
+<div class="mb-1 max-w-xl mx-auto text-center">
+  <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
+    <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
+    <br></br>
+    <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
+    </div>
+<div class="container my-12 px-6 mx-auto">
+
+  <section class="mb-12 text-gray-800 text-center">
+  
+    <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
+      <div class="mb-12">
+        <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+
+        <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
+        <p class="text-gray-500">Cheif of Staff</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+
+        <p class="font-bold mb-2">Negar</p>
+        <p class="text-gray-500">Human Resource Manager</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Kartik Sorathiya</p>
+        <p class="text-gray-500">IT Consultant </p>
+      </div>
+      <div class="mb-12">
+        <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Santosh Bohara</p>
+        <p class="text-gray-500">IT Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
+        <p class="text-gray-500">Partner Experience Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
+        <p class="text-gray-500">Student Experience Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\Neil_javiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Neil Javiya</p>
+        <p class="text-gray-500">Operations Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\Daisy_Le.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">Daisy Le</p>
+        <p class="text-gray-500">Finance Director</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\David_Jeong.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "100px"}} />
+        <p class="font-bold mb-2">David Jeong</p>
+        <p class="text-gray-500">Marketing Consultant</p>
+      </div>
+
+    </div>
+
+    <div class="flex flex-wrap -m-2 items-center justify-center">
+      <div class="w-full md:w-auto p-2">
+        <a class="block w-full px-6 py-1.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700" href="/team" target="_blank"> View More </a>
+      </div>
+    </div>
+    
+  </section>
+
+</div>
+      {/* TEAM SECTION 2 */}
+{/* TEAM SECTION */}
+
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
@@ -2477,94 +2569,7 @@ function Home() {
 {/* </div> */}
 {/* <!-- Container for demo purpose --> */}
 
-{/* Directors */}
-<div class="mb-1 max-w-xl mx-auto text-center">
-  <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
-    <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
-    <br></br>
-    <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
-    </div>
-<div class="container my-12 px-6 mx-auto">
 
-  <section class="mb-12 text-gray-800 text-center">
-  
-    <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
-      <div class="mb-12">
-        <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-
-        <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
-        <p class="text-gray-500">Cheif of Staff</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-
-        <p class="font-bold mb-2">Negar</p>
-        <p class="text-gray-500">Human Resource Manager</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Kartik Sorathiya</p>
-        <p class="text-gray-500">IT Consultant </p>
-      </div>
-      <div class="mb-12">
-        <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Santosh Bohara</p>
-        <p class="text-gray-500">IT Director</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
-        <p class="text-gray-500">Partner Experience Director</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
-        <p class="text-gray-500">Student Experience Director</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\Neil_javiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Neil Javiya</p>
-        <p class="text-gray-500">Operations Director</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\Daisy_Le.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">Daisy Le</p>
-        <p class="text-gray-500">Finance Director</p>
-      </div>
-
-      <div class="mb-12">
-        <img src="\assets\team\David_Jeong.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
-        <p class="font-bold mb-2">David Jeong</p>
-        <p class="text-gray-500">Marketing Consultant</p>
-      </div>
-
-    </div>
-
-    <div class="flex flex-wrap -m-2 items-center justify-center">
-      <div class="w-full md:w-auto p-2">
-        <a class="block w-full px-6 py-1.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700" href="/team" target="_blank"> View More </a>
-      </div>
-    </div>
-    
-  </section>
-
-</div>
-      {/* TEAM SECTION 2 */}
 
       {/* // FOOTER SECTION */}
 

@@ -91,7 +91,8 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Mark_Buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px" }} />
+              
             </div>
           </div>
           <div class="p-6">
@@ -115,7 +116,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -138,7 +139,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -162,7 +163,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -186,7 +187,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -210,7 +211,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -234,7 +235,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -274,7 +275,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -298,7 +299,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -321,7 +322,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -369,7 +370,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Janet_Mejia.JPG" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -409,7 +410,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -433,7 +434,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -456,7 +457,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -480,7 +481,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Sarabjeet.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -504,7 +505,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Aishwarya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -528,7 +529,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -560,7 +561,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -584,7 +585,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -608,7 +609,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -632,7 +633,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -656,7 +657,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Krunal.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -696,7 +697,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -720,7 +721,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -743,7 +744,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -767,7 +768,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Nirosan_Perinpanayagam.jpeg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -791,7 +792,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Nithila_Balasubramanian.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -815,7 +816,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kavitha_Raman.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -839,7 +840,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -863,7 +864,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1028,7 +1029,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1052,7 +1053,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1075,7 +1076,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1099,7 +1100,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1123,7 +1124,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1147,7 +1148,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1171,7 +1172,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1210,7 +1211,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1234,7 +1235,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1257,7 +1258,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1281,7 +1282,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1305,7 +1306,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kendra_Terrero.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1329,7 +1330,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Tonni-Ann.JPG" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1353,7 +1354,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Dristi_himmatramka.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1377,7 +1378,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
@@ -1417,7 +1418,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
+                style={{"width": "200px; height: 200px"}} />
             </div>
           </div>
           <div class="p-6">
