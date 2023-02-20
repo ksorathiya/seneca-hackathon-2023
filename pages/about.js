@@ -15,7 +15,7 @@ function About(params){
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto p-2">
-                    <a className="inline-block" href="#">
+                    <a className="inline-block" href="/#">
                       <img
                         src="/assets/thinkingnorthsmartcitieslogosec.png"
                         width="250" 
@@ -41,7 +41,7 @@ function About(params){
                       <div className="w-full w-auto p-2">
                         <a
                           className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
+                          href="/#"
                         >
                           May 5th - 6th, 2023
                         </a>
@@ -79,7 +79,7 @@ function About(params){
                       <div className="w-full w-auto p-2">
                         <a
                           className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
+                          href="/#"
                         >
                           May 5th - 6th, 2023
                         </a>
@@ -235,7 +235,7 @@ function About(params){
       <div class="inline-block py-1 px-3 text-xs leading-5 text-red-500 font-medium uppercase bg-red-100 rounded-full shadow-sm">Seneca</div>
     </div>
     <div class="mb-10 mx-auto max-w-max overflow-hidden rounded-lg">
-      <img src="/assets/about-us-image.png" alt=""/>
+      <img src="/assets/about-us-image2.png" alt=""/>
     </div>
     <div class="md:max-w-6xl mx-auto">
       {/* <p class="mb-8 pb-10 text-lg md:text-xl font-medium text-coolGray-500 border-b border-coolGray-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p> */}
