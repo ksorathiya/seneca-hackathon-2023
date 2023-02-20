@@ -16,9 +16,73 @@ function Home() {
   return (
     <>
       {/* // HERO SECTION */}
+      
+<nav class="relative px-10 py-8 bg-transparent">
+  <div class="flex justify-between items-center">
+    
+    <div className="w-auto p-2">
+      <a className="inline-block" href="#">
+        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+      </a>
+    </div>
+
+    <div class="lg:hidden">
+      <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
+        <svg class="h-4 w-4" fill="currentColor " viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">About</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
+    </ul>
+    <ul class="hidden lg:flex items-center w-auto">
+      <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="#">May 5th - 6th, 2023</a></li>
+    </ul>
+  </div>
+  <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+    <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-12">
+        
+      <div className="w-auto p-2">
+      <a className="inline-block" href="#">
+        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+      </a>
+      </div>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 cursor-pointer hover:text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">About</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6"><a class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200" href="#">May 5th - 6th, 2023</a></div>
+        <p class="mt-6 mb-4 text-sm text-center text-gray-500">
+          <span>&copy; 2022 All rights reserved.</span>
+        </p>
+      </div>
+    </nav>
+  </div>
+</nav>
+
+
+
       <section className="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
@@ -219,7 +283,7 @@ function Home() {
                 </div>
               </nav>
             </div>
-          </div>
+          </div> */}
           <div
             className="bg-white overflow-hidden border border-gray-100 rounded-3xl"
             style={{
@@ -336,14 +400,19 @@ function Home() {
                       />
                     </h2>
 
-                    <p class="mb-8 text-xl font-bold" contenteditable="false">
+                    <p class="mb-3 text-xl font-bold" contenteditable="false">
                       A 12 - 16 hours asynchronous online learning organized by
                       &nbsp;
                       <span className="text-red-600">
-                        Smart Cities Hackathon
+                      Smart Cities Hackathon
                       </span>
                       , in association with York University's YSpace.
-                    </p>
+                      <br></br><br></br>
+                      <span className="text-red-600">
+                        Deadline till March 10!
+                      </span>
+                    </p> 
+
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
                         <a
@@ -1571,6 +1640,67 @@ function Home() {
         </div>
       </section> */}
       
+      {/* FAQs SECTION */}
+
+
+{/* 
+
+<section class="py-20">
+  <div class="container px-4 mx-auto">
+    <div class="max-w-4xl mx-auto">
+      <ul class="space-y-4">
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="group w-full flex justify-between items-center text-left font-bold font-heading" type="button">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+            </svg>
+          </button>
+          <div id="dropdown" class="dropdown-item max-w-2xl mt-2 text-lg text-gray-500 leading-loose"  data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
+          <p id="dropdown" aria-labelledby="dropdownDefaultButton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p></div>
+        </li>
+        <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Mauris vitae ex ut lectus cursus ornare?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Nam consequat, augue sed rutrum faucibus?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+        </li>
+        <li class="px-6 py-8 bg-gray-50 rounded-lg">
+          <button class="group w-full flex justify-between items-center text-left">
+            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Cras at ante non ligula pharetra elementum?</span>
+            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section> */}
+      {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
