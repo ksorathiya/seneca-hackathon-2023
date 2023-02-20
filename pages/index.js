@@ -2155,19 +2155,19 @@ function Home() {
 
       {/* TEAM SECTION 2 */}
       {/* <!-- Container for demo purpose --> */}
-<div class="container my-12 px-6 mx-auto">
+{/* <div class="container my-12 px-6 mx-auto">
 
   {/* <!-- Section: Design Block --> */}
-  <section class="mb-5 text-gray-800 text-center">
+  {/* <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-xl mx-auto text-center">
       <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
       <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
       <br></br>
       <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Board of Directors</h2><br></br>
-    </div>
+    </div> */}
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
+    {/* <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -2204,7 +2204,7 @@ function Home() {
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Ben Rogers</h5>
             <p class="mb-6">Board Excecutive</p>
-            <ul class="list-inside flex mx-auto justify-center">
+            <ul class="list-inside flex mx-auto justify-center"> */}
               {/* <a href="#!" class="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-4 h-4 text-blue-600">
                   <path fill="currentColor"
@@ -2217,7 +2217,7 @@ function Home() {
                     d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
                 </svg>
               </a> */}
-              <a href="#!" class="px-2">
+              {/* <a href="#!" class="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
                   <path fill="currentColor"
                     d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
@@ -2325,7 +2325,7 @@ function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 {/* Column 2 */}
   {/* <section class="mb-16 text-gray-800 text-center">
     
@@ -2474,12 +2474,15 @@ function Home() {
   </section>
   {/* <!-- Section: Design Block --> */}
 
-</div>
+{/* </div> */}
 {/* <!-- Container for demo purpose --> */}
 
 {/* Directors */}
 <div class="mb-1 max-w-xl mx-auto text-center">
-      <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
+  <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
+    <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
+    <br></br>
+    <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
     </div>
 <div class="container my-12 px-6 mx-auto">
 
@@ -2487,7 +2490,7 @@ function Home() {
   
     <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
       <div class="mb-12">
-        <img src="/assets/mark-buchner.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
@@ -2495,7 +2498,7 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Negar</p>
@@ -2503,48 +2506,48 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Kartik Sorathiya</p>
         <p class="text-gray-500">IT Consultant </p>
       </div>
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Santosh Bohara</p>
         <p class="text-gray-500">IT Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
         <p class="text-gray-500">Partner Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/9.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
         <p class="text-gray-500">Student Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/10.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Neil_javiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Neil Javiya</p>
         <p class="text-gray-500">Operations Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Daisy_Le.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Daisy Le</p>
         <p class="text-gray-500">Finance Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="https://mdbootstrap.com/img/new/avatars/11.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\David_Jeong.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">David Jeong</p>
         <p class="text-gray-500">Marketing Consultant</p>
