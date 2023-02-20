@@ -8,213 +8,67 @@ function About(params){
  return (
   <>
         {/* // HERO SECTION */}
-      <section className="pt-6 pb-6 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="mb-1">
-            <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto p-2">
-                    <a className="inline-block" href="#">
-                      <img
-                        src="/assets/thinkingnorthsmartcitieslogosec.png"
-                        width="250" 
-                        alt=""
-                      />
-                    </a>
-                  </div>
+      
+<nav class="relative px-10 py-8 bg-transparent">
+  <div class="flex justify-between items-center">
+    
+    <div className="w-auto p-2">
+      <a className="inline-block" href="/#">
+        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+      </a>
+    </div>
 
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700 mr-3"
-                          href="#"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                  </div>
-
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto hidden sm:block"></div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-left">
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-                  <div className="w-auto hidden">
-                    <a className="inline-block" href="#">
-                      <svg
-                        className="navbar-burger text-blue-500"
-                        width="45"
-                        height="45"
-                        viewBox="0 0 56 56"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect
-                          width="56"
-                          height="56"
-                          rx="28"
-                          fill="currentColor"
-                        ></rect>
-                        <path
-                          d="M37 32H19M37 24H19"
-                          stroke="white"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
-              <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
-              <nav className="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">
-                <div className="flex flex-wrap justify-between h-full">
-                  <div className="w-full">
-                    <div className="flex items-center justify-between -m-2">
-                      <div className="w-auto p-2">
-                        <a className="inline-block" href="#">
-                          <Image
-                            src="/assets/seneca-hackathon-logo.png"
-                            width="64px"
-                            height="64px"
-                            alt=""
-                          />
-                        </a>
-                      </div>
-                      <div className="w-auto p-2">
-                        <a className="inline-block navbar-burger" href="#">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6 18L18 6M6 6L18 18"
-                              stroke="#111827"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            ></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col justify-center py-8 w-full">
-                    <ul>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Features
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Solutions
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Resources
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flex flex-col justify-end w-full pb-8">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 border rounded-full"
-                          href="#"
-                        >
-                          Log In
-                        </a>
-                      </div>
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                        >
-                          Get Started
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-          
-        </div>
-      </section>
+    <div class="lg:hidden">
+      <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
+        <svg class="h-4 w-4" fill="currentColor " viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
+    </ul>
+    <ul class="hidden lg:flex items-center w-auto">
+      <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="/#">May 5th - 6th, 2023</a></li>
+    </ul>
+  </div>
+  <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+    <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+      <div class="flex items-center mb-12">
+        
+      <div className="w-auto p-2">
+      <a className="inline-block" href="/#">
+        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+      </a>
+      </div>
+        <button class="navbar-close">
+          <svg class="h-6 w-6 cursor-pointer hover:text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div>
+        <ul>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <div class="pt-6"><a class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200" href="/#">May 5th - 6th, 2023</a></div>
+        <p class="mt-6 mb-4 text-sm text-center text-gray-500">
+          <span>&copy; 2022 All rights reserved.</span>
+        </p>
+      </div>
+    </nav>
+  </div>
+</nav>  
 
      {/* ABOUT US CONTENT */}
 
@@ -235,7 +89,7 @@ function About(params){
       <div class="inline-block py-1 px-3 text-xs leading-5 text-red-500 font-medium uppercase bg-red-100 rounded-full shadow-sm">Seneca</div>
     </div>
     <div class="mb-10 mx-auto max-w-max overflow-hidden rounded-lg">
-      <img src="/assets/about-us-image.png" alt=""/>
+      <img src="/assets/about-us-image2.png" alt=""/>
     </div>
     <div class="md:max-w-6xl mx-auto">
       {/* <p class="mb-8 pb-10 text-lg md:text-xl font-medium text-coolGray-500 border-b border-coolGray-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p> */}
