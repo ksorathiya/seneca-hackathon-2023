@@ -35,7 +35,7 @@ function Home() {
       </button>
     </div>
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">About</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
@@ -62,7 +62,7 @@ function Home() {
       </div>
       <div>
         <ul>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">About</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
