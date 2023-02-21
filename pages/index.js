@@ -1705,7 +1705,7 @@ function Home() {
 {/* TEAM SECTION */}
 {/* Directors */}
 <div class="mb-1 max-w-xl mx-auto text-center">
-  <span class="underline inline-block mb-2 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
+  <span class="underline inline-block mb-2 mt-24 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
     <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
     <br></br>
     <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
@@ -1716,7 +1716,7 @@ function Home() {
   
     <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
       <div class="mb-12">
-        <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
@@ -1724,7 +1724,7 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
 
         <p class="font-bold mb-2">Negar</p>
@@ -1732,48 +1732,48 @@ function Home() {
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Kartik Sorathiya</p>
         <p class="text-gray-500">IT Consultant </p>
       </div>
       <div class="mb-12">
-        <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Santosh Bohara</p>
         <p class="text-gray-500">IT Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
         <p class="text-gray-500">Partner Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
         <p class="text-gray-500">Student Experience Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\Neil_javiya.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Neil Javiya</p>
         <p class="text-gray-500">Operations Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\Daisy_Le.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">Daisy Le</p>
         <p class="text-gray-500">Finance Director</p>
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\David_Jeong.jpg" class="rounded-xl mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "100px"}} />
         <p class="font-bold mb-2">David Jeong</p>
         <p class="text-gray-500">Marketing Consultant</p>
@@ -1790,7 +1790,7 @@ function Home() {
   </section>
 
 </div>
-      {/* TEAM SECTION 2 */}
+      
 {/* TEAM SECTION */}
 
       {/* CONTACT US SECTION */}
@@ -2275,10 +2275,7 @@ function Home() {
             <ul class="list-inside flex mx-auto justify-center">
   
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2310,10 +2307,7 @@ function Home() {
                 </svg>
               </a> */}
               {/* <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2334,10 +2328,7 @@ function Home() {
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2358,10 +2349,7 @@ function Home() {
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2382,10 +2370,7 @@ function Home() {
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2406,10 +2391,7 @@ function Home() {
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
               
             </ul>
@@ -2448,10 +2430,7 @@ function Home() {
                 </svg>
               </a>
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2483,10 +2462,7 @@ function Home() {
                 </svg>
               </a>
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2518,10 +2494,7 @@ function Home() {
                 </svg>
               </a>
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -2547,10 +2520,7 @@ function Home() {
                 </svg>
               </a>
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
               <a href="#!" class="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">

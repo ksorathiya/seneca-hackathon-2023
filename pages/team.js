@@ -91,7 +91,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Mark_Buchner.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px" }} />
+                style={{"width": "150px;" }} />
               
             </div>
           </div>
@@ -100,11 +100,8 @@ function  team(params){
             <p class="mb-6">Academic Chair</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/mark-buchner-bb6a7013/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -116,7 +113,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -124,10 +121,7 @@ function  team(params){
             <p class="mb-6">Board Excecutive</p>
             <ul class="list-inside flex mx-auto justify-center">
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -139,7 +133,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -148,10 +142,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -163,7 +154,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -172,10 +163,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -187,7 +175,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -196,10 +184,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -211,7 +196,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -220,10 +205,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -235,7 +217,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -243,11 +225,8 @@ function  team(params){
             <p class="mb-6">Chief of Staff</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/splfeliciano/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -275,7 +254,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -283,11 +262,8 @@ function  team(params){
             <p class="mb-6">IT Consultant</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/kartiksorathiya/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -299,18 +275,15 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Santosh Bohara</h5>
             <p class="mb-6">IT Director</p>
             <ul class="list-inside flex mx-auto justify-center">
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/santosh-bohara-4b04a0140/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -322,7 +295,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\shivangi_sood.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "210px; height:200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -330,11 +303,8 @@ function  team(params){
             <p class="mb-6">Full-stack Developer</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/shivangi-sood/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -355,10 +325,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -370,7 +337,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Janet_Mejia.JPG" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -379,10 +346,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -410,7 +374,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -419,10 +383,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
   
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -434,18 +395,15 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Arya Sanjay Patil</h5>
             <p class="mb-6">Challenge Set 1</p>
             <ul class="list-inside flex mx-auto justify-center">
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/arya-patil/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -457,7 +415,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -465,11 +423,8 @@ function  team(params){
             <p class="mb-6">Challenge Set 2</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href=" https://www.linkedin.com/in/amizh/ " class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -481,7 +436,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Sarabjeet.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -490,10 +445,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -505,7 +457,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Aishwarya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -514,10 +466,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -529,7 +478,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -538,10 +487,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -561,7 +507,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -570,10 +516,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -585,7 +528,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -594,10 +537,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -609,7 +549,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -618,10 +558,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -633,7 +570,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -642,10 +579,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -657,7 +591,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Krunal.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -666,10 +600,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -697,7 +628,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -705,11 +636,8 @@ function  team(params){
             <p class="mb-6">Student Experience Director</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/aliraza-m-versi-760692128/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -721,7 +649,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -729,10 +657,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 1</p>
             <ul class="list-inside flex mx-auto justify-center">
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -744,7 +669,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -753,10 +678,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -768,7 +690,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Nirosan_Perinpanayagam.jpeg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -777,10 +699,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -792,7 +711,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Nithila_Balasubramanian.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -801,10 +720,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -816,7 +732,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kavitha_Raman.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -825,10 +741,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -840,7 +753,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -849,10 +762,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -864,7 +774,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -873,10 +783,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -904,10 +811,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -928,10 +832,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -952,10 +853,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -976,10 +874,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1000,10 +895,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1029,7 +921,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1037,11 +929,8 @@ function  team(params){
             <p class="mb-6">Operations Director</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/neiljaviya/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1053,18 +942,15 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
             <p class="mb-6">Finance Director</p>
             <ul class="list-inside flex mx-auto justify-center">
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/daisyldct/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1076,7 +962,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1085,10 +971,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1100,7 +983,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1109,10 +992,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1124,7 +1004,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1133,10 +1013,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1148,7 +1025,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1157,10 +1034,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1172,7 +1046,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1181,10 +1055,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1211,7 +1082,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1219,11 +1090,8 @@ function  team(params){
             <p class="mb-6">Marketing Consultant</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/david-jeong/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1235,18 +1103,15 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Amizthini</h5>
             <p class="mb-6">Website Content</p>
             <ul class="list-inside flex mx-auto justify-center">
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/amizh/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1258,7 +1123,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1266,11 +1131,8 @@ function  team(params){
             <p class="mb-6">Social Media</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/molikatan/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1282,7 +1144,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px;" }} />
             </div>
           </div>
           <div class="p-6">
@@ -1291,10 +1153,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1306,7 +1165,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Kendra_Terrero.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1315,10 +1174,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1330,7 +1186,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Tonni-Ann.JPG" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1338,11 +1194,8 @@ function  team(params){
             <p class="mb-6">Public Relations</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+              <a href="https://www.linkedin.com/in/tonni-ann-hinds-n%C3%A9e-burgher-3526a8180/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1354,7 +1207,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Dristi_himmatramka.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1363,10 +1216,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1378,7 +1228,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1387,10 +1237,7 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
@@ -1418,7 +1265,7 @@ function  team(params){
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+                style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
@@ -1427,10 +1274,8 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
   
               <a href="#!" class="px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 text-blue-600">
-                  <path fill="currentColor"
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg>
+                {/* <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/> */}
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
           </div>
