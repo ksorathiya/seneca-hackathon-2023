@@ -321,8 +321,8 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "200px; height: 200px"}} />
+              <img src="\assets\team\shivangi_sood.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "210px; height:200px"}} />
             </div>
           </div>
           <div class="p-6">
