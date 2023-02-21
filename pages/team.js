@@ -32,7 +32,9 @@ function  team(params){
       <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/contact">Contact Us</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/team">Our Team</a></li>
+
     </ul>
     <ul class="hidden lg:flex items-center w-auto">
       <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="/#">May 5th - 6th, 2023</a></li>
@@ -59,7 +61,9 @@ function  team(params){
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/contact">Contact Us</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/team">Our Team</a></li>
+
         </ul>
       </div>
       <div class="mt-auto">
@@ -75,16 +79,17 @@ function  team(params){
   {/* HERO SECTION */}
 
   {/* ORGANIZATION TEAM */}
-<div class="container my-12 px-6 mx-auto">
-  <section class="mb-5 text-gray-800 text-center">
+<div class="container mt-12 mb-24  px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <h2 class="font-heading text-5xl md:text-5xl text-red-600 font-black tracking-tight">Meet the team of Smart Cities Hackathon!</h2>
       <br></br><br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Board of Directors</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Board of Directors</h2>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness.</p>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-7">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -170,6 +175,17 @@ function  team(params){
         </div>
       </div>
 
+    </div>
+  </section>
+  </div>
+
+<div class="container my-12 px-6 mx-auto">
+
+  <section class="mb-5 text-gray-800 text-center">
+    {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -243,11 +259,12 @@ function  team(params){
   <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">IT Team</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-1">IT Team</h2><br></br>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems.</p>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -353,6 +370,28 @@ function  team(params){
         </div>
       </div>
 
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Kendra_Terrero.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kendra Terrero</h5>
+            <p class="mb-6">Creative Design</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </section>
 </div>
@@ -363,7 +402,8 @@ function  team(params){
   <section class="mb-25 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Partner Experience Team</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Partner Experience Team</h2><br></br><br></br>
+      {/* <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems.</p> */}
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
@@ -615,13 +655,15 @@ function  team(params){
 
 {/* STUDENT EXPERIENCE TEAM */}
 <div class="container mt-12 mb-24 px-6 mx-auto">
-  <section class="mb-25 text-gray-800 text-center">
+  <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Student Experience Team</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Student Experience Team</h2>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The Student Success Department is responsible to work closely and directly with students to serve students and collect students’ input towards the organization so as to provide the best services and events to students.</p>
+
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-8">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -705,6 +747,15 @@ function  team(params){
           </div>
         </div>
       </div>
+
+    </div>
+  </section>
+</div>
+<div class="container my-12 px-6 mx-auto">
+
+<section class="mb-25 text-gray-800 text-center">
+    
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -792,129 +843,23 @@ function  team(params){
 
     </div>
   </section>
+
 </div>
-{/* COLUMN 2 */}
-{/* <div class="container my-12 px-6 mx-auto">
-  <section class="mb-5 text-gray-800 text-center">
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Kohulann </h5>
-            <p class="mb-6">Challenge Set 6</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
 
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Nisali Sanara</h5>
-            <p class="mb-6">Challenge Set 7</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
 
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Hugo Vega Soto</h5>
-            <p class="mb-6">Challenge Set 8</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Fenil Mehta</h5>
-            <p class="mb-6">Challenge Set 9</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px"}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Krunal Vasoya</h5>
-            <p class="mb-6">Challenge Set 10 & 11</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div> */}
 {/* STUDENT EXPERIENCE TEAM */}
 
 {/* OPERATIONS TEAM */}
 <div class="container mt-12 mb-24 px-6 mx-auto">
-  <section class="mb-25 text-gray-800 text-center">
+  <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Operations Team</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Operations Team</h2>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands.The Operation team is responsible for planning, organizing, and supervising operations, manufacturing and production processes, and service delivery to produce the desired outcome of a high-quality product or service that satisfies customer demands.</p>
+
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-7">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -930,26 +875,6 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
   
               <a href="https://www.linkedin.com/in/neiljaviya/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
-            <p class="mb-6">Finance Director</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              <a href="https://www.linkedin.com/in/daisyldct/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -998,6 +923,16 @@ function  team(params){
           </div>
         </div>
       </div>
+
+    </div>
+  </section>
+</div>
+
+<div class="container my-12 px-6 mx-auto">
+
+  <section class="mb-25 text-gray-800 text-center">
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -1069,13 +1004,15 @@ function  team(params){
 
 {/* MARKETING TEAM */}
 <div class="container mt-12 mb-24 px-6 mx-auto">
-  <section class="mb-25 text-gray-800 text-center">
+  <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Marketing Team</h2><br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Marketing Team</h2>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">Marketing Depart is the face of Seneca Hackathon. It is the Marketing Department's job to reach out to prospects, customers, investors and/or the community, while creating an overarching image that represents your company in a positive light.</p>
+
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-8">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -1139,6 +1076,16 @@ function  team(params){
         </div>
       </div>
 
+    </div>
+  </section>
+</div>
+
+<div class="container my-12 px-6 mx-auto">
+
+  <section class="mb-25 text-gray-800 text-center">
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -1164,27 +1111,6 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Kendra_Terrero.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Kendra Terrero</h5>
-            <p class="mb-6">Creative Design</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Tonni-Ann.JPG" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
@@ -1195,27 +1121,6 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="https://www.linkedin.com/in/tonni-ann-hinds-n%C3%A9e-burgher-3526a8180/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Dristi_himmatramka.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Dristi Himmatramka</h5>
-            <p class="mb-6">Design Jam</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -1252,10 +1157,12 @@ function  team(params){
 
 {/* HUMAN RESOURCES TEAM */}
 <div class="container mt-12 mb-24 px-6 mx-auto">
-  <section class="mb-25 text-gray-800 text-center">
+  <section class="mb-5 text-gray-800 text-center">
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <br></br>
       <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Human Resources Team</h2><br></br>
+      {/* <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems.</p> */}
+
     </div>
      
     <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-1">
@@ -1286,6 +1193,63 @@ function  team(params){
   </section>
 </div>
 {/* HUMAN RESOURCES TEAM */}
+
+ {/* FINANCE TEAM */}
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-5 text-gray-800 text-center">
+    <div class="mb-20 max-w-7xl mx-auto text-center">
+      <br></br>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Finance Team</h2>
+      <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">A finance team is also in charge of all duties related to your organization's capital funds, including acquiring and managing these funds including accounting, record keeping, administrative work, and cash flow.</p>
+
+    </div>
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-2">
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
+            <p class="mb-6">Finance Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="https://www.linkedin.com/in/daisyldct/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Dristi_himmatramka.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Dristi Himmatramka</h5>
+            <p class="mb-6">Design Jam</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+</div>
 
 
   {/* FOOTER */}

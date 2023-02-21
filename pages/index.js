@@ -38,7 +38,9 @@ function Home() {
       <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/contact">Contact Us</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/team">Our Team</a></li>
+
     </ul>
     <ul class="hidden lg:flex items-center w-auto">
       <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="#">May 5th - 6th, 2023</a></li>
@@ -65,7 +67,9 @@ function Home() {
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/contact">Contact Us</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/team">Our Team</a></li>
+
         </ul>
       </div>
       <div class="mt-auto">
@@ -1710,14 +1714,15 @@ function Home() {
     <br></br>
     <h2 class="font-heading text-2xl md:text-2xl text-gray-900 font-black tracking-tight">Organizers</h2>
     </div>
+
 <div class="container my-12 px-6 mx-auto">
 
   <section class="mb-12 text-gray-800 text-center">
   
-    <div class="grid md:grid-cols-9 xl:grid-cols-9 gap-x-6 lg:gap-xl-12">
+    <div class="grid md:grid-cols-5 xl:grid-cols-5 gap-x-6 lg:gap-xl-12">
       <div class="mb-12">
         <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
 
         <p class="font-bold mb-2">Shirlene Phyllis Feliciano</p>
         <p class="text-gray-500">Cheif of Staff</p>
@@ -1725,7 +1730,7 @@ function Home() {
 
       <div class="mb-12">
         <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
 
         <p class="font-bold mb-2">Negar</p>
         <p class="text-gray-500">Human Resource Manager</p>
@@ -1733,48 +1738,56 @@ function Home() {
 
       <div class="mb-12">
         <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Kartik Sorathiya</p>
         <p class="text-gray-500">IT Consultant </p>
       </div>
       <div class="mb-12">
         <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Santosh Bohara</p>
         <p class="text-gray-500">IT Director</p>
       </div>
 
       <div class="mb-12">
         <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Fenil Mehulkumar Mehta</p>
         <p class="text-gray-500">Partner Experience Director</p>
       </div>
 
+    </div>
+
+  </section>
+
+  <section class="mb-12 text-gray-800 text-center">
+  
+    <div class="grid md:grid-cols-4 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
+
       <div class="mb-12">
         <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
         <p class="text-gray-500">Student Experience Director</p>
       </div>
 
       <div class="mb-12">
         <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Neil Javiya</p>
         <p class="text-gray-500">Operations Director</p>
       </div>
 
       <div class="mb-12">
         <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Daisy Le</p>
         <p class="text-gray-500">Finance Director</p>
       </div>
 
       <div class="mb-12">
         <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
-          style={{"max-width": "100px"}} />
+          style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">David Jeong</p>
         <p class="text-gray-500">Marketing Consultant</p>
       </div>
@@ -1790,6 +1803,8 @@ function Home() {
   </section>
 
 </div>
+
+
       
 {/* TEAM SECTION */}
 
