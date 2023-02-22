@@ -37,7 +37,7 @@ function Home() {
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
       <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="/history">History</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
     </ul>
     <ul class="hidden lg:flex items-center w-auto">

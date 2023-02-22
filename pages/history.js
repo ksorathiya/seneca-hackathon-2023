@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
 
-function About(params){
+function History(params){
  return (
   <>
         {/* // HERO SECTION */}
@@ -29,7 +29,7 @@ function About(params){
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
       <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="/history">History</a></li>
+      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
       <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
     </ul>
     <ul class="hidden lg:flex items-center w-auto">
@@ -56,7 +56,7 @@ function About(params){
         <ul>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
+          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/history">History</a></li>
           <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
         </ul>
       </div>
@@ -70,41 +70,75 @@ function About(params){
   </div>
 </nav>  
 
-     {/* ABOUT US CONTENT */}
+     {/* History CONTENT */}
 
 
-<section class="py-8 md:py-12 bg-coolGray-50" style={{"background-image": "url('flex-ui-assets/elements/pattern-light-big.svg'); background-repeat: no-repeat; background-position: center;"}}>
-  <div class="container px-4 mx-auto">
-    <div class="md:max-w-2xl mx-auto mb-12 text-center">
-      <div class="flex items-center justify-center">
-        <p class="inline-block text-red-500 font-medium">Hackathon</p>
-        <span class="mx-1 text-green-500">&bull;</span>
-        <p class="inline-block text-red-500 font-medium">2023</p>
+<section class="py-10 bg-gray-50 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="py-16 px-8 bg-grey rounded-3xl">
+      <div class="max-w-7xl mx-auto"> 
+        <div class="mb-12 md:max-w-4xl mx-auto text-center">
+          <span class="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">History</span>
+          <h2 class="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">Our Past Hackathons</h2>
+          <p class="mb-4 text-xl text-gray-500 leading-tight font-medium text-coolGray-800 text-justify">This is our showcases which is full of innovative ideas from our previous hackathons. Here lies the themes, challenges, and teams behind these cutting-edge projects that solved complex problems. Explore this section for inspiration and to see the exciting world of our past hackathons!</p>
+        </div>
+        <div class="max-w-5xl mx-auto">
+          <div class="flex flex-wrap -m-5 mb-10">
+            <div class="w-full p-5">
+              <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                <div class="w-full md:w-1/2">
+                  <img class="w-full h-full object-cover" src="/assets/digital-health-hackathon.jpeg" alt=""/>
+                </div>
+                <div class="flex-1">
+                  <div class="md:max-w-lg p-10 h-full">
+                    <div class="flex flex-col justify-between h-full">
+                      <div class="flex-initial mb-8">
+                        <a class="group inline-block mb-4" href="#">
+                          <h3 class="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">Digital Health Hackathon</h3>
+                        </a>
+                        <p class="text-gray-500 font-bold text-justify">The Digital Health Hackathon was a 48-hour event where healthcare professionals, software developers, designers, and entrepreneurs collaborated to develop innovative digital solutions to healthcare challenges. Participants worked in teams to brainstorm, design, and develop their ideas, with support and mentorship from industry experts. At the end of the event, teams present their solutions to judges who evaluate them based on innovation, impact, and feasibility.</p>
+                      </div>
+                      <div class="flex-initial">
+                        <div class="flex flex-wrap -m-2">
+                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full" href="#">Read More</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full p-5">
+              <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                <div class="w-full md:w-1/2">
+                  <img class="w-full h-full object-cover" src="/assets/sustainability-hackathon.jpeg" alt=""/>
+                </div>
+                <div class="flex-1">
+                  <div class="md:max-w-lg p-10 h-full">
+                    <div class="flex flex-col justify-between h-full">
+                      <div class="flex-initial mb-8">
+                        <a class="group inline-block mb-4" href="#">
+                          <h3 class="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">Sustainability Hackathon</h3>
+                        </a>
+                        <p class="text-gray-500 font-bold text-justify">The Sustainability Hackathon was a creative and collaborative event where individuals with a passion for sustainability came together to generate innovative solutions for environmental challenges. Participants worked in teams to develop sustainable solutions that address a range of environmental issues, such as climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
+                      </div>
+                      <div class="flex-initial">
+                        <div class="flex flex-wrap -m-2">
+                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full" href="#">Read More</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
       </div>
-      <div class="flex items-center justify-center">
-        <p class="inline-block text-red-500 font-medium">May 5th - May 6th</p>
-      </div>
-      <h2 class="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter">About Us</h2>
-      {/* <p class="mb-6 text-lg md:text-xl font-medium text-coolGray-500">Join the brightest minds from across the globe and help solve real-world challenges in making cities smarter.</p> */}
-      <div class="inline-block py-1 px-3 text-xs leading-5 text-red-500 font-medium uppercase bg-red-100 rounded-full shadow-sm">Seneca</div>
-    </div>
-    <div class="mb-10 mx-auto max-w-max overflow-hidden rounded-lg">
-      <img src="/assets/about-us-image2.png" alt=""/>
-    </div>
-    <div class="md:max-w-6xl mx-auto">
-      {/* <p class="mb-8 pb-10 text-lg md:text-xl font-medium text-coolGray-500 border-b border-coolGray-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p> */}
-      {/* <h3 class="mb-4 text-2xl md:text-3xl font-semibold text-coolGray-800">Header 1</h3> */}
-      {/* <p class="mb-4 text-base md:text-lg text-coolGray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p> */}
-      <div class="mb-6 p-6 border-l-2 border-red-500">
-        <p class="mb-4 text-xl md:text-2xl leading-tight font-medium text-coolGray-800 text-justify ">Smart Cities Hackathon is a student-focused innovation competition that offers a unique learning opportunity. It brings together students from various backgrounds to collaborate on real-world problems. In addition, it encourages and develops creative design thinking, entrepreneurship, and problem-solving skills. Technical experts and mentors assist the teams in getting ready for their presentation. The presentations will be judged by an expert panel of investors, school representatives, and specialists. Along with receiving prizes, the winning teams will be given consideration for investment opportunities. This year, we will host the event in person at Seneca CITE Building. We can't wait to see you on May 5th and 6th!!!!! All the best!!!!!</p>
-        <br></br>
-        <span class="text-right text-base md:text-lg text-coolGray-400 font-medium ">&mdash; 2023 ThinkingNorth Smart Cities</span>
-        {/* <span class="text-base md:text-lg text-coolGray-400 font-medium">&mdash; John Doe, CEO &amp; Founder</span> */}
-      </div>
-
     </div>
   </div>
 </section>
+
      
      {/* ABOUT US CONTENT */}
 
@@ -214,4 +248,4 @@ function About(params){
  )
 }
 
-export default About;
+export default History;
