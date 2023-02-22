@@ -28,9 +28,9 @@ function About(params){
     </div>
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
       <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li>
+      {/* <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
+      {/* <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li> */}
+      {/* <li><a class="text-sm hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
     </ul>
     <ul class="hidden lg:flex items-center w-auto">
       <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="/#">May 5th - 6th, 2023</a></li>
