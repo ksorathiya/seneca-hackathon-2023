@@ -29,3 +29,15 @@
   );
   opacity: 0.9;
 }
+
+.accordion:hover {
+  cursor: pointer;
+}
+
+.accordion__answer {
+  display: none;
+}
+
+.accordion.active .accordion__answer {
+  display: block;
+}
