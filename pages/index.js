@@ -440,7 +440,7 @@ function Home() {
                     class="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/DesignJamPoster.png"
                     alt=""
-                    height="325px"
+                    style={{ height: '100%' }}
                   />
                 </div>
               </div>
