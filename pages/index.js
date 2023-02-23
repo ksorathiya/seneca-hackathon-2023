@@ -35,12 +35,10 @@ function Home() {
       </button>
     </div>
     <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
-      <li><a class="text-sm hover:text-red-700 font-medium" href="/about">About</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">Timeline</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="#">History</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="/contact">Contact Us</a></li>
-      <li><a class="text-sm hover:text-red-700 font-medium" href="/team">Our Team</a></li>
-
+      <li><a class="text-xl hover:text-red-700 font-medium" href="/about">About</a></li>
+     {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
+      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="/history">History</a></li> */}
+      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
     </ul>
     <ul class="hidden lg:flex items-center w-auto">
       <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="#">May 5th - 6th, 2023</a></li>
@@ -442,8 +440,9 @@ function Home() {
                 <div class="w-full md:w-1/4 p-8">
                   <img 
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/design-jam.JPG"
+                    src="/assets/DesignJamPoster.png"
                     alt=""
+                    style={{ height: '100%' }}
                   />
                 </div>
               </div>
@@ -1708,7 +1707,7 @@ function Home() {
 
 {/* TEAM SECTION */}
 {/* Directors */}
-<div class="mb-1 max-w-xl mx-auto text-center">
+{/* <div class="mb-1 max-w-xl mx-auto text-center">
   <span class="underline inline-block mb-2 mt-24 text-lg text-red-600 font-bold uppercase tracking-widest hover:text-red-900"><a href="/team" target="_blank">Our team</a></span>
     <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">The brains behind Smart Cities Hackathon</h2>
     <br></br>
@@ -1802,7 +1801,7 @@ function Home() {
     
   </section>
 
-</div>
+</div> */}
 
 
       
