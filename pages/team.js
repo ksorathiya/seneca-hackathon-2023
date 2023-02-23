@@ -84,7 +84,7 @@ function  team(params){
     <div class="mb-20 max-w-7xl mx-auto text-center">
       <h2 class="font-heading text-5xl md:text-5xl text-red-600 font-black tracking-tight">Meet the team of Smart Cities Hackathon!</h2>
       <br></br><br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Board of Directors</h2>
+      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Leaders</h2>
       <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness.</p>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
@@ -117,15 +117,107 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Ben Rogers</h5>
-            <p class="mb-6">Board Excecutive</p>
+            <h5 class="text-lg font-bold mb-4">Kartik Sorathiya</h5>
+            <p class="mb-6">IT Consultant</p>
             <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="https://www.linkedin.com/in/kartiksorathiya/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+       <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Santosh Bohara</h5>
+            <p class="mb-6">IT Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="https://www.linkedin.com/in/santosh-bohara-4b04a0140/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Fenil Mehulkumar Mehta</h5>
+            <p class="mb-6">Partner Experience Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
               <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </section>
+  </div>
+
+<div class="container mt-12 mb-24  px-6 mx-auto">
+  <section class="mb-25 text-gray-800 text-center">
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Neil Javiya</h5>
+            <p class="mb-6">Operations Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="https://www.linkedin.com/in/neiljaviya/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">David Jeong</h5>
+            <p class="mb-6">Marketing Consultant</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="https://www.linkedin.com/in/david-jeong/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -142,11 +234,11 @@ function  team(params){
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Suzanne Abraham</h5>
-            <p class="mb-6">Board Executive</p>
+            <h5 class="text-lg font-bold mb-4">Molika Tan</h5>
+            <p class="mb-6">Social Media</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/molikatan/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -163,11 +255,12 @@ function  team(params){
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Mehdi Akbari</h5>
-            <p class="mb-6">Board Executive</p>
+            <h5 class="text-lg font-bold mb-4">Negar</h5>
+            <p class="mb-6">Human Resources Manager</p>
             <ul class="list-inside flex mx-auto justify-center">
-              
+  
               <a href="#!" class="px-2">
+                {/* <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/> */}
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -190,48 +283,6 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Namrata Barai</h5>
-            <p class="mb-6">Board Excecutive</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Kumar Rajendra</h5>
-            <p class="mb-6">Industry Chair</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Shirlene_Phyllis.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
@@ -242,6 +293,47 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="https://www.linkedin.com/in/splfeliciano/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
+            <p class="mb-6">Finance Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="https://www.linkedin.com/in/daisyldct/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Aliraza Mutanza Versi</h5>
+            <p class="mb-6">Student Experience Director</p>
+            <ul class="list-inside flex mx-auto justify-center">
+  
+              <a href="https://www.linkedin.com/in/aliraza-m-versi-760692128/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -264,48 +356,7 @@ function  team(params){
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
-     
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Kartik_Sorathiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Kartik Sorathiya</h5>
-            <p class="mb-6">IT Consultant</p>
-            <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="https://www.linkedin.com/in/kartiksorathiya/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Santosh_Bohara.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Santosh Bohara</h5>
-            <p class="mb-6">IT Director</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              <a href="https://www.linkedin.com/in/santosh-bohara-4b04a0140/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -391,6 +442,27 @@ function  team(params){
         </div>
       </div>
 
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Navna</h5>
+            <p class="mb-6">Creative Design</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </section>
@@ -407,28 +479,7 @@ function  team(params){
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-6">
-     
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Fenil Mehulkumar Mehta</h5>
-            <p class="mb-6">Partner Experience Director</p>
-            <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -541,7 +592,7 @@ function  team(params){
 <div class="container my-12 px-6 mx-auto">
   <section class="mb-5 text-gray-800 text-center">
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -609,27 +660,6 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Fenil Mehta</h5>
-            <p class="mb-6">Challenge Set 9</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\Krunal.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
@@ -663,8 +693,8 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
-     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -674,30 +704,10 @@ function  team(params){
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Aliraza Mutanza Versi</h5>
-            <p class="mb-6">Student Experience Director</p>
+            <h5 class="text-lg font-bold mb-4">Muhammed Deensha</h5>
+            <p class="mb-6">Challenge Set 6</p>
             <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="https://www.linkedin.com/in/aliraza-m-versi-760692128/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Fenil_Mehta.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Fenil Mehulkumar Mehta</h5>
-            <p class="mb-6">Challenge Set 1</p>
-            <ul class="list-inside flex mx-auto justify-center">
+              
               <a href="#!" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
@@ -755,7 +765,7 @@ function  team(params){
 
 <section class="mb-25 text-gray-800 text-center">
     
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -820,27 +830,6 @@ function  team(params){
         </div>
       </div>
 
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Muhammed Deensha</h5>
-            <p class="mb-6">Challenge Set 6</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -859,28 +848,7 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
-     
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Neil_javiya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Neil Javiya</h5>
-            <p class="mb-6">Operations Director</p>
-            <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="https://www.linkedin.com/in/neiljaviya/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -923,16 +891,6 @@ function  team(params){
           </div>
         </div>
       </div>
-
-    </div>
-  </section>
-</div>
-
-<div class="container my-12 px-6 mx-auto">
-
-  <section class="mb-25 text-gray-800 text-center">
-     
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -1012,29 +970,8 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
      
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\David_Jeong.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">David Jeong</h5>
-            <p class="mb-6">Marketing Consultant</p>
-            <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="https://www.linkedin.com/in/david-jeong/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -1054,37 +991,6 @@ function  team(params){
           </div>
         </div>
       </div>
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Molika Tan</h5>
-            <p class="mb-6">Social Media</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="https://www.linkedin.com/in/molikatan/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-</div>
-
-<div class="container my-12 px-6 mx-auto">
-
-  <section class="mb-25 text-gray-800 text-center">
-     
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -1156,42 +1062,7 @@ function  team(params){
 {/* MARKETING TEAM */}
 
 {/* HUMAN RESOURCES TEAM */}
-<div class="container mt-12 mb-24 px-6 mx-auto">
-  <section class="mb-5 text-gray-800 text-center">
-    <div class="mb-20 max-w-7xl mx-auto text-center">
-      <br></br>
-      <h2 class="font-heading text-4xl md:text-4xl text-gray-900 font-black tracking-tight mb-10">Human Resources Team</h2><br></br>
-      {/* <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">The IT department is responsible for the company's technology infrastructure. They are in charge of ensuring that all technical aspects of the company are running smoothly and efficiently. They also provide support to employees who have technical problems.</p> */}
 
-    </div>
-     
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-1">
-     
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Negar</h5>
-            <p class="mb-6">Human Resources Manager</p>
-            <ul class="list-inside flex mx-auto justify-center">
-  
-              <a href="#!" class="px-2">
-                {/* <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/> */}
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      </div>
-  </section>
-</div>
 {/* HUMAN RESOURCES TEAM */}
 
  {/* FINANCE TEAM */}
@@ -1204,28 +1075,9 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-2">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-1">
      
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Daisy_Le.jpg" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Daisy Le</h5>
-            <p class="mb-6">Finance Director</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              <a href="https://www.linkedin.com/in/daisyldct/" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-
+      
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
