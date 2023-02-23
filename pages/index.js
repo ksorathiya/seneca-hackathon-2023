@@ -1894,7 +1894,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
-              <div className="flex xs:flex-col sm:flex-wrap items-center justify-between -m-4">
+              <div className="flex flex-col md:flex-wrap items-center justify-between -m-4">
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
