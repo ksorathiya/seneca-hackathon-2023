@@ -16,69 +16,143 @@ function Home() {
   return (
     <>
       {/* // HERO SECTION */}
-      
-<nav class="relative px-10 py-8 bg-transparent">
-  <div class="flex justify-between items-center">
-    
-    <div className="w-auto p-2">
-      <a className="inline-block" href="#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
-      </a>
-    </div>
 
-    <div class="lg:hidden">
-      <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
-        <svg class="h-4 w-4" fill="currentColor " viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Mobile menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-        </svg>
-      </button>
-    </div>
-    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
-      <li><a class="text-xl hover:text-red-700 font-medium" href="/about">About</a></li>
-     {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
-      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="/history">History</a></li> */}
-      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
-    </ul>
-    <ul class="hidden lg:flex items-center w-auto">
-      <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="#">May 5th - 6th, 2023</a></li>
-    </ul>
-  </div>
-  <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-    <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-      <div class="flex items-center mb-12">
-        
-      <div className="w-auto p-2">
-      <a className="inline-block" href="#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
-      </a>
-      </div>
-        <button class="navbar-close">
-          <svg class="h-6 w-6 cursor-pointer hover:text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-      <div>
-        <ul>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="mt-auto">
-        <div class="pt-6"><a class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200" href="#">May 5th - 6th, 2023</a></div>
-        <p class="mt-6 mb-4 text-sm text-center text-gray-500">
-          <span>&copy; 2022 All rights reserved.</span>
-        </p>
-      </div>
-    </nav>
-  </div>
-</nav>
+      <nav class="relative px-10 py-8 bg-transparent">
+        <div class="flex justify-between items-center">
+          <div className="w-auto p-2">
+            <a className="inline-block" href="#">
+              <img
+                src="/assets/thinking-north-smart-cities-hackathon-logo.png"
+                width="250"
+                alt=""
+              />
+            </a>
+          </div>
 
-
+          <div class="lg:hidden">
+            <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
+              <svg
+                class="h-4 w-4"
+                fill="currentColor "
+                viewbox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Mobile menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+            </button>
+          </div>
+          <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
+            {/* <li>
+              <a class="text-xl hover:text-red-700 font-medium" href="/about">
+                About
+              </a>
+            </li> */}
+            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
+            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="/history">History</a></li> */}
+            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
+          </ul>
+          <ul class="hidden lg:flex items-center w-auto">
+            <li>
+              <a
+                class="block px-5 mx-5 py-3 text-sm bg-red-500 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
+                href="/about"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
+                href="#"
+              >
+                May 5th - 6th, 2023
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+          <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-12">
+              <div className="w-auto p-2">
+                <a className="inline-block" href="#">
+                  <img
+                    src="/assets/thinking-north-smart-cities-hackathon-logo.png"
+                    width="250"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <button class="navbar-close">
+                <svg
+                  class="h-6 w-6 cursor-pointer hover:text-red-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewbox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <ul>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
+                    href="/about"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
+                    href="#"
+                  >
+                    Timeline
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
+                    href="#"
+                  >
+                    History
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
+                    href="#"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-auto">
+              <div class="pt-6">
+                <a
+                  class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200"
+                  href="#"
+                >
+                  May 5th - 6th, 2023
+                </a>
+              </div>
+              <p class="mt-6 mb-4 text-sm text-center text-gray-500">
+                <span>&copy; 2022 All rights reserved.</span>
+              </p>
+            </div>
+          </nav>
+        </div>
+      </nav>
 
       <section className="pt-6 pb-20 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
@@ -89,7 +163,7 @@ function Home() {
                   <div className="w-auto p-2">
                     <a className="inline-block" href="#">
                       <img
-                        src="/assets/thinkingnorthsmartcitieslogosec.png"
+                        src="/assets/thinking-north-smart-cities-hackathon-logo.png"
                         width="250" 
                         alt=""
                       />
@@ -321,7 +395,8 @@ function Home() {
                   {/* <span>build innovation for the future</span> */}
                 </h1>
                 <p className="mb-8 text-xl text-white ">
-                  Join the brightest minds from across the globe and help solve real-world challenges in making cities smarter.
+                  Join the brightest minds from across the globe and help solve
+                  real-world challenges in making cities smarter.
                 </p>
                 <div className="max-w-lg mx-auto">
                   <div className="flex-wrap -m-2">
@@ -393,7 +468,6 @@ function Home() {
           <div class="py-16 px-8 bg-white rounded-3xl">
             <div class="max-w-7xl mx-auto">
               <div class="flex flex-wrap -m-8 mb-10">
-
                 <div class="w-full md:w-1/2 p-8">
                   <div class="md:max-w-xl">
                     <h2
@@ -412,14 +486,15 @@ function Home() {
                       A 12 - 16 hours asynchronous online learning organized by
                       &nbsp;
                       <span className="text-red-600">
-                      Smart Cities Hackathon
+                        Smart Cities Hackathon
                       </span>
                       , in association with York University's YSpace.
-                      <br></br><br></br>
+                      <br></br>
+                      <br></br>
                       <span className="text-red-600">
                         Deadline till March 10!
                       </span>
-                    </p> 
+                    </p>
 
                     <div class="flex flex-wrap -m-2">
                       <div class="w-full md:w-auto p-2">
@@ -436,19 +511,22 @@ function Home() {
                 </div>
 
                 <div class="w-full md:w-1/4 p-8">
-                  <video autoplay="{true}" loop muted controls
+                  <video
+                    autoplay="{true}"
+                    loop
+                    muted
+                    controls
                     class="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/design-jam1.mov"
                     alt=""
                   />
                 </div>
 
-                <div class="w-full md:w-1/4 p-8">
-                  <img 
+                <div class="w-full md:w-1/4 p-8 my-auto">
+                  <img
                     class="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/DesignJamPoster.png"
                     alt=""
-                    style={{ height: '100%' }}
                   />
                 </div>
               </div>
@@ -956,37 +1034,46 @@ function Home() {
             Sponsors
           </h2>
         </div>
-              {/* CTA SECTION */}
-<section class="py-10 bg-white overflow-hidden">
-  <div class="container mx-auto px-4">
-    <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
-      <div class="flex flex-wrap items-center -m-4">
-        <div class="w-full md:w-1/5 p-4 items-left">
-          <div class="md:max-w-md md:mr-auto">
-            <div class="flex flex-wrap -m-2">
-              {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
-          {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
-          <img src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg" width="250" alt="" style={{"background-color":"white; border-radius:10%"}}/>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-4/5 p-4">
-          <div class="w-full lg:flex-1 p-2">
-                {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">SMART CITIES REVOLUTION - GET CONNECTED</h2>
-          </div>
-          {/* <br></br>
+        {/* CTA SECTION */}
+        <section class="py-10 bg-white overflow-hidden">
+          <div class="container mx-auto px-4">
+            <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
+              <div class="flex flex-wrap items-center -m-4">
+                <div class="w-full md:w-1/5 p-4 items-left">
+                  <div class="md:max-w-md md:mr-auto">
+                    <div class="flex flex-wrap -m-2">
+                      {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+                      {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+                      <img
+                        src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
+                        width="250"
+                        alt=""
+                        style={{
+                          "background-color": "white; border-radius:10%",
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full md:w-4/5 p-4">
+                  <div class="w-full lg:flex-1 p-2">
+                    {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
+                      SMART CITIES REVOLUTION - GET CONNECTED
+                    </h2>
+                  </div>
+                  {/* <br></br>
               <div class="w-full lg:w-auto p-2">
                 <div class="flex flex-wrap justify-center -m-2">
                   <div class="w-full lg:w-auto p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
                 </div>
               </div> */}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-      {/* CTA SECTION */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* CTA SECTION */}
         <div class="container mx-auto px-4">
           <div class="bg-white border border-gray-50 rounded-3xl">
             <div class="flex flex-wrap items-center">
@@ -1121,7 +1208,7 @@ function Home() {
         </div>
       </section>
       {/* SPONSORS SECTION */}
-    
+
       {/* INSTAFEED */}
       <section class="py-10 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
@@ -1650,8 +1737,7 @@ function Home() {
       </section> */}
       {/* FAQs SECTION */}
 
-
-{/* 
+      {/* 
 
 <section class="py-20">
   <div class="container px-4 mx-auto">
@@ -1811,7 +1897,7 @@ function Home() {
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
-                      src="assets/thinkingnorthsmartcitieslogosec.png"
+                      src="assets/thinking-north-smart-cities-hackathon-logo.png"
                       width="200"
                       alt=""
                     />
