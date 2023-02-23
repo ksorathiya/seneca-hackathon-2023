@@ -23,27 +23,40 @@ function Home() {
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto p-2">
-                    <a href="#">
+                    <a className="inline-block" href="#">
                       <img
                         src="/assets/seneca-hackathon-logo.png"
-                        width="250"
+                        width="250" 
                         alt=""
                       />
                     </a>
+                  </div>
+                  <div className="visible md:invisible">
+                  <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                          href="#"
+                        >
+                          May 5th - 6th, 2023
+                        </a>
+                      </div>
                   </div>
                 </div>
               </div>
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
-                  <div className="w-auto hidden lg:block"></div>
+                  <div className="w-auto hidden sm:block"></div>
                 </div>
               </div>
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
-                  <div className="w-auto hidden lg:block">
+
+                  <div className="invisible md:visible">
+                  <div className="w-auto hidden sm:block">
                     <div className="flex flex-wrap -m-2">
-                      <div className="w-full md:w-auto p-2"></div>
-                      <div className="w-full md:w-auto p-2">
+                      <div className="w-full w-auto p-2"></div>
+                      <div className="w-full w-auto p-2">
                         <a
                           className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
                           href="#"
@@ -60,7 +73,7 @@ function Home() {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div></div>
                   <div className="w-auto hidden">
                     <a className="inline-block" href="#">
                       <svg
@@ -941,6 +954,18 @@ function Home() {
                   </a>
                 </div>
               </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://innovatecities.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://innovatecities.com/wp-content/uploads/2021/04/IC_Logo_CL.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -1564,8 +1589,8 @@ function Home() {
                       </div>
                       <div className="flex-1 p-3">
                         <p className="text-gray-500 font-bold">Email</p>
-                        <h3 className="font-heading text-xl text-gray-900 font-black">
-                          mark.buchner@senecacollege.ca
+                        <h3 className="font-heading md:text-xl text-md text-gray-900 font-black">
+                          info@senecahackathon.com
                         </h3>
                       </div>
                     </div>
@@ -1654,6 +1679,20 @@ function Home() {
                           width="25"
                           height="25"
                           src="/zanrly-assets/images/twitter.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div className="w-auto p-4">
+                      <a
+                        className="block"
+                        href="https://www.linkedin.com/company/seneca-hackathon/"
+                        target="_blank"
+                      >
+                        <Image
+                          width="25"
+                          height="25"
+                          src="/assets/linkedin.svg"
                           alt=""
                         />
                       </a>
