@@ -430,7 +430,7 @@ function Home() {
                       <div class="w-auto p-1.5">
                         <a
                           class="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                          href="https://twitter.com/SenecaHackathon"
+                          href="https://www.linkedin.com/company/seneca-hackathon/"
                           target="_blank"
                         >
                           <img src="assets/linkedin.svg" alt="" />
@@ -1042,7 +1042,7 @@ function Home() {
               <div class="flex flex-wrap items-center -m-4">
                 <div class="w-full md:w-1/5 p-4 items-left">
                   <div class="md:max-w-md md:mr-auto">
-                    <div class="flex flex-wrap -m-2">
+                    <div class="flex flex-wrap -m-2 justify-center">
                       {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
                       {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
@@ -1059,7 +1059,7 @@ function Home() {
                 <div class="w-full md:w-4/5 p-4">
                   <div class="w-full lg:flex-1 p-2">
                     {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
+                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight text-center">
                       SMART CITIES REVOLUTION - GET CONNECTED
                     </h2>
                   </div>
@@ -1894,7 +1894,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
-              <div className="flex flex-col md:flex-wrap items-center justify-between -m-4">
+              <div className="flex flex-wrap items-center justify-center md:justify-between -m-4">
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
