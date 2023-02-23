@@ -378,15 +378,13 @@ function Home() {
              bg-gray-900/30 backdrop-brightness-75"
             >
               <div className="md:max-w-2xl text-center mx-auto">
-                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                  build innovations for future
-                </span>
+                
                 <h1
                   className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
                   contenteditable="false"
                 >
                   <span contenteditable="false">
-                    SMART CITIES <span className="text-red-500">HACKATHON</span>
+                    THINKING NORTH <br></br><span className="text-red-500">SMART CITIES HACKATHON</span>
                   </span>
                   {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
                     HACKATHON
@@ -394,6 +392,9 @@ function Home() {
                   <br />
                   {/* <span>build innovation for the future</span> */}
                 </h1>
+                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
+                  build innovations for future
+                </span>
                 <p className="mb-8 text-xl text-white ">
                   Join the brightest minds from across the globe and help solve
                   real-world challenges in making cities smarter.
@@ -522,10 +523,10 @@ function Home() {
                   />
                 </div>
 
-                <div class="w-full md:w-1/4 p-8 my-auto">
+                <div class="w-full md:w-1/4 p-8">
                   <img
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/DesignJamPoster.png"
+                    src="/assets/design-jam2.png"
                     alt=""
                   />
                 </div>
@@ -1893,7 +1894,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap items-center justify-between -m-4">
+              <div className="flex xs:flex-col sm:flex-wrap items-center justify-between -m-4">
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
