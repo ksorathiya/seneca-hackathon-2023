@@ -51,6 +51,14 @@ function Home() {
                           May 5th - 6th, 2023
                         </a>
                       </div>
+                      <div className="w-full md:w-auto p-2">
+                        <a
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                          href="/about"
+                        >
+                          About Us
+                        </a>
+                      </div>
                     </div>
                   </div>
                   <div className="w-auto hidden">
