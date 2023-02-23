@@ -2,7 +2,7 @@ export default function NavBar(props) {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="https://senecahackathon.com/" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img
             src="/assets/thinking-north-smart-cities-hackathon-logo.png"
             width="250"
