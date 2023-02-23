@@ -378,15 +378,13 @@ function Home() {
              bg-gray-900/30 backdrop-brightness-75"
             >
               <div className="md:max-w-2xl text-center mx-auto">
-                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                  build innovations for future
-                </span>
+                
                 <h1
                   className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
                   contenteditable="false"
                 >
                   <span contenteditable="false">
-                    SMART CITIES <span className="text-red-500">HACKATHON</span>
+                    THINKING NORTH <br></br><span className="text-red-500">SMART CITIES HACKATHON</span>
                   </span>
                   {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
                     HACKATHON
@@ -394,6 +392,9 @@ function Home() {
                   <br />
                   {/* <span>build innovation for the future</span> */}
                 </h1>
+                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
+                  build innovations for future
+                </span>
                 <p className="mb-8 text-xl text-white ">
                   Join the brightest minds from across the globe and help solve
                   real-world challenges in making cities smarter.
@@ -429,7 +430,7 @@ function Home() {
                       <div class="w-auto p-1.5">
                         <a
                           class="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                          href="https://twitter.com/SenecaHackathon"
+                          href="https://www.linkedin.com/company/seneca-hackathon/"
                           target="_blank"
                         >
                           <img src="assets/linkedin.svg" alt="" />
@@ -522,10 +523,10 @@ function Home() {
                   />
                 </div>
 
-                <div class="w-full md:w-1/4 p-8 my-auto">
+                <div class="w-full md:w-1/4 p-8">
                   <img
                     class="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/DesignJamPoster.png"
+                    src="/assets/design-jam2.png"
                     alt=""
                   />
                 </div>
@@ -1041,7 +1042,7 @@ function Home() {
               <div class="flex flex-wrap items-center -m-4">
                 <div class="w-full md:w-1/5 p-4 items-left">
                   <div class="md:max-w-md md:mr-auto">
-                    <div class="flex flex-wrap -m-2">
+                    <div class="flex flex-wrap -m-2 justify-center">
                       {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
                       {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
@@ -1058,7 +1059,7 @@ function Home() {
                 <div class="w-full md:w-4/5 p-4">
                   <div class="w-full lg:flex-1 p-2">
                     {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
+                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight text-center">
                       SMART CITIES REVOLUTION - GET CONNECTED
                     </h2>
                   </div>
@@ -1893,7 +1894,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap items-center justify-between -m-4">
+              <div className="flex flex-wrap items-center justify-center md:justify-between -m-4">
                 <div className="w-auto p-4">
                   <a className="inline-block" href="#">
                     <img
