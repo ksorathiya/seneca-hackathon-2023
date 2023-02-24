@@ -1046,8 +1046,8 @@ function Home() {
                       {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
                       {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
-                        src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
-                        width="250"
+                        src="/assets/thinkingnorthlogo.png"
+                        width="300"
                         alt=""
                         style={{
                           "background-color": "white; border-radius:10%",
@@ -1095,8 +1095,20 @@ function Home() {
                   <a href="https://thinkingnorth.com/" target="_blank">
                     <img
                       class="mx-auto"
-                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
-                      width="150px"
+                      src="assets/thinkingnorthlogo.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://mircom.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://mircom.com/wp-content/uploads/logo.png"
+                      width="300px"
                       alt=""
                     />
                   </a>
@@ -1154,12 +1166,12 @@ function Home() {
                 </div>
               </div>
               <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8 bg-black">
+                <div class="py-12 lg:py-20 px-8">
                   <a href="https://raceatlas.com/" target="_blank">
                     <img
                       class="mx-auto"
-                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/raceatlas-logo.png"
-                      width="300px"
+                      src="assets/raceAtlasLogo.png"
+                      width="400px"
                       alt=""
                     />
                   </a>
@@ -1201,6 +1213,7 @@ function Home() {
                   </a>
                 </div>
               </div>
+              
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
