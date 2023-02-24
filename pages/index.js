@@ -4,6 +4,7 @@ import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
 
 import Image from "next/image";
+import Footer from "../components/footer";
 
 function throwError() {
   console.log(
@@ -1046,8 +1047,8 @@ function Home() {
                       {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
                       {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
-                        src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
-                        width="250"
+                        src="/assets/thinkingnorthlogo.png"
+                        width="300"
                         alt=""
                         style={{
                           "background-color": "white; border-radius:10%",
@@ -1095,8 +1096,20 @@ function Home() {
                   <a href="https://thinkingnorth.com/" target="_blank">
                     <img
                       class="mx-auto"
-                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/52005.jpeg"
-                      width="150px"
+                      src="assets/thinkingnorthlogo.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div class="py-12 lg:py-20 px-8">
+                  <a href="https://mircom.com/" target="_blank">
+                    <img
+                      class="mx-auto"
+                      src="https://mircom.com/wp-content/uploads/logo.png"
+                      width="300px"
                       alt=""
                     />
                   </a>
@@ -1154,12 +1167,12 @@ function Home() {
                 </div>
               </div>
               <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8 bg-black">
+                <div class="py-12 lg:py-20 px-8">
                   <a href="https://raceatlas.com/" target="_blank">
                     <img
                       class="mx-auto"
-                      src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/raceatlas-logo.png"
-                      width="300px"
+                      src="assets/raceAtlasLogo.png"
+                      width="400px"
                       alt=""
                     />
                   </a>
@@ -1201,6 +1214,7 @@ function Home() {
                   </a>
                 </div>
               </div>
+              
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -1890,104 +1904,7 @@ function Home() {
 
       {/* // FOOTER SECTION */}
 
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap items-center justify-center md:justify-between -m-4">
-                <div className="w-auto p-4">
-                  <a className="inline-block" href="#">
-                    <img
-                      src="assets/thinking-north-smart-cities-hackathon-logo.png"
-                      width="200"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="w-auto p-4">
-                  <ul className="-m-6">
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-black hover:underline font-bold"
-                        href="https://analytics.umami.is/share/BKAQfqM8MxFHd9Z6/Seneca%20Hackathon"
-                        target="_blank"
-                      >
-                        Site Analytics
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="w-auto p-4">
-                  <div className="flex flex-wrap -m-4">
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.instagram.com/senecahackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          src="/zanrly-assets/images/insta.svg"
-                          width="25"
-                          height="25"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://twitter.com/SenecaHackathon"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/twitter.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.linkedin.com/company/seneca-hackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/assets/linkedin.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.facebook.com/SenecaHackathon2022"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/footers/fb.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p className="text-center font-bold">
-            <span>Ⓒ Copyright. All rights reserved by </span>
-            <a className="text-red-600 hover:text-red-700" href="#">
-              Smart Cities Hackathon.
-            </a>
-          </p>
-        </div>
-      </section>
+      <Footer/>
 
       {/* FOOTER SECTION */}
     </>
