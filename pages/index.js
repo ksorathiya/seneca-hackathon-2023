@@ -472,18 +472,18 @@ function Home() {
                 <div class="w-full md:w-1/2 p-8">
                   <div class="md:max-w-xl">
                     <h2
-                      class="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
+                      class="text-center font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
                       contenteditable="false"
                     >
                       Design Jam by{" "}
                       <img
-                        class="mt-5"
+                        class="mx-auto mt-5"
                         src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
                         alt=""
                       />
                     </h2>
 
-                    <p class="mb-3 text-xl font-bold" contenteditable="false">
+                    <p class="text-center mb-3 text-xl font-bold" contenteditable="false">
                       A 12 - 16 hours asynchronous online learning organized by
                       &nbsp;
                       <span className="text-red-600">
@@ -497,7 +497,7 @@ function Home() {
                       </span>
                     </p>
 
-                    <div class="flex flex-wrap -m-2">
+                    <div class="flex flex-wrap -m-2 justify-center">
                       <div class="w-full md:w-auto p-2">
                         <a
                           class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
@@ -527,7 +527,7 @@ function Home() {
                   <img
                     class="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/design-jam2.png"
-                    alt=""
+                    alt="" width="272" height="480"
                   />
                 </div>
               </div>
