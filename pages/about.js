@@ -176,24 +176,30 @@ function About(params) {
             {/* <h3 class="mb-4 text-2xl md:text-3xl font-semibold text-coolGray-800">Header 1</h3> */}
             {/* <p class="mb-4 text-base md:text-lg text-coolGray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p> */}
             <div class="mb-6 p-6 border-l-2 border-red-500">
-              <p class="mb-4 text-xl md:text-2xl leading-tight font-medium text-coolGray-800 text-justify ">
-                Smart Cities Hackathon is a student-focused innovation
-                competition that offers a unique learning opportunity. It brings
-                together students from various backgrounds to collaborate on
-                real-world problems. In addition, it encourages and develops
-                creative design thinking, entrepreneurship, and problem-solving
-                skills. Technical experts and mentors assist the teams in
-                getting ready for their presentation. The presentations will be
-                judged by an expert panel of investors, school representatives,
-                and specialists. Along with receiving prizes, the winning teams
-                will be given consideration for investment opportunities. This
-                year, we will host the event in person at Seneca CITE Building.
-                We can't wait to see you on May 5th and 6th!!!!! All the
-                best!!!!!
+              <p class="mb-4 text-5xl md:text-7xl leading-tight font-bold text-coolGray-800 text-left ">
+                Welcome Message from the
+              </p>
+              <p class="mb-4 text-4xl md:text-5xl leading-tight font-bold text-red-700 text-left ">
+                Organizers to the hackers
+              </p>
+              <p class="text-xl md:text-2xl leading-tight font-bold text-coolGray-800 text-left ">
+                Welcome Message
+              </p>
+              <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
+                Get ready for an unforgettable experience as we announce the return of the Hackathon! This student-focused innovation competition is the ultimate learning opportunity that will challenge you to think outside the box and create innovative solutions to real-world problems.
+              </p>
+              <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
+                Gather your friends and colleagues from different backgrounds to collaborate and develop your problem-solving skills. Our technical experts and mentors will guide you every step of the way to ensure that you are ready for the ultimate presentation to our expert panel of investors, school representatives, and specialists.
+              </p>
+              <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
+                Excitingly, the winning teams won't just walk away with amazing prizes, but will also be given consideration for investment opportunities.
+              </p>
+              <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
+                This year, we're taking things to the next level and hosting the event in person at the incredible Seneca CITE Building. We can't wait to see you on May 5th and 6th for an unforgettable experience. Don't miss out on this opportunity to showcase your skills and make a difference in the world! 
               </p>
               <br></br>
-              <span class="text-right text-base md:text-lg text-coolGray-400 font-medium ">
-                &mdash; 2023 ThinkingNorth Smart Cities
+              <span class="text-right text-base md:text-lg text-coolGray-400 font-bold ">
+                2023 Thinking North Smart Cities Organizers
               </span>
               {/* <span class="text-base md:text-lg text-coolGray-400 font-medium">&mdash; John Doe, CEO &amp; Founder</span> */}
             </div>
