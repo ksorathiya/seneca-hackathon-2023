@@ -5,6 +5,7 @@ import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
 import Script from "next/script";
 import FAQAccordion from "../components/FAQAccordion";
+import Footer from "../components/footer";
 
 function Contact(params) {
   // States for contact form fields
@@ -114,6 +115,8 @@ function Contact(params) {
                 {/* FAQs SECTION */}
 
                 <div class="w-full md:w-1/2 p-4">
+                <h2 class="font-heading rounded-xl mb-1 text-3xl md:text-4xl lg:text-5xl text-red-700 font-black tracking-tight text-center">Contact Us</h2>
+                <p class="mb-9 text-sm text-center md:text-xl leading-tight font-light text-coolGray-800 "> We will respond to your inquiry within 24 business hours.</p>
                   <form
                     onSubmit={handleSubmit}
                     class="p-10 bg-white border border-gray-100 rounded-3xl"
@@ -121,7 +124,7 @@ function Contact(params) {
                     <div class="flex flex-wrap -m-3 mb-3">
                       <div class="w-full p-3">
                         <label
-                          class="block mb-2 text-md text-red-500 font-bold"
+                          class="block mb-2 text-md text-red-700 font-bold"
                           for="contactLightInput4-1"
                           htmlFor="fullname"
                         >
@@ -141,11 +144,11 @@ function Contact(params) {
                       </div>
                       <div class="w-full p-3">
                         <label
-                          class="block mb-2 text-md text-red-500 font-bold"
+                          class="block mb-2 text-md text-red-700 font-bold"
                           for="contactLightInput4-2"
                           htmlFor="email"
                         >
-                          Emaill address
+                          Email address
                         </label>
                         <input
                           class="appearance-none px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-gray-100 placeholder-gray-500 outline-none focus:ring-4 focus:ring-blue-200 rounded-full"
@@ -163,7 +166,7 @@ function Contact(params) {
                     <div class="flex flex-wrap -m-3 mb-3">
                       <div class="w-full p-3">
                         <label
-                          class="block mb-2 text-md text-red-500 font-bold"
+                          class="block mb-2 text-md text-red-700 font-bold"
                           for="contactLightInput4-3"
                           htmlFor="number"
                         >
@@ -183,7 +186,7 @@ function Contact(params) {
                       </div>
                       <div class="w-full p-3">
                         <label
-                          class="block mb-2 text-md text-red-500 font-bold"
+                          class="block mb-2 text-md text-red-700 font-bold"
                           for="contactLightInput4-4"
                           htmlFor="subject"
                         >
@@ -205,7 +208,7 @@ function Contact(params) {
                     <div class="flex flex-wrap -m-3.5">
                       <div class="w-full p-3.5">
                         <label
-                          class="block mb-2 text-md text-red-500 font-bold"
+                          class="block mb-2 text-md text-red-700 font-bold"
                           for="contactLightInput4-5"
                           htmlFor="message"
                         >
@@ -242,7 +245,7 @@ function Contact(params) {
                               <div class="w-full p-2">
                                 <button
                                   type="submit"
-                                  class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-red-500 hover:bg-red-700 focus:ring-4 focus:ring-blue-200 rounded-full"
+                                  class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-red-700 hover:bg-gray-500 focus:ring-4 focus:ring-blue-200 rounded-full"
                                 >
                                   Send Message
                                 </button>
@@ -350,104 +353,7 @@ function Contact(params) {
 
       {/* // FOOTER SECTION */}
 
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap items-center justify-between -m-4">
-                <div className="w-auto p-4">
-                  <a className="inline-block" href="#">
-                    <img
-                      src="assets/thinkingnorthsmartcitieslogosec.png"
-                      width="200"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="w-auto p-4">
-                  <ul className="-m-6">
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-black hover:underline font-bold"
-                        href="https://analytics.umami.is/share/BKAQfqM8MxFHd9Z6/Seneca%20Hackathon"
-                        target="_blank"
-                      >
-                        Site Analytics
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="w-auto p-4">
-                  <div className="flex flex-wrap -m-4">
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.instagram.com/senecahackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          src="/zanrly-assets/images/insta.svg"
-                          width="25"
-                          height="25"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://twitter.com/SenecaHackathon"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/twitter.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.linkedin.com/company/seneca-hackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/assets/linkedin.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.facebook.com/SenecaHackathon2022"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/footers/fb.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p className="text-center font-bold">
-            <span>Ⓒ Copyright. All rights reserved by </span>
-            <a className="text-red-600 hover:text-red-700" href="#">
-              Smart Cities Hackathon.
-            </a>
-          </p>
-        </div>
-      </section>
+      <Footer/>
 
       {/* FOOTER SECTION */}
     </>

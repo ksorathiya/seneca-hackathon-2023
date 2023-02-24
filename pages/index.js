@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
-import Button from "../components/Button";
+import Foo from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
 
