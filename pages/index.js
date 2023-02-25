@@ -409,7 +409,7 @@ function Home() {
                             className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
                             href="https://senecahackathon.eventbrite.ca" target="_blank"
                           >
-                            Register Tonight!
+                            Register
                           </a>
                         </div>
                       </div>
