@@ -407,9 +407,9 @@ function Home() {
                         <div className="w-full md:w-auto p-2">
                           <a
                             className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                            href="#"
+                            href="https://senecahackathon.eventbrite.ca" target="_blank"
                           >
-                            Registrations will start soon!
+                            Register
                           </a>
                         </div>
                       </div>
