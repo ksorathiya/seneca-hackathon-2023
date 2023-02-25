@@ -22,10 +22,7 @@ function Home() {
       <section className="p-20 bg-red-500 overflow-hidden">
         <div className="my-container bg-red-500 container mx-auto">
           <span className="bg-white">
-            <img
-              src="assets/thinking-north-smart-cities-hackathon-logo.png"
-              alt=""
-            />
+            <img src="assets/full-team-on-desk.jpg" alt="" />
           </span>
           <span className="bg-white">
             <img
@@ -48,312 +45,259 @@ function Home() {
             </a>
           </span>
           <span className="bg-white">
-            <img
-              src="assets/thinking-north-smart-cities-hackathon-logo.png"
-              alt=""
-            />
+            <img src="assets/full-team-standing.jpg" class="m-auto" alt="" />
           </span>
         </div>
       </section>
 
       <section className="pb-20 bg-gray-50 overflow-hidden">
-        <div className="container-fluid">
-          {/* <div className="mb-6">
-            <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto p-2">
-                    <a className="inline-block" href="#">
-                      <img
-                        src="/assets/thinking-north-smart-cities-hackathon-logo.png"
-                        width="250" 
-                        alt=""
-                      />
-                    </a>
-                  </div>
-
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700 mr-3"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                  </div>
-
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto hidden sm:block"></div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                      <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-                  <div className="w-auto hidden">
-                    <a className="inline-block" href="#">
-                      <svg
-                        className="navbar-burger text-blue-500"
-                        width="45"
-                        height="45"
-                        viewBox="0 0 56 56"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect
-                          width="56"
-                          height="56"
-                          rx="28"
-                          fill="currentColor"
-                        ></rect>
-                        <path
-                          d="M37 32H19M37 24H19"
-                          stroke="white"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
-              <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
-              <nav className="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">
-                <div className="flex flex-wrap justify-between h-full">
-                  <div className="w-full">
-                    <div className="flex items-center justify-between -m-2">
-                      <div className="w-auto p-2">
-                        <a className="inline-block" href="#">
-                          <Image
-                            src="/assets/seneca-hackathon-logo.png"
-                            width="64px"
-                            height="64px"
-                            alt=""
-                          />
-                        </a>
-                      </div>
-                      <div className="w-auto p-2">
-                        <a className="inline-block navbar-burger" href="#">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6 18L18 6M6 6L18 18"
-                              stroke="#111827"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            ></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col justify-center py-8 w-full">
-                    <ul>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Features
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Solutions
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Resources
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flex flex-col justify-end w-full pb-8">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 border rounded-full"
-                          href="#"
-                        >
-                          Log In
-                        </a>
-                      </div>
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                        >
-                          Get Started
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div> */}
-          <div
-            className="bg-white overflow-hidden border border-gray-100 "
-            style={{
-              "background-image":
-                "url('https://images.unsplash.com/photo-1525935944571-4e99237764c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat;",
-            }}
-          >
-            <div
-              className="px-8 py-20 w-full h-full flex justify-center items-center 
-             bg-gray-900/30 backdrop-brightness-75"
-            >
-              <div className="md:max-w-2xl text-center mx-auto">
-                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                  build innovations for future
-                </span>
-                <h1
-                  className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
-                  contenteditable="false"
-                >
-                  <span contenteditable="false">
-                    SMART CITIES <span className="text-red-500">HACKATHON</span>
+        <div className="flex flex-wrap">
+          <div className="w-1/2">
+            {" "}
+            <div className="bg-white overflow-hidden border border-gray-100 ">
+              <div
+                className="px-8 py-20 w-full h-full flex justify-center items-center 
+             bg-gray-900 backdrop-brightness-75"
+              >
+                <div className="md:max-w-2xl text-center mx-auto">
+                  <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
+                    build innovations for future
                   </span>
-                  {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
+                  <h1
+                    className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
+                    contenteditable="false"
+                  >
+                    <span contenteditable="false">
+                      SMART CITIES{" "}
+                      <span className="text-red-500">HACKATHON</span>
+                    </span>
+                    {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
                     HACKATHON
                   </span> */}
-                  <br />
-                  {/* <span>build innovation for the future</span> */}
-                </h1>
-                <p className="mb-8 text-xl text-white ">
-                  Join the brightest minds from across the globe and help solve
-                  real-world challenges in making cities smarter.
-                </p>
-                <div className="max-w-lg mx-auto">
-                  <div className="flex-wrap -m-2">
-                    <div className="w-full md:w-auto p-2">
-                      <div className="flex flex-wrap justify-center -m-2">
-                        <div className="w-full md:w-auto p-2">
+                    <br />
+                    {/* <span>build innovation for the future</span> */}
+                  </h1>
+                  <p className="mb-8 text-xl text-white ">
+                    Join the brightest minds from across the globe and help
+                    solve real-world challenges in making cities smarter.
+                  </p>
+                  <div className="max-w-lg mx-auto">
+                    <div className="flex-wrap -m-2">
+                      <div className="w-full md:w-auto p-2">
+                        <div className="flex flex-wrap justify-center -m-2">
+                          <div className="w-full md:w-auto p-2">
+                            <a
+                              className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                              href="#"
+                            >
+                              Registrations will start soon!
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-between w-full h-full">
+                    <div className="pt-8">
+                      <div className="flex flex-wrap justify-center">
+                        <div className="w-auto p-1.5">
                           <a
-                            className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                            href="#"
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://www.instagram.com/senecahackathon/"
+                            target="_blank"
                           >
-                            Registrations will start soon!
+                            <img src="zanrly-assets/images/insta.svg" alt="" />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
+                            href="https://twitter.com/SenecaHackathon"
+                            target="_blank"
+                          >
+                            <img src="assets/linkedin.svg" alt="" />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://twitter.com/SenecaHackathon"
+                            target="_blank"
+                          >
+                            <img
+                              src="zanrly-assets/images/twitter.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://www.facebook.com/SenecaHackathon2022"
+                            target="_blank"
+                          >
+                            <img src="zanrly-assets/images/fb.svg" alt="" />
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col justify-between w-full h-full">
-                  <div className="pt-8">
-                    <div className="flex flex-wrap justify-center">
-                      <div className="w-auto p-1.5">
-                        <a
-                          className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://www.instagram.com/senecahackathon/"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/insta.svg" alt="" />
-                        </a>
+              </div>
+            </div>
+          </div>
+          <div className="w-1/2">
+            {" "}
+            <div className="bg-white overflow-hidden border border-gray-100 ">
+              <div
+                className="px-8 py-20 w-full h-full flex justify-center items-center 
+             bg-white backdrop-brightness-75"
+              >
+                <div className="md:max-w-2xl text-center mx-auto">
+                  <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
+                    Also checkout
+                  </span>
+                  <h1
+                    className="font-heading text-5xl lg:text-6xl text-black font-black tracking-tight"
+                    contenteditable="false"
+                  >
+                    <span contenteditable="false">
+                      Design Jam by <br />
+                      <img
+                        className="m-auto mt-5"
+                        src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
+                        alt=""
+                      />
+                    </span>
+                    {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
+                    HACKATHON
+                  </span> */}
+                    <br />
+                    {/* <span>build innovation for the future</span> */}
+                  </h1>
+                  <p className="mb-8 text-xl text-black ">
+                    A 12 - 16 hours asynchronous online learning organized by
+                    &nbsp;
+                    <br />
+                    <span className="text-red-600">Smart Cities Hackathon</span>
+                    , in association with York University's YSpace.
+                    <br></br>
+                    <br></br>
+                    <span className="text-red-600">
+                      Deadline till March 10!
+                    </span>
+                  </p>
+                  <div className="max-w-lg mx-auto">
+                    <div className="flex-wrap -m-2">
+                      <div className="w-full md:w-auto p-2">
+                        <div className="flex flex-wrap justify-center -m-2">
+                          <div className="w-full md:w-auto p-2">
+                            <a
+                              className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                              href="#"
+                            >
+                              Registrations will start soon!
+                            </a>
+                          </div>
+                        </div>
                       </div>
-                      <div className="w-auto p-1.5">
-                        <a
-                          className="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                          href="https://twitter.com/SenecaHackathon"
-                          target="_blank"
-                        >
-                          <img src="assets/linkedin.svg" alt="" />
-                        </a>
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-between w-full h-full">
+                    <div className="pt-8">
+                      <div className="flex flex-wrap justify-center">
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://www.instagram.com/senecahackathon/"
+                            target="_blank"
+                          >
+                            <img src="zanrly-assets/images/insta.svg" alt="" />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
+                            href="https://twitter.com/SenecaHackathon"
+                            target="_blank"
+                          >
+                            <img src="assets/linkedin.svg" alt="" />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://twitter.com/SenecaHackathon"
+                            target="_blank"
+                          >
+                            <img
+                              src="zanrly-assets/images/twitter.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div className="w-auto p-1.5">
+                          <a
+                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
+                            href="https://www.facebook.com/SenecaHackathon2022"
+                            target="_blank"
+                          >
+                            <img src="zanrly-assets/images/fb.svg" alt="" />
+                          </a>
+                        </div>
                       </div>
-                      <div className="w-auto p-1.5">
-                        <a
-                          className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://twitter.com/SenecaHackathon"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/twitter.svg" alt="" />
-                        </a>
-                      </div>
-                      <div className="w-auto p-1.5">
-                        <a
-                          className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://www.facebook.com/SenecaHackathon2022"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/fb.svg" alt="" />
-                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-1/2">
+            <div className="py-16 px-8 bg-white rounded-3xl">
+              <div className="max-w-7xl mx-auto">
+                <div className="flex flex-wrap -m-8 mb-10">
+                  <div className="w-5/6 md:w-1/2 p-8">
+                    <div className="md:max-w-xl">
+                      <h2
+                        className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
+                        contenteditable="false"
+                      >
+                        Design Jam by{" "}
+                        <img
+                          className="mt-5"
+                          src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
+                          alt=""
+                        />
+                      </h2>
+
+                      <p
+                        className="mb-3 text-xl font-bold"
+                        contenteditable="false"
+                      >
+                        A 12 - 16 hours asynchronous online learning organized
+                        by &nbsp;
+                        <span className="text-red-600">
+                          Smart Cities Hackathon
+                        </span>
+                        , in association with York University's YSpace.
+                        <br></br>
+                        <br></br>
+                        <span className="text-red-600">
+                          Deadline till March 10!
+                        </span>
+                      </p>
+
+                      <div className="flex flex-wrap -m-2">
+                        <div className="w-full md:w-auto p-2">
+                          <a
+                            className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                            href="https://yspace.apps01.yorku.ca/forms/view.php?id=104364"
+                            target="_blank"
+                          >
+                            Enroll Now
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1794,7 +1738,7 @@ function Home() {
 
       {/* // FOOTER SECTION */}
 
-      <Footer/>
+      <Footer />
 
       {/* FOOTER SECTION */}
     </>
