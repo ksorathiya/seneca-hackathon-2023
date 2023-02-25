@@ -133,7 +133,7 @@ function About(params){
       </div>
 
       <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Negar.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "150px"}} />
 
         <p class="font-bold mb-2">Negar</p>
@@ -166,10 +166,10 @@ function About(params){
 
   <section class="mb-12 text-gray-800 text-center">
   
-    <div class="grid md:grid-cols-4 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
+    <div class="grid md:grid-cols-5 xl:grid-cols-5 gap-x-6 lg:gap-xl-12">
 
       <div class="mb-12">
-        <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+        <img src="\assets\team\Aliraza.png" class="rounded-full mx-auto shadow-lg mb-4" alt=""
           style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">Aliraza Mutanza Versi</p>
         <p class="text-gray-500">Student Experience Director</p>
@@ -194,6 +194,13 @@ function About(params){
           style={{"max-width": "150px"}} />
         <p class="font-bold mb-2">David Jeong</p>
         <p class="text-gray-500">Marketing Consultant</p>
+      </div>
+
+      <div class="mb-12">
+        <img src="\assets\team\Lika_Tan.jpeg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+          style={{"max-width": "150px"}} />
+        <p class="font-bold mb-2">Molika Tan</p>
+        <p class="text-gray-500">Social Media</p>
       </div>
 
     </div>
