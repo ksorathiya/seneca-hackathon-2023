@@ -117,14 +117,14 @@ function History(params){
                   <div class="md:max-w-lg p-10 h-full">
                     <div class="flex flex-col justify-between h-full">
                       <div class="flex-initial mb-8">
-                        <a class="group inline-block mb-4" href="#">
+                        <a class="group inline-block mb-4" href="https://sustainability.senecahackathon.com/" target="_blank">
                           <h3 class="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">Sustainability Hackathon</h3>
                         </a>
                         <p class="text-gray-500 font-bold text-justify">The Sustainability Hackathon was a creative and collaborative event where individuals with a passion for sustainability came together to generate innovative solutions for environmental challenges. Participants worked in teams to develop sustainable solutions that address a range of environmental issues, such as climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
                       </div>
                       <div class="flex-initial">
                         <div class="flex flex-wrap -m-2">
-                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full" href="#">Read More</a></div>
+                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full" href="https://sustainability.senecahackathon.com/" target="_blank">Read More</a></div>
                         </div>
                       </div>
                     </div>
