@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
+import Footer from "../components/footer";
 
 function History(params){
  return (
@@ -78,7 +79,7 @@ function History(params){
     <div class="py-16 px-8 bg-grey rounded-3xl">
       <div class="max-w-7xl mx-auto"> 
         <div class="mb-12 md:max-w-4xl mx-auto text-center">
-          <span class="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">History</span>
+          <span class="inline-block mb-4 text-sm text-red-700 font-bold uppercase tracking-widest">History</span>
           <h2 class="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">Our Past Hackathons</h2>
           <p class="mb-4 text-xl text-gray-500 leading-tight font-medium text-coolGray-800 text-justify">This is our showcases which is full of innovative ideas from our previous hackathons. Here lies the themes, challenges, and teams behind these cutting-edge projects that solved complex problems. Explore this section for inspiration and to see the exciting world of our past hackathons!</p>
         </div>
@@ -111,7 +112,7 @@ function History(params){
             <div class="w-full p-5">
               <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
                 <div class="w-full md:w-1/2">
-                  <img class="w-full h-full object-cover" src="/assets/sustainability-hackathon.jpeg" alt=""/>
+                  <img class="w-full h-half object-cover" src="/assets/sustainability-hackathon.jpeg" alt=""/>
                 </div>
                 <div class="flex-1">
                   <div class="md:max-w-lg p-10 h-full">
@@ -144,104 +145,7 @@ function History(params){
 
       {/* // FOOTER SECTION */}
 
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap items-center justify-between -m-4">
-                <div className="w-auto p-4">
-                  <a className="inline-block" href="#">
-                    <img
-                      src="assets/thinkingnorthsmartcitieslogosec.png"
-                      width="200"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="w-auto p-4">
-                  <ul className="-m-6">
-                    <li className="inline-flex p-6">
-                      <a
-                        className="inline-block text-black hover:underline font-bold"
-                        href="https://analytics.umami.is/share/BKAQfqM8MxFHd9Z6/Seneca%20Hackathon"
-                        target="_blank"
-                      >
-                        Site Analytics
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="w-auto p-4">
-                  <div className="flex flex-wrap -m-4">
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.instagram.com/senecahackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          src="/zanrly-assets/images/insta.svg"
-                          width="25"
-                          height="25"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://twitter.com/SenecaHackathon"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/twitter.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.linkedin.com/company/seneca-hackathon/"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/assets/linkedin.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a
-                        className="block"
-                        href="https://www.facebook.com/SenecaHackathon2022"
-                        target="_blank"
-                      >
-                        <Image
-                          width="25"
-                          height="25"
-                          src="/zanrly-assets/images/footers/fb.svg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p className="text-center font-bold">
-            <span>Ⓒ Copyright. All rights reserved by </span>
-            <a className="text-red-600 hover:text-red-700" href="#">
-              Smart Cities Hackathon.
-            </a>
-          </p>
-        </div>
-      </section>
+      <Footer/>
 
       {/* FOOTER SECTION */}
   </>
