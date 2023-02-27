@@ -377,10 +377,7 @@ function Home() {
         
       </section>
 
-      {/* <section className="p-20 bg-red-500 overflow-hidden">
-
-        <ImageGrid/>
-      </section> */}
+      
 
       
       {/* DESIGN JAM SECTION 3 */}
@@ -700,6 +697,15 @@ function Home() {
         </div>
       </section>
       {/* SPONSORS SECTION */}
+
+      <section className="p-20 bg-red-500 overflow-hidden">
+      <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
+              The Organizing Committee
+            </h2>
+        <ImageGrid/>
+
+
+      </section>
 
       {/* INSTAFEED */}
       <section className="py-10 bg-gray-50 overflow-hidden">
