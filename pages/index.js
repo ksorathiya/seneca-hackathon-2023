@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
-import Button from "../components/Button";
+import NavBar from "../components/NavBar";
+import HackathonHero from "../components/HackathonHero";
+import DesignJamHero from "../components/DesignJamHero";
+import Timeline from "../components/Timeline";
+import ImageGrid from "../components/ImageGrid";
+import Foo from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
 
@@ -17,461 +22,29 @@ function Home() {
   return (
     <>
       {/* // HERO SECTION */}
+      <NavBar />
+      
 
-      <nav class="relative px-10 py-8 bg-transparent">
-        <div class="flex justify-between items-center">
-          <div className="w-auto p-2">
-            <a className="inline-block" href="#">
-              <img
-                src="/assets/thinking-north-smart-cities-hackathon-logo.png"
-                width="250"
-                alt=""
-              />
-            </a>
+      <section className="pb-20 bg-gray-50 overflow-hidden">
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-1/2">
+            <HackathonHero/>
           </div>
-
-          <div class="lg:hidden">
-            <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
-              <svg
-                class="h-4 w-4"
-                fill="currentColor "
-                viewbox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Mobile menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-              </svg>
-            </button>
-          </div>
-          <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
-            {/* <li>
-              <a class="text-xl hover:text-red-700 font-medium" href="/about">
-                About
-              </a>
-            </li> */}
-            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
-            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="/history">History</a></li> */}
-            {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
-          </ul>
-          <ul class="hidden lg:flex items-center w-auto">
-            <li>
-              <a
-                class="block px-5 mx-5 py-3 text-sm bg-red-500 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
-                href="/about"
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
-                href="#"
-              >
-                May 5th - 6th, 2023
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-          <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-            <div class="flex items-center mb-12">
-              <div className="w-auto p-2">
-                <a className="inline-block" href="#">
-                  <img
-                    src="/assets/thinking-north-smart-cities-hackathon-logo.png"
-                    width="250"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <button class="navbar-close">
-                <svg
-                  class="h-6 w-6 cursor-pointer hover:text-red-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewbox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div>
-              <ul>
-                <li class="mb-1">
-                  <a
-                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
-                    href="/about"
-                  >
-                    About
-                  </a>
-                </li>
-                <li class="mb-1">
-                  <a
-                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
-                    href="#"
-                  >
-                    Timeline
-                  </a>
-                </li>
-                <li class="mb-1">
-                  <a
-                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
-                    href="#"
-                  >
-                    History
-                  </a>
-                </li>
-                <li class="mb-1">
-                  <a
-                    class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded"
-                    href="#"
-                  >
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-auto">
-              <div class="pt-6">
-                <a
-                  class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200"
-                  href="#"
-                >
-                  May 5th - 6th, 2023
-                </a>
-              </div>
-              <p class="mt-6 mb-4 text-sm text-center text-gray-500">
-                <span>&copy; 2022 All rights reserved.</span>
-              </p>
-            </div>
-          </nav>
-        </div>
-      </nav>
-
-      <section className="pt-6 pb-20 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          {/* <div className="mb-6">
-            <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-3xl">
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto p-2">
-                    <a className="inline-block" href="#">
-                      <img
-                        src="/assets/thinking-north-smart-cities-hackathon-logo.png"
-                        width="250" 
-                        alt=""
-                      />
-                    </a>
-                  </div>
-
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700 mr-3"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                  </div>
-
-                  <div className="visible md:invisible">
-                  <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-                  <div className="w-auto hidden sm:block"></div>
-                </div>
-              </div>
-              <div className="w-auto">
-                <div className="flex flex-wrap items-center">
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2 mr-3">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-
-                  <div className="invisible md:visible">
-                  <div className="w-auto hidden sm:block">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full w-auto p-2"></div>
-                      <div className="w-full w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="#"
-                        >
-                          May 5th - 6th, 2023
-                        </a>
-                      </div>
-                      <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="/about"
-                        >
-                          About Us
-                        </a>
-                      </div>
-                    </div>
-                  </div></div>
-                  <div className="w-auto hidden">
-                    <a className="inline-block" href="#">
-                      <svg
-                        className="navbar-burger text-blue-500"
-                        width="45"
-                        height="45"
-                        viewBox="0 0 56 56"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect
-                          width="56"
-                          height="56"
-                          rx="28"
-                          fill="currentColor"
-                        ></rect>
-                        <path
-                          d="M37 32H19M37 24H19"
-                          stroke="white"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
-              <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
-              <nav className="relative z-10 px-9 pt-8 bg-white h-full overflow-y-auto">
-                <div className="flex flex-wrap justify-between h-full">
-                  <div className="w-full">
-                    <div className="flex items-center justify-between -m-2">
-                      <div className="w-auto p-2">
-                        <a className="inline-block" href="#">
-                          <Image
-                            src="/assets/seneca-hackathon-logo.png"
-                            width="64px"
-                            height="64px"
-                            alt=""
-                          />
-                        </a>
-                      </div>
-                      <div className="w-auto p-2">
-                        <a className="inline-block navbar-burger" href="#">
-                          <svg
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M6 18L18 6M6 6L18 18"
-                              stroke="#111827"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            ></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col justify-center py-8 w-full">
-                    <ul>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Features
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Solutions
-                        </a>
-                      </li>
-                      <li className="mb-9">
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Resources
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          href="#"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flex flex-col justify-end w-full pb-8">
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 border rounded-full"
-                          href="#"
-                        >
-                          Log In
-                        </a>
-                      </div>
-                      <div className="w-full p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                        >
-                          Get Started
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div> */}
-          <div
-            className="bg-white overflow-hidden border border-gray-100 rounded-3xl"
-            style={{
-              "background-image":
-                "url('https://images.unsplash.com/photo-1525935944571-4e99237764c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat;",
-            }}
-          >
-            <div
-              className="px-8 py-20 w-full h-full flex  justify-center items-center 
-             bg-gray-900/30 backdrop-brightness-75"
-            >
-              <div className="md:max-w-2xl text-center mx-auto">
-                
-                <h1
-                  className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
-                  contenteditable="false"
-                >
-                  <span contenteditable="false">
-                    THINKING NORTH <br></br><span className="text-red-500">SMART CITIES HACKATHON</span>
-                  </span>
-                  {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
-                    HACKATHON
-                  </span> */}
-                  <br />
-                  {/* <span>build innovation for the future</span> */}
-                </h1>
-                <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                  build innovations for future
-                </span>
-                <p className="mb-8 text-xl text-white ">
-                  Join the brightest minds from across the globe and help solve
-                  real-world challenges in making cities smarter.
-                </p>
-                <div className="max-w-lg mx-auto">
-                  <div className="flex-wrap -m-2">
-                    <div className="w-full md:w-auto p-2">
-                      <div className="flex flex-wrap justify-center -m-2">
-                        <div className="w-full md:w-auto p-2">
-                          <a
-                            className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                            href="https://senecahackathon.eventbrite.ca" target="_blank"
-                          >
-                            Register
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex flex-col justify-between w-full h-full">
-                  <div class="pt-8">
-                    <div class="flex flex-wrap justify-center">
-                      <div class="w-auto p-1.5">
-                        <a
-                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://www.instagram.com/senecahackathon/"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/insta.svg" alt="" />
-                        </a>
-                      </div>
-                      <div class="w-auto p-1.5">
-                        <a
-                          class="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                          href="https://www.linkedin.com/company/seneca-hackathon/"
-                          target="_blank"
-                        >
-                          <img src="assets/linkedin.svg" alt="" />
-                        </a>
-                      </div>
-                      <div class="w-auto p-1.5">
-                        <a
-                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://twitter.com/SenecaHackathon"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/twitter.svg" alt="" />
-                        </a>
-                      </div>
-                      <div class="w-auto p-1.5">
-                        <a
-                          class="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                          href="https://www.facebook.com/SenecaHackathon2022"
-                          target="_blank"
-                        >
-                          <img src="zanrly-assets/images/fb.svg" alt="" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-full lg:w-1/2">
+            <DesignJamHero/>
           </div>
         </div>
       </section>
+      
       {/* DESIGN JAM SECTION 1 */}
 
-      <section class="py-10 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="py-16 px-8 bg-white rounded-3xl">
-            <div class="max-w-7xl mx-auto">
-              <div class="flex flex-wrap -m-8 mb-10">
-                <div class="w-full md:w-1/2 p-8">
-                  <div class="md:max-w-xl">
+      <section className="py-10 bg-gray-50 overflow-hidden">
+        <div className="w-full lg:w-2/3 mx-auto px-4">
+          <div className="py-16 px-8 bg-white rounded-3xl">
+            <div className="max-w-7xl mx-auto">
+              <div className="flex flex-wrap -m-8 mb-10">
+                <div className="w-full md:w-1/2 p-8">
+                  <div className="md:max-w-xl">
                     <h2
                       class="text-center font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
                       contenteditable="false"
@@ -501,7 +74,7 @@ function Home() {
                     <div class="flex flex-wrap -m-2 justify-center">
                       <div class="w-full md:w-auto p-2">
                         <a
-                          class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
+                          className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
                           href="https://yspace.apps01.yorku.ca/forms/view.php?id=104364"
                           target="_blank"
                         >
@@ -512,13 +85,13 @@ function Home() {
                   </div>
                 </div>
 
-                <div class="w-full md:w-1/4 p-8">
+                <div className="w-full md:w-1/4 p-8">
                   <video
                     autoplay="{true}"
                     loop
                     muted
                     controls
-                    class="mx-auto md:mr-0 rounded-3xl"
+                    className="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/design-jam1.mov"
                     alt=""
                   />
@@ -532,12 +105,12 @@ function Home() {
                   />
                 </div>
               </div>
-              <div class="p-8 md:p-12 bg-gray-100 rounded-3xl">
-                <div class="flex flex-wrap -m-8">
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+              <div className="p-8 md:p-12 bg-gray-100 rounded-3xl">
+                <div className="flex flex-wrap -m-8">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/flag-svgrepo-com.svg"
                             height={30}
@@ -545,11 +118,11 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Enhance Your Chances
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           Improve your chances of success in the upcoming Smart
                           Cities Hackathon by participating in the Design Jam
                           and learning valuable design thinking skills.
@@ -557,10 +130,10 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/speed-svgrepo-com.svg"
                             height={30}
@@ -568,21 +141,21 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Accelerate Your Skills
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           Gain lifelong design thinking skills for a better
                           chance at winning the Smart Cities Hackathon.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/sofa-svgrepo-com.svg"
                             height={30}
@@ -590,21 +163,21 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Limited Spots Available
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           50 spots for domestic and 50 for international
                           students. First-come, first-served basis.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/dollar-symbol-money-svgrepo-com.svg"
                             height={30}
@@ -612,21 +185,21 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Earn a $325 Stipend
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           Participate and earn a stipend for your efforts. *Only
                           domestic students are eligible for the stipend.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/fast-forward-button-svgrepo-com.svg"
                             height={30}
@@ -634,21 +207,21 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Fast Track to the Hackathon
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           Participating in the Design Jam provides a fast track
                           to the Smart Cities Hackathon qualifier event.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="w-full md:w-1/3 p-8">
-                    <div class="flex flex-wrap -m-3">
-                      <div class="w-auto md:w-full lg:w-auto p-3">
-                        <div class="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
+                  <div className="w-full md:w-1/3 p-8">
+                    <div className="flex flex-wrap -m-3">
+                      <div className="w-auto md:w-full lg:w-auto p-3">
+                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
                             src="/assets/deadline-stopwatch-hourglass-svgrepo-com.svg"
                             height={30}
@@ -656,11 +229,11 @@ function Home() {
                           />
                         </div>
                       </div>
-                      <div class="flex-1 p-3">
-                        <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                      <div className="flex-1 p-3">
+                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                           Submission Deadline
                         </h3>
-                        <p class="text-sm text-gray-700 font-bold">
+                        <p className="text-sm text-gray-700 font-bold">
                           The submission deadline for the playbook and video
                           pitch or in-person feedback session at Seneca HELIX is
                           March 10th at 11:59pm. Make sure to submit your
@@ -671,26 +244,15 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* DESIGN JAM SECTION 1 */}
-      {/* DESIGN JAM SECTION 2 */}
-      {/* <section class="py-16 bg-gray-100 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="max-w-lg mx-auto text-center">
-            <h2 class="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              How to register for the Design Jam
+              {/* <div className="my-20 mx-auto px-4">
+          <div className="max-w-lg mx-auto text-center">
+            <h2 className="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+              How to enroll for the Design Jam
             </h2>
-            <p class="mb-12 text-gray-700 font-bold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-              tempor condimentum commodo tincidunt sit dictumst. Eu placerat
-              arcu at sem vitae eros.
-            </p>
+            
           </div>
           <div
-            class="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
+            className="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
             style={{
               "background-image":
                 "url('zanrly-assets/images/how-it-works/work.png')",
@@ -699,12 +261,12 @@ function Home() {
               "background-repeat": "no-repeat",
             }}
           >
-            <div class="max-w-md">
-              <div class="flex flex-wrap">
-                <div class="w-full">
-                  <div class="flex flex-wrap -m-3.5">
-                    <div class="flex flex-col items-center w-auto p-3.5">
-                      <div class="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
+            <div className="max-w-md">
+              <div className="flex flex-wrap">
+                <div className="w-full">
+                  <div className="flex flex-wrap -m-3.5">
+                    <div className="flex flex-col items-center w-auto p-3.5">
+                      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
                         <svg
                           width="21"
                           height="21"
@@ -721,26 +283,25 @@ function Home() {
                           ></path>
                         </svg>
                       </div>
-                      <div class="w-px flex-1 border border-gray-600 border-dashed"></div>
+                      <div className="w-px flex-1 border border-gray-600 border-dashed"></div>
                     </div>
-                    <div class="flex-1 p-3.5 pb-14">
-                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                    <div className="flex-1 p-3.5 pb-14">
+                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
                         Step 1
                       </span>
-                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Choose A Package
+                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
+                        This is step 1
                       </h3>
-                      <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                      <p className="text-gray-300 font-bold">
+                        More details on step 1
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="w-full">
-                  <div class="flex flex-wrap -m-3.5">
-                    <div class="flex flex-col items-center w-auto p-3.5">
-                      <div class="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
+                <div className="w-full">
+                  <div className="flex flex-wrap -m-3.5">
+                    <div className="flex flex-col items-center w-auto p-3.5">
+                      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
                         <svg
                           width="21"
                           height="21"
@@ -757,26 +318,25 @@ function Home() {
                           ></path>
                         </svg>
                       </div>
-                      <div class="w-px flex-1 border border-gray-600 border-dashed"></div>
+                      <div className="w-px flex-1 border border-gray-600 border-dashed"></div>
                     </div>
-                    <div class="flex-1 p-3.5 pb-14">
-                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                    <div className="flex-1 p-3.5 pb-14">
+                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
                         Step 2
                       </span>
-                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Pay with One Click
+                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
+                        This is step 2
                       </h3>
-                      <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                      <p className="text-gray-300 font-bold">
+                        more details on step 2
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="w-full">
-                  <div class="flex flex-wrap -m-3.5">
-                    <div class="flex flex-col items-center w-auto p-3.5">
-                      <div class="flex items-center justify-center w-9 h-9 border border-gray-700 rounded-full bg-red-600">
+                <div className="w-full">
+                  <div className="flex flex-wrap -m-3.5">
+                    <div className="flex flex-col items-center w-auto p-3.5">
+                      <div className="flex items-center justify-center w-9 h-9 border border-gray-700 rounded-full bg-red-600">
                         <svg
                           width="21"
                           height="21"
@@ -794,16 +354,15 @@ function Home() {
                         </svg>
                       </div>
                     </div>
-                    <div class="flex-1 p-3.5">
-                      <span class="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
+                    <div className="flex-1 p-3.5">
+                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
                         Step 3
                       </span>
-                      <h3 class="font-heading mb-2.5 text-xl text-white font-black">
-                        Get Instant Access
+                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
+                        This is step 3
                       </h3>
-                      <p class="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                      <p className="text-gray-300 font-bold">
+                        More details on step 3
                       </p>
                     </div>
                   </div>
@@ -811,15 +370,21 @@ function Home() {
               </div>
             </div>
           </div>
+        </div> */}
+            </div>
+          </div>
         </div>
-      </section> */}
+        
+      </section>
 
-      {/* DESIGN JAM SECTION 2 */}
+      
+
+      
       {/* DESIGN JAM SECTION 3 */}
-      {/* <section class="py-16 bg-gray-100 overflow-hidden">
-        <div class="container mx-auto px-4">
+      {/* <section className="py-16 bg-gray-100 overflow-hidden">
+        <div className="container mx-auto px-4">
           <div
-            class="py-16 px-8 md:px-16 rounded-3xl"
+            className="py-16 px-8 md:px-16 rounded-3xl"
             style={{
               "background-image":
                 "url(zanrly-assets/images/features/people.png)",
@@ -828,18 +393,18 @@ function Home() {
               "background-repeat": "no-repeat",
             }}
           >
-            <h2 class="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
+            <h2 className="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
               Build website animations and interactions visually.
             </h2>
-            <p class="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
+            <p className="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
               venenatis volutpat velit, quis iaculis velit bibendum a. Maecenas
               accumsan fermentum nisl.
             </p>
-            <div class="flex flex-wrap -m-2">
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
+            <div className="flex flex-wrap -m-2">
+              <div className="w-auto p-2">
+                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div className="w-auto mr-2 pt-1">
                     <svg
                       width="12"
                       height="12"
@@ -853,16 +418,16 @@ function Home() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-900 font-bold">
                       Exportable code
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
+              <div className="w-auto p-2">
+                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div className="w-auto mr-2 pt-1">
                     <svg
                       width="12"
                       height="12"
@@ -876,16 +441,16 @@ function Home() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-900 font-bold">
                       Easy integration
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
+              <div className="w-auto p-2">
+                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div className="w-auto mr-2 pt-1">
                     <svg
                       width="12"
                       height="12"
@@ -899,16 +464,16 @@ function Home() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-900 font-bold">
                       Satisfied customers
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="w-auto p-2">
-                <div class="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div class="w-auto mr-2 pt-1">
+              <div className="w-auto p-2">
+                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
+                  <div className="w-auto mr-2 pt-1">
                     <svg
                       width="12"
                       height="12"
@@ -922,8 +487,8 @@ function Home() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="flex-1">
-                    <p class="text-sm text-gray-900 font-bold">
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-900 font-bold">
                       Increased conversion
                     </p>
                   </div>
@@ -935,117 +500,26 @@ function Home() {
       </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      {/* <section class="py-10 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="py-16 px-8 bg-white rounded-3xl">
-            <div class="max-w-7xl mx-auto">
-              <h2 class="font-heading max-w-xl mb-20 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                Hackathon Timeline
-              </h2>
-              <div class="flex flex-wrap -m-3">
-                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div class="flex flex-wrap items-center -m-3 mb-2">
-                    <div class="w-auto p-3">
-                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        1
-                      </div>
-                    </div>
-                    <div class="flex-1 p-3">
-                      <div class="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div class="md:w-3/4">
-                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Connect
-                    </h3>
-                    <p class="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div class="flex flex-wrap items-center -m-3 mb-2">
-                    <div class="w-auto p-3">
-                      <div class="flex items-center justify-center w-16 h-16 text-xl text-white font-black rounded-full bg-red-600">
-                        2
-                      </div>
-                    </div>
-                    <div class="flex-1 p-3">
-                      <div class="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div class="md:w-3/4">
-                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Store
-                    </h3>
-                    <p class="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div class="flex flex-wrap items-center -m-3 mb-2">
-                    <div class="w-auto p-3">
-                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        3
-                      </div>
-                    </div>
-                    <div class="flex-1 p-3">
-                      <div class="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div class="md:w-3/4">
-                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Ship
-                    </h3>
-                    <p class="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div class="flex flex-wrap items-center -m-3 mb-2">
-                    <div class="w-auto p-3">
-                      <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        4
-                      </div>
-                    </div>
-                    <div class="flex-1 lg:hidden p-3">
-                      <div class="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div class="md:w-3/4">
-                    <h3 class="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Deliver
-                    </h3>
-                    <p class="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <section className="py-10 bg-gray-50 overflow-hidden">
+        <Timeline/>
+      </section>
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      <section class="py-10 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <h2 class="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
-            Sponsors
-          </h2>
-        </div>
+      <section className="py-10 bg-gray-50 overflow-hidden">
+        
         {/* CTA SECTION */}
-        <section class="py-10 bg-white overflow-hidden">
-          <div class="container mx-auto px-4">
-            <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
-              <div class="flex flex-wrap items-center -m-4">
-                <div class="w-full md:w-1/5 p-4 items-left">
-                  <div class="md:max-w-md md:mr-auto">
-                    <div class="flex flex-wrap -m-2 justify-center">
-                      {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
-                      {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+        
+          <div className="container mx-auto px-4">
+          <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
+            Our Sponsors
+          </h2>
+            <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
+              <div className="flex flex-wrap items-center -m-4">
+                <div className="w-full md:w-1/5 p-4 items-left">
+                  <div className="md:max-w-md md:mr-auto">
+                    <div className="flex flex-wrap -m-2">
+                      {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+                      {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
                         src="/assets/thinkingnorthlogo.png"
                         width="300"
@@ -1057,33 +531,33 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="w-full md:w-4/5 p-4">
-                  <div class="w-full lg:flex-1 p-2">
-                    {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight text-center">
-                      SMART CITIES REVOLUTION - GET CONNECTED
+                <div className="w-full md:w-4/5 p-4">
+                  <div className="w-full lg:flex-1 p-2">
+                    {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                    <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
+                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor!!!
                     </h2>
                   </div>
                   {/* <br></br>
-              <div class="w-full lg:w-auto p-2">
-                <div class="flex flex-wrap justify-center -m-2">
-                  <div class="w-full lg:w-auto p-2"><a class="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
+              <div className="w-full lg:w-auto p-2">
+                <div className="flex flex-wrap justify-center -m-2">
+                  <div className="w-full lg:w-auto p-2"><a className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
                 </div>
               </div> */}
                 </div>
               </div>
             </div>
           </div>
-        </section>
+
         {/* CTA SECTION */}
-        <div class="container mx-auto px-4">
-          <div class="bg-white border border-gray-50 rounded-3xl">
-            <div class="flex flex-wrap items-center">
-              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+        <div className="container mx-auto px-4">
+          <div className="bg-white border border-gray-50 rounded-3xl">
+            <div className="flex flex-wrap items-center">
+              <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://www.yorku.ca/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/yu-logo-header-1.png"
                       width="300px"
                       alt=""
@@ -1091,8 +565,8 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://thinkingnorth.com/" target="_blank">
                     <img
                       class="mx-auto"
@@ -1115,14 +589,14 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a
                     href="https://www.senecacollege.ca/alumni.html"
                     target="_blank"
                   >
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/file-img-Alumni-logo-RGB-Primary-1.png"
                       width="300px"
                       alt=""
@@ -1130,11 +604,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://cpos.com/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Logo-1.svg"
                       width="300px"
                       alt=""
@@ -1142,11 +616,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://getoppos.com/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Oppos20Logo20-20actual20black-1-at-2x.png"
                       width="300px"
                       alt=""
@@ -1154,11 +628,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://www.ridealike.com/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/RideAlike.png"
                       width="300px"
                       alt=""
@@ -1178,11 +652,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://inheritchain.com/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/inheritchainDK-web.png"
                       width="300px"
                       alt=""
@@ -1190,11 +664,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b border-gray-50">
-                <div class="py-12 lg:py-20 px-8 bg-purple-900">
+              <div className="w-full sm:w-1/3 border-b border-gray-50">
+                <div className="py-12 lg:py-20 px-8 bg-purple-900">
                   <a href="https://trinetra.ca/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://static.shuffle.dev/uploads/files/32/32cc320452c9e2effc7f8e2f8a8bbd93f7d6bf5d/Trinetra-Logo-White-1536x477.png"
                       width="300px"
                       alt=""
@@ -1202,11 +676,11 @@ function Home() {
                   </a>
                 </div>
               </div>
-              <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
                   <a href="https://innovatecities.com/" target="_blank">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="https://innovatecities.com/wp-content/uploads/2021/04/IC_Logo_CL.png"
                       width="300px"
                       alt=""
@@ -1224,13 +698,22 @@ function Home() {
       </section>
       {/* SPONSORS SECTION */}
 
+      <section className="p-20 bg-red-500 overflow-hidden">
+      <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
+              The Organizing Committee
+            </h2>
+        <ImageGrid/>
+
+
+      </section>
+
       {/* INSTAFEED */}
-      <section class="py-10 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
-            <div class="flex flex-wrap items-center -m-4">
-              <div class="w-full md:w-1/2 p-4">
-                <h2 class="font-heading text-4xl md:text-5xl text-white font-black ">
+      <section className="py-10 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
+            <div className="flex flex-wrap items-center -m-4">
+              <div className="w-full md:w-1/2 p-4">
+                <h2 className="font-heading text-4xl md:text-5xl text-white font-black ">
                   A few glimpses from our Instagram. <br />
                   <div className="mt-10 text-2xl ">
                     Follow us for more{" "}
@@ -1244,7 +727,7 @@ function Home() {
                   </div>
                 </h2>
               </div>
-              <div class="w-full md:w-1/2 p-4">
+              <div className="w-full md:w-1/2 p-4">
                 <figure data-behold-id="b6fLoGUYdeONBNwzRmgi"></figure>
                 <script
                   src="https://w.behold.so/widget.js"
@@ -1754,56 +1237,56 @@ function Home() {
 
       {/* 
 
-<section class="py-20">
-  <div class="container px-4 mx-auto">
-    <div class="max-w-4xl mx-auto">
-      <ul class="space-y-4">
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="group w-full flex justify-between items-center text-left font-bold font-heading" type="button">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<section className="py-20">
+  <div className="container px-4 mx-auto">
+    <div className="max-w-4xl mx-auto">
+      <ul className="space-y-4">
+        <li className="px-6 py-8 bg-gray-50 rounded-lg">
+          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="group w-full flex justify-between items-center text-left font-bold font-heading" type="button">
+            <span className="group-hover:text-red-500 text-lg font-bold font-heading">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</span>
+            <svg className="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
             </svg>
           </button>
-          <div id="dropdown" class="dropdown-item max-w-2xl mt-2 text-lg text-gray-500 leading-loose"  data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
+          <div id="dropdown" className="dropdown-item max-w-2xl mt-2 text-lg text-gray-500 leading-loose"  data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom">
           <p id="dropdown" aria-labelledby="dropdownDefaultButton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p></div>
         </li>
         <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <li className="px-6 py-8 bg-gray-50 rounded-lg">
+          <button className="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span className="group-hover:text-red-500 text-lg font-bold font-heading">Donec sed leo sit amet ante ornare laoreet in quis est?</span>
+            <svg className="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+          <p className="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
         </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left font-bold font-heading">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Mauris vitae ex ut lectus cursus ornare?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <li className="px-6 py-8 bg-gray-50 rounded-lg">
+          <button className="group w-full flex justify-between items-center text-left font-bold font-heading">
+            <span className="group-hover:text-red-500 text-lg font-bold font-heading">Mauris vitae ex ut lectus cursus ornare?</span>
+            <svg className="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
+          <p className="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p>
         </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Nam consequat, augue sed rutrum faucibus?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <li className="px-6 py-8 bg-gray-50 rounded-lg">
+          <button className="group w-full flex justify-between items-center text-left">
+            <span className="group-hover:text-red-500 text-lg font-bold font-heading">Nam consequat, augue sed rutrum faucibus?</span>
+            <svg className="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+          <p className="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
         </li>
-        <li class="px-6 py-8 bg-gray-50 rounded-lg">
-          <button class="group w-full flex justify-between items-center text-left">
-            <span class="group-hover:text-red-500 text-lg font-bold font-heading">Cras at ante non ligula pharetra elementum?</span>
-            <svg class="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <li className="px-6 py-8 bg-gray-50 rounded-lg">
+          <button className="group w-full flex justify-between items-center text-left">
+            <span className="group-hover:text-red-500 text-lg font-bold font-heading">Cras at ante non ligula pharetra elementum?</span>
+            <svg className="flex-shrink-0 w-4 h-4 ml-2 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <p class="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+          <p className="hidden max-w-2xl mt-2 text-lg text-gray-500 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
         </li>
       </ul>
     </div>
@@ -1904,7 +1387,7 @@ function Home() {
 
       {/* // FOOTER SECTION */}
 
-      <Footer/>
+      <Footer />
 
       {/* FOOTER SECTION */}
     </>
