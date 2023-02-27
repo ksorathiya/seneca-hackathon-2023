@@ -1,5 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
+import HackathonHero from "../components/HackathonHero";
+import DesignJamHero from "../components/DesignJamHero";
+import Timeline from "../components/Timeline";
+import ImageGrid from "../components/ImageGrid";
 import Foo from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
@@ -19,298 +23,23 @@ function Home() {
     <>
       {/* // HERO SECTION */}
       <NavBar />
-      <section className="p-20 bg-red-500 overflow-hidden">
-        <div className="my-container bg-red-500 container mx-auto">
-          <span className="bg-white">
-            <img src="assets/full-team-on-desk.jpg" alt="" />
-          </span>
-          <span className="bg-white">
-            <img
-              src="assets/thinking-north-smart-cities-hackathon-logo.png"
-              alt=""
-            />
-          </span>
-          <span className="bg-white">
-            <img
-              src="assets/thinking-north-smart-cities-hackathon-logo.png"
-              alt=""
-            />
-          </span>
-          <span className="bg-white">
-            <a className="inline-block w-full" href="#">
-              <img
-                src="assets/thinking-north-smart-cities-hackathon-logo.png"
-                alt=""
-              />
-            </a>
-          </span>
-          <span className="bg-white">
-            <img src="assets/full-team-standing.jpg" class="m-auto" alt="" />
-          </span>
-        </div>
-      </section>
+      
 
       <section className="pb-20 bg-gray-50 overflow-hidden">
         <div className="flex flex-wrap">
-          <div className="w-1/2">
-            {" "}
-            <div className="bg-white overflow-hidden border border-gray-100 ">
-              <div
-                className="px-8 py-20 w-full h-full flex justify-center items-center 
-             bg-gray-900 backdrop-brightness-75"
-              >
-                <div className="md:max-w-2xl text-center mx-auto">
-                  <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                    build innovations for future
-                  </span>
-                  <h1
-                    className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
-                    contenteditable="false"
-                  >
-                    <span contenteditable="false">
-                      SMART CITIES{" "}
-                      <span className="text-red-500">HACKATHON</span>
-                    </span>
-                    {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
-                    HACKATHON
-                  </span> */}
-                    <br />
-                    {/* <span>build innovation for the future</span> */}
-                  </h1>
-                  <p className="mb-8 text-xl text-white ">
-                    Join the brightest minds from across the globe and help
-                    solve real-world challenges in making cities smarter.
-                  </p>
-                  <div className="max-w-lg mx-auto">
-                    <div className="flex-wrap -m-2">
-                      <div className="w-full md:w-auto p-2">
-                        <div className="flex flex-wrap justify-center -m-2">
-                          <div className="w-full md:w-auto p-2">
-                            <a
-                              className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                              href="#"
-                            >
-                              Registrations will start soon!
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col justify-between w-full h-full">
-                    <div className="pt-8">
-                      <div className="flex flex-wrap justify-center">
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://www.instagram.com/senecahackathon/"
-                            target="_blank"
-                          >
-                            <img src="zanrly-assets/images/insta.svg" alt="" />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                            href="https://twitter.com/SenecaHackathon"
-                            target="_blank"
-                          >
-                            <img src="assets/linkedin.svg" alt="" />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://twitter.com/SenecaHackathon"
-                            target="_blank"
-                          >
-                            <img
-                              src="zanrly-assets/images/twitter.svg"
-                              alt=""
-                            />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://www.facebook.com/SenecaHackathon2022"
-                            target="_blank"
-                          >
-                            <img src="zanrly-assets/images/fb.svg" alt="" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-full lg:w-1/2">
+            <HackathonHero/>
           </div>
-          <div className="w-1/2">
-            {" "}
-            <div className="bg-white overflow-hidden border border-gray-100 ">
-              <div
-                className="px-8 py-20 w-full h-full flex justify-center items-center 
-             bg-white backdrop-brightness-75"
-              >
-                <div className="md:max-w-2xl text-center mx-auto">
-                  <span className="inline-block mb-3 text-sm font-bold uppercase tracking-widest text-red-600">
-                    Also checkout
-                  </span>
-                  <h1
-                    className="font-heading text-5xl lg:text-6xl text-black font-black tracking-tight"
-                    contenteditable="false"
-                  >
-                    <span contenteditable="false">
-                      Design Jam by <br />
-                      <img
-                        className="m-auto mt-5"
-                        src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
-                        alt=""
-                      />
-                    </span>
-                    {/* <span className="text-transparent bg-clip-text bg-gradient-orange-light">
-                    HACKATHON
-                  </span> */}
-                    <br />
-                    {/* <span>build innovation for the future</span> */}
-                  </h1>
-                  <p className="mb-8 text-xl text-black ">
-                    A 12 - 16 hours asynchronous online learning organized by
-                    &nbsp;
-                    <br />
-                    <span className="text-red-600">Smart Cities Hackathon</span>
-                    , in association with York University's YSpace.
-                    <br></br>
-                    <br></br>
-                    <span className="text-red-600">
-                      Deadline till March 10!
-                    </span>
-                  </p>
-                  <div className="max-w-lg mx-auto">
-                    <div className="flex-wrap -m-2">
-                      <div className="w-full md:w-auto p-2">
-                        <div className="flex flex-wrap justify-center -m-2">
-                          <div className="w-full md:w-auto p-2">
-                            <a
-                              className="block w-full px-8 py-3.5 text-lg text-center text-white focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                              href="#"
-                            >
-                              Registrations will start soon!
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col justify-between w-full h-full">
-                    <div className="pt-8">
-                      <div className="flex flex-wrap justify-center">
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://www.instagram.com/senecahackathon/"
-                            target="_blank"
-                          >
-                            <img src="zanrly-assets/images/insta.svg" alt="" />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-white hover:bg-red-500 rounded-full"
-                            href="https://twitter.com/SenecaHackathon"
-                            target="_blank"
-                          >
-                            <img src="assets/linkedin.svg" alt="" />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://twitter.com/SenecaHackathon"
-                            target="_blank"
-                          >
-                            <img
-                              src="zanrly-assets/images/twitter.svg"
-                              alt=""
-                            />
-                          </a>
-                        </div>
-                        <div className="w-auto p-1.5">
-                          <a
-                            className="flex items-center justify-center w-10 h-10 bg-gray-100 hover:bg-red-500 rounded-full"
-                            href="https://www.facebook.com/SenecaHackathon2022"
-                            target="_blank"
-                          >
-                            <img src="zanrly-assets/images/fb.svg" alt="" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-1/2">
-            <div className="py-16 px-8 bg-white rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="flex flex-wrap -m-8 mb-10">
-                  <div className="w-5/6 md:w-1/2 p-8">
-                    <div className="md:max-w-xl">
-                      <h2
-                        className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
-                        contenteditable="false"
-                      >
-                        Design Jam by{" "}
-                        <img
-                          className="mt-5"
-                          src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
-                          alt=""
-                        />
-                      </h2>
-
-                      <p
-                        className="mb-3 text-xl font-bold"
-                        contenteditable="false"
-                      >
-                        A 12 - 16 hours asynchronous online learning organized
-                        by &nbsp;
-                        <span className="text-red-600">
-                          Smart Cities Hackathon
-                        </span>
-                        , in association with York University's YSpace.
-                        <br></br>
-                        <br></br>
-                        <span className="text-red-600">
-                          Deadline till March 10!
-                        </span>
-                      </p>
-
-                      <div className="flex flex-wrap -m-2">
-                        <div className="w-full md:w-auto p-2">
-                          <a
-                            className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                            href="https://yspace.apps01.yorku.ca/forms/view.php?id=104364"
-                            target="_blank"
-                          >
-                            Enroll Now
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-full lg:w-1/2">
+            <DesignJamHero/>
           </div>
         </div>
       </section>
+      
       {/* DESIGN JAM SECTION 1 */}
 
       <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
+        <div className="w-full lg:w-2/3 mx-auto px-4">
           <div className="py-16 px-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
               <div className="flex flex-wrap -m-8 mb-10">
@@ -515,23 +244,12 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* DESIGN JAM SECTION 1 */}
-      {/* DESIGN JAM SECTION 2 */}
-      {/* <section className="py-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
+              {/* <div className="my-20 mx-auto px-4">
           <div className="max-w-lg mx-auto text-center">
             <h2 className="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              How to register for the Design Jam
+              How to enroll for the Design Jam
             </h2>
-            <p className="mb-12 text-gray-700 font-bold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-              tempor condimentum commodo tincidunt sit dictumst. Eu placerat
-              arcu at sem vitae eros.
-            </p>
+            
           </div>
           <div
             className="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
@@ -572,11 +290,10 @@ function Home() {
                         Step 1
                       </span>
                       <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        Choose A Package
+                        This is step 1
                       </h3>
                       <p className="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        More details on step 1
                       </p>
                     </div>
                   </div>
@@ -608,11 +325,10 @@ function Home() {
                         Step 2
                       </span>
                       <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        Pay with One Click
+                        This is step 2
                       </h3>
                       <p className="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        more details on step 2
                       </p>
                     </div>
                   </div>
@@ -643,11 +359,10 @@ function Home() {
                         Step 3
                       </span>
                       <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        Get Instant Access
+                        This is step 3
                       </h3>
                       <p className="text-gray-300 font-bold">
-                        Lorem ipsum dolor sit amet, to the consectetur
-                        adipiscing elit.
+                        More details on step 3
                       </p>
                     </div>
                   </div>
@@ -655,10 +370,19 @@ function Home() {
               </div>
             </div>
           </div>
+        </div> */}
+            </div>
+          </div>
         </div>
+        
+      </section>
+
+      {/* <section className="p-20 bg-red-500 overflow-hidden">
+
+        <ImageGrid/>
       </section> */}
 
-      {/* DESIGN JAM SECTION 2 */}
+      
       {/* DESIGN JAM SECTION 3 */}
       {/* <section className="py-16 bg-gray-100 overflow-hidden">
         <div className="container mx-auto px-4">
@@ -779,117 +503,26 @@ function Home() {
       </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      {/* <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="font-heading max-w-xl mb-20 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                Hackathon Timeline
-              </h2>
-              <div className="flex flex-wrap -m-3">
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        1
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Connect
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-white font-black rounded-full bg-red-600">
-                        2
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Store
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        3
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Ship
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-                  <div className="flex flex-wrap items-center -m-3 mb-2">
-                    <div className="w-auto p-3">
-                      <div className="flex items-center justify-center w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
-                        4
-                      </div>
-                    </div>
-                    <div className="flex-1 lg:hidden p-3">
-                      <div className="bg-gray-200 h-px"></div>
-                    </div>
-                  </div>
-                  <div className="md:w-3/4">
-                    <h3 className="font-heading mb-4 text-2xl text-gray-900 font-bold">
-                      Deliver
-                    </h3>
-                    <p className="text-gray-700 font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <section className="py-10 bg-gray-50 overflow-hidden">
+        <Timeline/>
+      </section>
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
       <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
-            Sponsors
-          </h2>
-        </div>
+        
         {/* CTA SECTION */}
-        <section class="py-10 bg-white overflow-hidden">
-          <div class="container mx-auto px-4">
-            <div class="py-16 px-8 md:px-16 bg-red-700 overflow-hidden rounded-3xl">
-              <div class="flex flex-wrap items-center -m-4">
-                <div class="w-full md:w-1/5 p-4 items-left">
-                  <div class="md:max-w-md md:mr-auto">
-                    <div class="flex flex-wrap -m-2 justify-center">
-                      {/* <span class="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
-                      {/* <h2 class="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+        
+          <div className="container mx-auto px-4">
+          <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
+            Our Sponsors
+          </h2>
+            <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
+              <div className="flex flex-wrap items-center -m-4">
+                <div className="w-full md:w-1/5 p-4 items-left">
+                  <div className="md:max-w-md md:mr-auto">
+                    <div className="flex flex-wrap -m-2">
+                      {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+                      {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
                         src="/assets/thinkingnorthlogo.png"
                         width="300"
@@ -901,11 +534,11 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="w-full md:w-4/5 p-4">
-                  <div class="w-full lg:flex-1 p-2">
-                    {/* <input class="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 class="font-heading text-4xl md:text-5xl text-white font-black tracking-tight text-center">
-                      SMART CITIES REVOLUTION - GET CONNECTED
+                <div className="w-full md:w-4/5 p-4">
+                  <div className="w-full lg:flex-1 p-2">
+                    {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                    <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
+                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor!!!
                     </h2>
                   </div>
                   {/* <br></br>
@@ -918,7 +551,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+
         {/* CTA SECTION */}
         <div className="container mx-auto px-4">
           <div className="bg-white border border-gray-50 rounded-3xl">
