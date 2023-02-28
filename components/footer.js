@@ -21,7 +21,7 @@ export default function Footer()
                 </div>
                 <div className="w-auto p-4">
                   <ul className="-m-6">
-                    <li className="inline-flex p-6">
+                    <li className="inline-flex text-sm p-6">
                       <a
                         className="inline-block text-black hover:underline font-bold"
                         href="https://analytics.umami.is/share/BKAQfqM8MxFHd9Z6/Seneca%20Hackathon"
@@ -95,12 +95,22 @@ export default function Footer()
               </div>
             </div>
           </div>
-          <p className="text-center font-bold">
+          <div className="flex justify-between">
+          <span className="text-sm text-left">
             <span>Ⓒ Copyright. All rights reserved by </span>
             <a className="text-red-600 hover:text-red-700" href="#">
               Smart Cities Hackathon.
             </a>
-          </p>
+          </span>
+          <span className="text-sm">
+            <span className="">website developed by </span><a className="align-sub" href="https://simplystech.com" target="_blank"><img
+                      className="inline align-top"
+                      src="/assets/simplystech-logo.svg"
+                      width="100px"
+                      alt=""
+                    /></a>
+          </span>
+          </div>
         </div>
       </section>
  </div>)
