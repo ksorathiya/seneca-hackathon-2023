@@ -58,12 +58,21 @@ export default function NavBar(props) {
                 Services
               </a>
             </li> */}
-            <li className="my-2">
+            <li className="my-2 lg:flex items-center w-auto">
               <a
                 href="/about"
-                className="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
+                className="text-lg text-center hover:text-red-700 font-medium"
               >
                 About Us
+              </a>
+            </li>
+            {/*  */}
+            <li className="my-2 lg:flex items-center w-auto">
+              <a
+                href="/history"
+                className="text-lg text-center hover:text-red-700 font-medium"
+              >
+                History
               </a>
             </li>
             <li className="my-2">

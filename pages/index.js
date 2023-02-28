@@ -25,7 +25,7 @@ function Home() {
       <NavBar />
       
 
-      <section className="pb-20 bg-gray-50 overflow-hidden">
+      <section className="pb-4 bg-gray-50 overflow-hidden">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2">
             <HackathonHero/>
@@ -38,7 +38,7 @@ function Home() {
       
       {/* DESIGN JAM SECTION 1 */}
 
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <div className="w-full lg:w-2/3 mx-auto px-4">
           <div className="py-16 px-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
@@ -500,12 +500,12 @@ function Home() {
       </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <Timeline/>
       </section>
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         
         {/* CTA SECTION */}
         
@@ -517,7 +517,7 @@ function Home() {
               <div className="flex flex-wrap items-center -m-4">
                 <div className="w-full md:w-1/5 p-4 items-left">
                   <div className="md:max-w-md md:mr-auto">
-                    <div className="flex flex-wrap -m-2">
+                    <div className="flex flex-wrap justify-center -m-2">
                       {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
                       {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
                       <img
@@ -534,7 +534,7 @@ function Home() {
                 <div className="w-full md:w-4/5 p-4">
                   <div className="w-full lg:flex-1 p-2">
                     {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
+                    <h2 className="font-heading text-4xl text-center md:text-left md:text-5xl text-white font-black">
                       Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor!!!
                     </h2>
                   </div>
@@ -708,7 +708,7 @@ function Home() {
       </section>
 
       {/* INSTAFEED */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
             <div className="flex flex-wrap items-center -m-4">
@@ -1294,7 +1294,7 @@ function Home() {
 </section> */}
       {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 bg-white overflow-hidden border border-gray-100 rounded-3xl">
             <div className="max-w-7xl mx-auto">
