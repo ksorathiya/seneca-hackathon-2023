@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import NavBar from "../components/NavBar";
 import Button from "../components/Button";
 import ClickCount from "../components/ClickCount";
 import styles from "../styles/home.module.css";
@@ -11,68 +12,7 @@ function  team(params){
   
   {/* HERO SECTION */}
 
-<nav class="relative px-10 py-8 bg-transparent">
-  <div class="flex justify-between items-center">
-    
-    <div className="w-auto p-2">
-      <a className="inline-block" href="/#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec2.png" width="250" alt="" />
-      </a>
-    </div>
-
-    <div class="lg:hidden">
-      <button class="block navbar-burger text-red-500 hover:text-red-700 focus:outline-none">
-        <svg class="h-4 w-4" fill="currentColor " viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Mobile menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-        </svg>
-      </button>
-    </div>
-    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex items-center w-auto space-x-12">
-      <li><a class="text-xl hover:text-red-700 font-medium" href="/about">About</a></li>
-      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Timeline</a></li> */}
-      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">History</a></li> */}
-      {/* <li><a class="text-xl hover:text-red-700 font-medium" href="#">Contact Us</a></li> */}
-    </ul>
-    <ul class="hidden lg:flex items-center w-auto">
-      <li><a class="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200" href="/#">May 5th - 6th, 2023</a></li>
-    </ul>
-  </div>
-  <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-    <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-      <div class="flex items-center mb-12">
-        
-      <div className="w-auto p-2">
-      <a className="inline-block" href="/#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec2.png" width="250" alt="" />
-      </a>
-      </div>
-        <button class="navbar-close">
-          <svg class="h-6 w-6 cursor-pointer hover:text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-      <div>
-        <ul>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/about">About</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">Timeline</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="#">History</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/contact">Contact Us</a></li>
-          <li class="mb-1"><a class="block p-4 text-lg font-semibold hover:bg-red-50 hover:text-red-500 rounded" href="/team">Our Team</a></li>
-
-        </ul>
-      </div>
-      <div class="mt-auto">
-        <div class="pt-6"><a class="block px-5 py-3 text-sm text-center font-semibold text-red-600 hover:text-white hover:bg-red-600 border border-red-600 hover:border-red-600 rounded transition duration-200" href="/#">May 5th - 6th, 2023</a></div>
-        <p class="mt-6 mb-4 text-sm text-center text-gray-500">
-          <span>&copy; 2022 All rights reserved.</span>
-        </p>
-      </div>
-    </nav>
-  </div>
-</nav>  
+<NavBar/>
 
 
   {/* HERO SECTION */}
@@ -87,6 +27,9 @@ function  team(params){
       <p class="text-xl md:text-xl text-gray-600 font-medium tracking-tight mb-10 pb-20">Chief of Staff is responsible for volunteer/intern experience, equity, inclusiveness.</p>
     </div>
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
+     
+
+
      
     <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
      

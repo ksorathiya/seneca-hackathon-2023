@@ -688,6 +688,18 @@ function Home() {
                   </a>
                 </div>
               </div>
+              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
+                  <a href="https://simplystech.com/" target="_blank">
+                    <img
+                      className="mx-auto"
+                      src="/assets/simplystech-logo.svg"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
               
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
@@ -698,13 +710,11 @@ function Home() {
       </section>
       {/* SPONSORS SECTION */}
 
-      <section className="p-20 bg-red-500 overflow-hidden">
+      <section className="p-20 bg-gray-900 overflow-hidden">
       <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
               The Organizing Committee
             </h2>
         <ImageGrid/>
-
-
       </section>
 
       {/* INSTAFEED */}
@@ -752,7 +762,7 @@ function Home() {
                     Testimonials
                   </span>
                   <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Our customer says
+                    Praises for hackathons organized by our team
                   </h2>
                 </div>
                 <div className="w-full md:w-1/2 p-4">
