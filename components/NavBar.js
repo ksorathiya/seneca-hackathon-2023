@@ -58,7 +58,7 @@ export default function NavBar(props) {
                 Services
               </a>
             </li> */}
-            <li className="my-2 lg:flex items-center w-auto">
+            <li className="my-2 md:flex items-center w-auto">
               <a
                 href="/about"
                 className="text-lg text-center hover:text-red-700 font-medium"
@@ -67,7 +67,7 @@ export default function NavBar(props) {
               </a>
             </li>
             {/*  */}
-            <li className="my-2 lg:flex items-center w-auto">
+            <li className="my-2 md:flex items-center w-auto">
               <a
                 href="/history"
                 className="text-lg text-center hover:text-red-700 font-medium"
