@@ -11,7 +11,7 @@ export default function HackathonHero(props) {
                     presents
                   </span>
                   <h1
-                    className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
+                    className="font-heading mb-2 text-5xl lg:text-6xl text-white font-black tracking-tight"
                     contenteditable="false"
                   >
                     <span contenteditable="false">
@@ -24,8 +24,12 @@ export default function HackathonHero(props) {
                     <br />
                     {/* <span>build innovation for the future</span> */}
                   </h1>
-                  <p className="mb-8 text-xl text-white ">
-                    Join the brightest minds from across the globe and help
+                  <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
+                    hosted by
+                  </span>
+                  <img src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg" width="150px" class="m-auto mb-4"/>
+                  <p className="m-8 text-xl text-white ">
+                    Join the brightest minds and help
                     solve real-world challenges in making cities smarter.
                   </p>
                   <div className="max-w-lg mx-auto">
