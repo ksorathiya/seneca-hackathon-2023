@@ -5,7 +5,18 @@ export default function Document() {
     <Html>
       <Head>
         <title>Smart Cities Hackathon powered by Thinking North</title>
-        <script async defer src="https://analytics.umami.is/script.js" data-website-id="bcb5aac6-7cb2-4d1b-900d-c350b4598429"></script>
+        <script
+          async
+          defer
+          src="https://analytics.umami.is/script.js"
+          data-website-id="bcb5aac6-7cb2-4d1b-900d-c350b4598429"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
+          rel="stylesheet"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"

@@ -103,7 +103,7 @@ const handleSubmit = async (e) => {
     
     <div className="w-auto p-2">
       <a className="inline-block" href="/#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+        <img src="/assets/thinkingnorthsmartcitieslogosec2.png" width="250" alt="" />
       </a>
     </div>
 
@@ -133,7 +133,7 @@ const handleSubmit = async (e) => {
         
       <div className="w-auto p-2">
       <a className="inline-block" href="/#">
-        <img src="/assets/thinkingnorthsmartcitieslogosec.png" width="250" alt="" />
+        <img src="/assets/thinkingnorthsmartcitieslogosec2.png" width="250" alt="" />
       </a>
       </div>
         <button class="navbar-close">
