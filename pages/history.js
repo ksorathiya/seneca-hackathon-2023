@@ -39,7 +39,7 @@ function History(params){
                         <a class="group inline-block mb-4" href="#">
                           <h3 class="font-heading text-2xl text-gray-900 hover:text-red-700 group-hover:underline font-black">Digital Health Hackathon</h3>
                         </a>
-                        <p class="text-gray-500 text-base font-extralight text-justify">The Digital Health Hackathon was a 48-hour event where healthcare professionals, software developers, designers, and entrepreneurs collaborated to develop innovative digital solutions to healthcare challenges. Participants worked in teams to brainstorm, design, and develop their ideas, with support and mentorship from industry experts. At the end of the event, teams present their solutions to judges who evaluate them based on innovation, impact, and feasibility.</p>
+                        <p class="text-gray-800 text-base font-light text-justify">The Digital Health Hackathon was a 48-hour event where healthcare professionals, software developers, designers, and entrepreneurs collaborated to develop innovative digital solutions to healthcare challenges. Participants worked in teams to brainstorm, design, and develop their ideas, with support and mentorship from industry experts. At the end of the event, teams present their solutions to judges who evaluate them based on innovation, impact, and feasibility.</p>
                       </div>
                       <div class="flex-initial">
                         <div class="flex flex-wrap -m-2">
@@ -63,7 +63,7 @@ function History(params){
                         <a class="group inline-block mb-4" href="https://sustainability.senecahackathon.com/" target="_blank">
                           <h3 class="font-heading text-2xl text-gray-900 hover:text-red-700 group-hover:underline font-black">Sustainability Hackathon</h3>
                         </a>
-                        <p class="text-gray-500 text-base font-extralight text-justify">The Seneca Sustainability Hackathon was a creative and collaborative event that brought together individuals with a passion for sustainability to generate innovative solutions to environmental challenges. Participants worked in teams to develop sustainable solutions that addressed a range of environmental issues, including climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
+                        <p class="text-gray-800 text-base font-light text-justify">The Seneca Sustainability Hackathon was a creative and collaborative event that brought together individuals with a passion for sustainability to generate innovative solutions to environmental challenges. Participants worked in teams to develop sustainable solutions that addressed a range of environmental issues, including climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
                       </div>
                       <div class="flex-initial">
                         <div class="flex flex-wrap -m-2">
