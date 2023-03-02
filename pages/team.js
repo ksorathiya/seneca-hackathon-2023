@@ -197,7 +197,7 @@ function  team(params){
             <p class="mb-6">Human Resources Manager</p>
             <ul class="list-inside flex mx-auto justify-center">
   
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/negar-farrokhian-0353a5244" class="px-2">
                 {/* <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/> */}
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
@@ -351,7 +351,7 @@ function  team(params){
             <p class="mb-6">CRM</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/janetmejia/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -372,7 +372,7 @@ function  team(params){
             <p class="mb-6">Creative Design</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/kendraterrero/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -384,16 +384,16 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Navna.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Navna</h5>
-            <p class="mb-6">Creative Design</p>
+            <p class="mb-6">Product Designer</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/navna376" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -423,7 +423,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Arya_Patil.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -452,7 +452,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 2</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href=" https://www.linkedin.com/in/amizh/ " class="px-2">
+              <a href="#! " class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -494,7 +494,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 4</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/aishwarya-shrestha-59933a121" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -530,12 +530,12 @@ function  team(params){
 <div class="container my-12 px-6 mx-auto">
   <section class="mb-5 text-gray-800 text-center">
     {/* <h2 class="text-3xl font-bold mb-32">Meet the <u class="text-red-600">TEAM</u></h2> */}
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Kohulan_Thevananthan.png" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -544,7 +544,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 6</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/kohulan-thevananthan/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -598,13 +598,34 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\Krunal.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Krunal_Vasoya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Krunal Vasoya</h5>
             <p class="mb-6">Challenge Set 10 & 11</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="https://www.linkedin.com/in/krunal-vasoya-29a3691b5/" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Siddhi_Govekar.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Siddhi Govekar</h5>
+            <p class="mb-6">Challenge Set 12</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -631,7 +652,7 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -663,6 +684,27 @@ function  team(params){
             </div>
           </div>
           <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Shalmonne Berson</h5>
+            <p class="mb-6">Challenge Set 9</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Estevan_Maia.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Estevan Augusto Perez Maia</h5>
             <p class="mb-6">Challenge Set 1</p>
             <ul class="list-inside flex mx-auto justify-center">
@@ -688,7 +730,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 2</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/nirosan-perinpanayagam" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -718,7 +760,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 3</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/nithila-balasubramanian-4414a71a6/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -739,7 +781,7 @@ function  team(params){
             <p class="mb-6">Challenge Set 4</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/kavitha-raman-319317a1/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -756,8 +798,8 @@ function  team(params){
             </div>
           </div>
           <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Mohamed Ruziak Raman</h5>
-            <p class="mb-6">Challenge Set 5</p>
+            <h5 class="text-lg font-bold mb-4">Shivani Nalamati</h5>
+            <p class="mb-6">Challenge Set 6</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
@@ -767,6 +809,7 @@ function  team(params){
           </div>
         </div>
       </div>
+   
 
     </div>
   </section>
@@ -786,7 +829,7 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -802,6 +845,48 @@ function  team(params){
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Riya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Riya</h5>
+            <p class="mb-6">Media Production Specialist</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Sapna Tiwaria</h5>
+            <p class="mb-6">Resource Manager</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="https://www.linkedin.com/in/sapna-tiwari-45aa6b212/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -834,7 +919,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Ayush_Shah.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -843,7 +928,7 @@ function  team(params){
             <p class="mb-6">Microcreds</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/ayush-shah-611222130" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -857,13 +942,13 @@ function  team(params){
 
 <div class="container mt-12 mb-24 px-6 mx-auto">
   <section class="mb-5 text-gray-800 text-center">
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Tathagat_Arya.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -872,7 +957,7 @@ function  team(params){
             <p class="mb-6">Registration Desk, Activities</p>
             <ul class="list-inside flex mx-auto justify-center">
               
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/tathagatarya/" class="px-2">
                 <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
               </a>
             </ul>
@@ -884,7 +969,29 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Anxhela_Likaj.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Anxhela Likaj</h5>
+            <p class="mb-6">Content Creator</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Daria_Kolomiiets.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -937,13 +1044,93 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
-     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Kunal_singh.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kunal Singh</h5>
+            <p class="mb-6">Marketing Strategist</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Simran _Shah.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Simran Shah</h5>
+            <p class="mb-6">Marketing Strategist</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
               <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Benjamin Ruiz-Sarinana</h5>
+            <p class="mb-6">Marketing Strategist</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Isaya_Lojitsaard.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px; "}} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Isaya Lojitsaard</h5>
+            <p class="mb-6">Content Creator</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Amizhthini_Nakkeeran.png" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -959,6 +1146,15 @@ function  team(params){
         </div>
       </div>
 
+      </div>
+  </section>
+</div>
+
+<div class="container mt-12 mb-24 px-6 mx-auto">
+  <section class="mb-5 text-gray-800 text-center">
+     
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-5">
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
@@ -970,6 +1166,48 @@ function  team(params){
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Kalp Nimesh Shah</h5>
             <p class="mb-6">Communications, Channels</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Kimia_Hassanpourirani.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px;" }} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Kimia Hassanpourirani</h5>
+            <p class="mb-6">Marketing Strategist</p>
+            <ul class="list-inside flex mx-auto justify-center">
+              
+              <a href="#!" class="px-2">
+                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-24 md:mb-0">
+        <div class="rounded-lg shadow-lg h-full block bg-white">
+          <div class="flex justify-center">
+            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
+              <img src="\assets\team\Tarun_Narula.png" class="rounded-full mx-auto shadow-lg" alt=""
+                style={{"width": "150px;" }} />
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="text-lg font-bold mb-4">Tarun Narula</h5>
+            <p class="mb-6">Marketing Strategist</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="#!" class="px-2">
