@@ -1,14 +1,29 @@
 export default function NavBar(props) {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-      <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="/" className="flex items-center">
-          <img
-            src="/assets/thinking-north-smart-cities-hackathon-logo.png"
-            width="250"
-            alt=""
-          />
-        </a>
+      <div className="flex flex-wrap items-center justify-between mx-auto">
+        <div class="md:grid md:grid-cols-2 md:divide-x flex">
+          <a href="/" className="flex flex-end">
+            <img
+              src="/assets/thinking-north-smart-cities-hackathon-logo.png"
+              width="180"
+              alt="Thinking North Smart Cities Hackathon Logo"
+            />
+          </a>
+          <div className="hidden md:block mx-1 px-1 md:mx-4 md:px-4 border-l-2">
+            <div className="md:relative md:top-2 ">
+              <span className=" mb-0 text-xs">hosted by</span>
+              <a href="/" className="flex flex-end">
+                <img
+                  src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
+                  width="85"
+                  alt="Seneca Logo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -78,8 +93,9 @@ export default function NavBar(props) {
               <a
                 href="#"
                 className="block px-5 py-3 text-sm bg-black hover:bg-black text-white font-semibold border border-black hover:border-black rounded-full transition duration-200"
-              > Event Date:
-                May 5th - 6th, 2023
+              >
+                {" "}
+                Event Date: May 5th - 6th, 2023
               </a>
             </li>
           </ul>
