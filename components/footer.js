@@ -95,21 +95,32 @@ export default function Footer()
               </div>
             </div>
           </div>
-          <div className="flex justify-between">
-          <span className="text-sm text-left">
-            <span>Ⓒ Copyright. All rights reserved by </span>
-            <a className="text-red-600 hover:text-red-700" href="#">
-              Smart Cities Hackathon.
-            </a>
-          </span>
-          <span className="text-sm">
-            <span className="">website developed by </span><a className="align-sub" href="https://simplystech.com" target="_blank"><img
-                      className="inline align-top"
-                      src="/assets/simplystech-logo.svg"
-                      width="100px"
-                      alt=""
-                    /></a>
-          </span>
+          <div className="flex flex-wrap justify-between">
+            <div className="w-full text-sm text-left">
+              <span>Ⓒ Copyright. All rights reserved by </span>
+              <a className="text-red-600 hover:text-red-700" href="#">
+                Smart Cities Hackathon.
+              </a>
+            </div>
+          
+            <a href="https://simplystech.com" className="w-full pt-5" target="_blank">
+            <span className="text-sm block md:hidden bg-slate-50">
+            <span className="">made with ❤️ by </span><span className="align-sub"><img
+                        className="inline align-top"
+                        src="/assets/simplystech-logo.svg"
+                        width="70px"
+                        alt=""
+                      /></span>
+            </span></a>
+            <a href="https://simplystech.com" target="_blank">
+            <span className="text-xs hidden md:block fixed bottom-5 right-5 border px-2 py-1 rounded-sm shadow-sm  bg-slate-50">
+              <span className="">made with ❤️ by </span><span className="align-sub"><img
+                        className="inline align-top"
+                        src="/assets/simplystech-logo.svg"
+                        width="70px"
+                        alt=""
+                      /></span>
+            </span></a>
           </div>
         </div>
       </section>
