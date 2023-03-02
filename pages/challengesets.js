@@ -22,7 +22,7 @@ function Challenge(params) {
                     <h2 class="mb-20 font-heading font-sans font-semibold text-6xl sm:text-7xl text-gray-700 text-center">Challenge Sets for Smart Cities Hackathon</h2>
                     <div class="flex flex-wrap -m-4">
                         <div class="w-full m-4 md:w-1/3 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                             <Image
                                     src="/assets/Mental health icon.jpg"
                                     height={150}
@@ -33,7 +33,7 @@ function Challenge(params) {
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 m-4 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                             <Image
                                     src="/assets/Smart buildings icon.jpg"
                                     height={150}
@@ -44,7 +44,7 @@ function Challenge(params) {
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 m-4 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                                 <Image
                                     src="/assets/Data privacy icon.jpg"
                                     height={150}
@@ -54,7 +54,7 @@ function Challenge(params) {
                                 <p class="font-heading text-left font-medium text-lg text-gray-900">The challenge sets focus on the data privacy and security of ANY stakeholder in the smart city, including marginalized and disenfranchised communities, everyday citizens, small business owners, and city municipal governments..</p>        </div>
                         </div>
                         <div class="w-full md:w-1/3 m-4 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                             <Image
                                     src="/assets/Smart Analysis.jpg"
                                     height={150}
@@ -64,7 +64,7 @@ function Challenge(params) {
                                 <p class="font-heading text-left font-medium text-lg text-gray-900">The challenge sets on utilizing advanced technologies to extract meaningful insights from data, such as image and video data, traffic camera, drones and GIS analysis. These insights can be applied to a variety of fields to solve real-world problems and optimize processes.</p>        </div>
                         </div>
                         <div class="w-full md:w-1/3 m-4 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                             <Image
                                     src="/assets/Smart businesses icon.jpg"
                                     height={150}
@@ -74,7 +74,7 @@ function Challenge(params) {
                                 <p class="font-heading text-left font-medium text-lg text-gray-900">Challenge sets in this category could focus on developing solutions that leverage data and automation to enhance the efficiency, sustainability, and customer experience of businesses in smart cities, such as food order delivery services, ride-sharing platforms, carpooling apps, personal service scheduling, last-mile logistics.</p>        </div>
                         </div>
                         <div class="w-full md:w-1/3 m-4 p-2 block max-w-md bg-white border border-gray-500 border-0 border-b-4 rounded-lg shadow hover:bg-gray-200">
-                            <div class="md:max-w-md mx-auto text-center">
+                            <div class="md:max-w-md mx-auto text-center p-4">
                             <Image
                                     src="/assets/Sustainable city icon.jpg"
                                     height={150}
