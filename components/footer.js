@@ -1,13 +1,12 @@
 import react from "react";
 import Image from "next/image";
 
-export default function Footer() 
-{
- return(
- <div>
-  <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 mb-8 bg-white rounded-3xl">
+export default function Footer() {
+  return (
+    <div>
+      <section className="md:py-10 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto sm:px-4">
+          <div className="py-4 px-2 md:py-16 md:px-8 mb-8 bg-white sm:rounded-3xl">
             <div className="max-w-7xl mx-auto">
               <div className="flex flex-wrap items-center justify-center md:justify-between -m-4">
                 <div className="w-auto p-4">
@@ -95,34 +94,47 @@ export default function Footer()
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-wrap justify-between px-2">
             <div className="w-full text-sm text-left">
               <span>Ⓒ Copyright. All rights reserved by </span>
               <a className="text-red-600 hover:text-red-700" href="#">
                 Smart Cities Hackathon.
               </a>
             </div>
-          
-            <a href="https://simplystech.com" className="w-full pt-5" target="_blank">
-            <span className="text-sm block md:hidden bg-slate-50">
-            <span className="">made with ❤️ by </span><span className="align-sub"><img
-                        className="inline align-top"
-                        src="/assets/simplystech-logo.svg"
-                        width="70px"
-                        alt=""
-                      /></span>
-            </span></a>
+
+            <a
+              href="https://simplystech.com"
+              className="w-full pt-5"
+              target="_blank"
+            >
+              <span className="text-sm block md:hidden bg-slate-50">
+                <span className="">made with ❤️ by </span>
+                <span className="align-sub">
+                  <img
+                    className="inline align-top"
+                    src="/assets/simplystech-logo.svg"
+                    width="70px"
+                    alt=""
+                  />
+                </span>
+              </span>
+            </a>
             <a href="https://simplystech.com" target="_blank">
-            <span className="text-xs hidden md:block fixed bottom-5 right-5 border px-2 py-1 rounded-sm shadow-sm  bg-slate-50">
-              <span className="">made with ❤️ by </span><span className="align-sub"><img
-                        className="inline align-top"
-                        src="/assets/simplystech-logo.svg"
-                        width="70px"
-                        alt=""
-                      /></span>
-            </span></a>
+              <span className="text-xs hidden md:block fixed bottom-5 right-5 border px-2 py-1 rounded-sm shadow-sm  bg-slate-50">
+                <span className="">made with ❤️ by </span>
+                <span className="align-sub">
+                  <img
+                    className="inline align-top"
+                    src="/assets/simplystech-logo.svg"
+                    width="70px"
+                    alt=""
+                  />
+                </span>
+              </span>
+            </a>
           </div>
         </div>
       </section>
- </div>)
+    </div>
+  );
 }

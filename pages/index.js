@@ -23,27 +23,26 @@ function Home() {
     <>
       {/* // HERO SECTION */}
       <NavBar />
-      
 
-      <section className="pb-20 bg-gray-50 overflow-hidden">
+      <section className="pb-4 md:pb-6 bg-gray-50 overflow-hidden">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2">
-            <HackathonHero/>
+            <HackathonHero />
           </div>
           <div className="w-full lg:w-1/2">
-            <DesignJamHero/>
+            <DesignJamHero />
           </div>
         </div>
       </section>
-      
+
       {/* DESIGN JAM SECTION 1 */}
 
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="w-full lg:w-2/3 mx-auto px-4">
-          <div className="py-16 px-8 bg-white rounded-3xl">
+      <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
+        <div className="container w-full mx-auto sm:px-4">
+          <div className="py-4 px-4 sm:py-16 sm:px-8 bg-white sm:rounded-3xl">
             <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap -m-8 mb-10">
-                <div className="w-full md:w-1/2 p-8">
+              <div className="flex flex-wrap mb-10">
+                <div className="hidden md:block w-full md:w-1/2 p-8">
                   <div className="md:max-w-xl">
                     <h2
                       class="text-center font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
@@ -57,7 +56,10 @@ function Home() {
                       />
                     </h2>
 
-                    <p class="text-center mb-3 text-xl font-bold" contenteditable="false">
+                    <p
+                      class="text-center mb-3 text-xl font-bold"
+                      contenteditable="false"
+                    >
                       A 12 - 16 hours asynchronous online learning organized by
                       &nbsp;
                       <span className="text-red-600">
@@ -101,14 +103,16 @@ function Home() {
                   <img
                     class="mx-auto md:mr-0 rounded-3xl"
                     src="/assets/design-jam2.png"
-                    alt="" width="272" height="480"
+                    alt=""
+                    width="272"
+                    height="480"
                   />
                 </div>
               </div>
-              <div className="p-8 md:p-12 bg-gray-100 rounded-3xl">
-                <div className="flex flex-wrap -m-8">
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+              <div className="p-4 md:p-6 bg-gray-100 rounded-3xl">
+                <div className="flex flex-wrap">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -130,8 +134,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -152,8 +156,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -174,8 +178,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -196,8 +200,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -218,8 +222,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="w-full md:w-1/3 sm:p-2 md:p-8">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto md:w-full lg:w-auto p-3">
                         <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
                           <Image
@@ -264,7 +268,7 @@ function Home() {
             <div className="max-w-md">
               <div className="flex flex-wrap">
                 <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
+                  <div className="flex flex-wrap sm:-m-3.5">
                     <div className="flex flex-col items-center w-auto p-3.5">
                       <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
                         <svg
@@ -299,7 +303,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
+                  <div className="flex flex-wrap sm:-m-3.5">
                     <div className="flex flex-col items-center w-auto p-3.5">
                       <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
                         <svg
@@ -334,7 +338,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
+                  <div className="flex flex-wrap sm:-m-3.5">
                     <div className="flex flex-col items-center w-auto p-3.5">
                       <div className="flex items-center justify-center w-9 h-9 border border-gray-700 rounded-full bg-red-600">
                         <svg
@@ -374,15 +378,11 @@ function Home() {
             </div>
           </div>
         </div>
-        
       </section>
 
-      
-
-      
       {/* DESIGN JAM SECTION 3 */}
       {/* <section className="py-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-2 sm:px-4">
           <div
             className="py-16 px-8 md:px-16 rounded-3xl"
             style={{
@@ -500,61 +500,61 @@ function Home() {
       </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <Timeline/>
+      <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
+        <Timeline />
       </section>
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        
+      <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
         {/* CTA SECTION */}
-        
-          <div className="container mx-auto px-4">
+
+        <div className="container mx-auto px-2 sm:px-4">
           <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
             Our Sponsors
           </h2>
-            <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
-              <div className="flex flex-wrap items-center -m-4">
-                <div className="w-full md:w-1/5 p-4 items-left">
-                  <div className="md:max-w-md md:mr-auto">
-                    <div className="flex flex-wrap -m-2">
-                      {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
-                      {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
-                      <img
-                        src="/assets/thinkingnorthlogo.png"
-                        width="300"
-                        alt=""
-                        style={{
-                          "background-color": "white; border-radius:10%",
-                        }}
-                      />
-                    </div>
+          <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
+            <div className="flex flex-wrap items-center -m-4">
+              <div className="w-full md:w-1/5 p-4 items-left">
+                <div className="md:max-w-md md:mr-auto">
+                  <div className="flex flex-wrap -m-2">
+                    {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+                    {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+                    <img
+                      src="/assets/thinkingnorthlogo.png"
+                      width="300"
+                      alt=""
+                      style={{
+                        "background-color": "white; border-radius:10%",
+                      }}
+                    />
                   </div>
                 </div>
-                <div className="w-full md:w-4/5 p-4">
-                  <div className="w-full lg:flex-1 p-2">
-                    {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
-                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor.
-                    </h2>
-                  </div>
-                  {/* <br></br>
+              </div>
+              <div className="w-full md:w-4/5 p-4">
+                <div className="w-full lg:flex-1 p-2">
+                  {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                  <h2 className="font-heading text-2xl md:text-4xl md:text-5xl text-white font-black">
+                    Thinking North Investors Group, <br /> <br />A big shoutout
+                    to our title sponsor.
+                  </h2>
+                </div>
+                {/* <br></br>
               <div className="w-full lg:w-auto p-2">
                 <div className="flex flex-wrap justify-center -m-2">
                   <div className="w-full lg:w-auto p-2"><a className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
                 </div>
               </div> */}
-                </div>
               </div>
             </div>
           </div>
+        </div>
 
         {/* CTA SECTION */}
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-2 sm:px-4">
           <div className="bg-white border border-gray-50 rounded-3xl">
             <div className="flex flex-wrap items-center">
               <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://www.yorku.ca/" target="_blank">
                     <img
                       className="mx-auto"
@@ -566,7 +566,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://thinkingnorth.com/" target="_blank">
                     <img
                       class="mx-auto"
@@ -578,7 +578,7 @@ function Home() {
                 </div>
               </div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+                <div class="py-10 md:py-20 px-8">
                   <a href="https://mircom.com/" target="_blank">
                     <img
                       class="mx-auto"
@@ -590,7 +590,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a
                     href="https://www.senecacollege.ca/alumni.html"
                     target="_blank"
@@ -605,7 +605,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://cpos.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -617,7 +617,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://getoppos.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -629,7 +629,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://www.ridealike.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -641,7 +641,7 @@ function Home() {
                 </div>
               </div>
               <div class="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div class="py-12 lg:py-20 px-8">
+                <div class="py-10 md:py-20 px-8">
                   <a href="https://raceatlas.com/" target="_blank">
                     <img
                       class="mx-auto"
@@ -653,7 +653,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://inheritchain.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -665,7 +665,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b border-gray-50">
-                <div className="py-12 lg:py-20 px-8 bg-purple-900">
+                <div className="py-10 md:py-20 px-8 bg-purple-900">
                   <a href="https://trinetra.ca/" target="_blank">
                     <img
                       className="mx-auto"
@@ -677,7 +677,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://innovatecities.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -689,7 +689,7 @@ function Home() {
                 </div>
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
-                <div className="py-12 lg:py-20 px-8">
+                <div className="py-10 md:py-20 px-8">
                   <a href="https://simplystech.com/" target="_blank">
                     <img
                       className="mx-auto"
@@ -700,7 +700,7 @@ function Home() {
                   </a>
                 </div>
               </div>
-              
+
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -710,20 +710,20 @@ function Home() {
       </section>
       {/* SPONSORS SECTION */}
 
-      <section className="p-20 bg-gray-900 overflow-hidden">
-      <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
-              The Organizing Committee
-            </h2>
-        <ImageGrid/>
+      <section className="p-5 py-10 md:p-20 bg-gray-900 overflow-hidden">
+        <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
+          The Organizing Committee
+        </h2>
+        <ImageGrid />
       </section>
 
       {/* INSTAFEED */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
+      <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto md:px-4">
+          <div className="py-8 px-4 sm:px-8 insta-background overflow-hidden md:rounded-3xl">
             <div className="flex flex-wrap items-center -m-4">
               <div className="w-full md:w-1/2 p-4">
-                <h2 className="font-heading text-4xl md:text-5xl text-white font-black ">
+                <h2 className="font-heading text-2xl md:text-4xl md:text-5xl text-white font-black ">
                   A few glimpses from our Instagram. <br />
                   <div className="mt-10 text-2xl ">
                     Follow us for more{" "}
@@ -753,7 +753,7 @@ function Home() {
 
       {/* TESTIMONIALS SECTION */}
       {/* <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-2 sm:px-4">
           <div className="px-8 pt-16 bg-white border border-gray-100 rounded-t-3xl">
             <div className="max-w-7xl mx-auto">
               <div className="flex flex-wrap items-center justify-between -m-4 pb-12">
@@ -1057,7 +1057,7 @@ function Home() {
       {/* TESTIMONIALS SECTION */}
       {/* PREVIOUS HACKATHONS SECTION */}
       {/* <section className="pt-10 pb-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-2 sm:px-4">
           <span className="inline-block mb-5 text-sm text-red-600 font-bold uppercase tracking-widest">
             What we found
           </span>
@@ -1104,8 +1104,8 @@ function Home() {
       </section> */}
       {/* PREVIOUS HACKATHONS SECTION */}
       {/* FAQs SECTION */}
-      {/* <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
+      {/* <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto px-2 sm:px-4">
           <div className="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
             <div className="absolute top-0 left-1/2 min-w-max transform -translate-x-1/2">
               <div className="absolute bg-gradient-radial-white w-full h-full"></div>
@@ -1125,7 +1125,7 @@ function Home() {
                 </p>
               </div>
               <div className="max-w-3xl mx-auto">
-                <div className="flex flex-wrap -m-3 mb-10">
+                <div className="flex flex-wrap sm:-m-3 mb-10">
                   <div className="w-full p-3">
                     <a className="block p-10 bg-gray-100 rounded-3xl" href="#">
                       <div className="flex flex-wrap -m-2">
@@ -1304,10 +1304,10 @@ function Home() {
 </section> */}
       {/* FAQs SECTION */}
       {/* CONTACT US SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 bg-white overflow-hidden border border-gray-100 rounded-3xl">
-            <div className="max-w-7xl mx-auto">
+      <section className="py-4 md:py-6 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto md:px-4">
+          <div className="p-4 md:py-16 md:px-8 bg-white overflow-hidden border border-gray-100 sm:rounded-3xl">
+            <div className="mx-auto">
               <div className="mb-10 md:max-w-3xl">
                 <span className="inline-block mb-4 text-sm font-bold uppercase tracking-widest text-red-600">
                   Contact Us
@@ -1320,8 +1320,8 @@ function Home() {
                   Malesuada tellus vestibulum, commodo pulvinar.
                 </p> */}
               </div>
-              <div className="mb-10 p-10 bg-gray-100 border border-gray-100 rounded-3xl">
-                <div className="flex flex-wrap -m-3 mb-3">
+              <div className="mb-2 p-2 py-4 md:mb-10 md:p-6 bg-gray-100 border border-gray-100 rounded-3xl">
+                <div className="flex flex-wrap mb-3">
                   <div className="w-auto p-3">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                       <Image
@@ -1332,8 +1332,8 @@ function Home() {
                     </div>
                   </div>
                   <div className="flex-1 p-3">
-                    <p className="text-gray-500 font-bold">Address</p>
-                    <h3 className="font-heading text-xl text-gray-900 font-black">
+                    <p className="text-gray-500 text-sm">Address</p>
+                    <h3 className="font-heading text-sm md:text-xl text-gray-900 font-black">
                       Seneca College Newnham Campus, 1750 Finch Ave E, North
                       York, Toronto, ON M2J 2X5
                     </h3>
@@ -1347,8 +1347,8 @@ function Home() {
               </div>
               <div className="flex flex-wrap -m-4">
                 <div className="w-full md:w-1/2 p-4">
-                  <div className="p-10 h-full bg-gray-100 border border-gray-100 rounded-3xl">
-                    <div className="flex flex-wrap -m-3">
+                  <div className="p-2 py-4 md:p-6 h-full bg-gray-100 border border-gray-100 rounded-3xl">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image
@@ -1359,7 +1359,7 @@ function Home() {
                         </div>
                       </div>
                       <div className="flex-1 p-3">
-                        <p className="text-gray-500 font-bold">Email</p>
+                        <p className="text-gray-500 text-sm">Email</p>
                         <h3 className="font-heading md:text-xl text-md text-gray-900 font-black">
                           info@senecahackathon.com
                         </h3>
@@ -1369,7 +1369,7 @@ function Home() {
                 </div>
                 {/* <div className="w-full md:w-1/2 p-4">
                   <div className="p-10 h-full bg-gray-100 border border-gray-100 rounded-3xl">
-                    <div className="flex flex-wrap -m-3">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image

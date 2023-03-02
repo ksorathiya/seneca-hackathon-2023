@@ -104,7 +104,7 @@ function Contact(params) {
       {/* CONTACT US FORM */}
 
       <section class="py-10 bg-white overflow-hidden">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-2 sm:px-4">
           <div class="py-16 px-8 bg-gray-100 overflow-hidden border border-gray-100 rounded-3xl">
             <div class="max-w-7xl mx-auto">
               <div class="flex flex-wrap -m-4">
@@ -115,13 +115,18 @@ function Contact(params) {
                 {/* FAQs SECTION */}
 
                 <div class="w-full md:w-1/2 p-4">
-                <h2 class="font-heading rounded-xl mb-1 text-3xl md:text-4xl lg:text-5xl text-red-700 font-black tracking-tight text-center">Contact Us</h2>
-                <p class="mb-9 text-sm text-center md:text-xl leading-tight font-light text-coolGray-800 "> We will respond to your inquiry within 24 business hours.</p>
+                  <h2 class="font-heading rounded-xl mb-1 text-3xl md:text-4xl lg:text-5xl text-red-700 font-black tracking-tight text-center">
+                    Contact Us
+                  </h2>
+                  <p class="mb-9 text-sm text-center md:text-xl leading-tight font-light text-coolGray-800 ">
+                    {" "}
+                    We will respond to your inquiry within 24 business hours.
+                  </p>
                   <form
                     onSubmit={handleSubmit}
                     class="p-10 bg-white border border-gray-100 rounded-3xl"
                   >
-                    <div class="flex flex-wrap -m-3 mb-3">
+                    <div class="flex flex-wrap mb-3">
                       <div class="w-full p-3">
                         <label
                           class="block mb-2 text-md text-red-700 font-bold"
@@ -163,7 +168,7 @@ function Contact(params) {
                         />
                       </div>
                     </div>
-                    <div class="flex flex-wrap -m-3 mb-3">
+                    <div class="flex flex-wrap mb-3">
                       <div class="w-full p-3">
                         <label
                           class="block mb-2 text-md text-red-700 font-bold"
@@ -205,7 +210,7 @@ function Contact(params) {
                         />
                       </div>
                     </div>
-                    <div class="flex flex-wrap -m-3.5">
+                    <div class="flex flex-wrap sm:-m-3.5">
                       <div class="w-full p-3.5">
                         <label
                           class="block mb-2 text-md text-red-700 font-bold"
@@ -265,7 +270,7 @@ function Contact(params) {
 
       {/* CONTACT US FORM */}
       <section>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-2 sm:px-4">
           <div className="py-8 px-8 bg-white overflow-hidden border border-gray-100 rounded-3xl">
             <div className="max-w-7xl mx-auto">
               <div className="mb-10 md:max-w-3xl">
@@ -278,7 +283,7 @@ function Contact(params) {
                 </p> */}
               </div>
               <div className="mb-10 p-10 bg-gray-100 border border-gray-100 rounded-3xl">
-                <div className="flex flex-wrap -m-3 mb-3">
+                <div className="flex flex-wrap mb-3">
                   <div className="w-auto p-3">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                       <Image
@@ -305,7 +310,7 @@ function Contact(params) {
               <div className="flex flex-wrap -m-4">
                 <div className="w-full md:w-1/2 p-4">
                   <div className="p-10 h-full bg-gray-100 border border-gray-100 rounded-3xl">
-                    <div className="flex flex-wrap -m-3">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image
@@ -315,7 +320,7 @@ function Contact(params) {
                           />
                         </div>
                       </div>
-                      <div className="flex-1 p-3">
+                      <div className=" p-3">
                         <p className="text-gray-500 font-bold">Email</p>
                         <h3 className="font-heading md:text-xl text-md text-gray-900 font-black">
                           info@senecahackathon.com
@@ -326,7 +331,7 @@ function Contact(params) {
                 </div>
                 {/* <div className="w-full md:w-1/2 p-4">
                   <div className="p-10 h-full bg-gray-100 border border-gray-100 rounded-3xl">
-                    <div className="flex flex-wrap -m-3">
+                    <div className="flex flex-wrap sm:-m-3">
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image
@@ -353,7 +358,7 @@ function Contact(params) {
 
       {/* // FOOTER SECTION */}
 
-      <Footer/>
+      <Footer />
 
       {/* FOOTER SECTION */}
     </>
