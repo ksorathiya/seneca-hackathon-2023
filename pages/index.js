@@ -535,7 +535,7 @@ function Home() {
                   <div className="w-full lg:flex-1 p-2">
                     {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
                     <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
-                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor!!!
+                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor.
                     </h2>
                   </div>
                   {/* <br></br>
