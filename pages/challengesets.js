@@ -17,7 +17,7 @@ function Challenge(params) {
 
             {/* Challenge Sets */}
 
-            <section class="pt-28 pb-20 bg-white overflow-hidden">
+            <section class="pt-28 pb-20 bg-gray-200 overflow-hidden">
                 <div class="container mx-auto px-4">
                     <h2 class="mb-20 font-heading font-sans font-semibold text-6xl sm:text-7xl text-gray-700 text-center">Challenge Sets for Smart Cities Hackathon</h2>
                     <div class="flex flex-wrap -m-4">
