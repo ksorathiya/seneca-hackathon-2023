@@ -27,10 +27,10 @@ function Home() {
 
       <section className="pb-4 bg-gray-50 overflow-hidden">
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-2/3">
             <HackathonHero/>
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/3">
             <DesignJamHero/>
           </div>
         </div>

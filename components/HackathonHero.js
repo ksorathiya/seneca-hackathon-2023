@@ -1,12 +1,14 @@
 export default function HackathonHero(props) {
   return (
-    <div className="bg-white overflow-hidden border border-gray-100 ">
+    <div className="bg-white overflow-hidden border border-gray-100 " style={{
+              "background-image":
+                "url('/assets/Hackathon_bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;",}}>
               <div
                 className="px-8 py-20 w-full h-full flex justify-center items-center 
-             bg-gray-900 backdrop-brightness-75"
+             bg-gray-900/30 backdrop-brightness-75"
               >
                 <div className="md:max-w-2xl text-center mx-auto">
-                  <img src="/assets/thinking-north-logo.png" width="100px" class="m-auto"/>
+                  <img src="/assets/thinking-north-logo.png" width="200px" height="200px" class="m-auto"/>
                   <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
                     presents
                   </span>
