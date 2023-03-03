@@ -8,7 +8,7 @@ export default function HackathonHero(props) {
              bg-gray-900/30 backdrop-brightness-75"
               >
                 <div className="md:max-w-2xl text-center mx-auto">
-                  <img src="/assets/thinking-north-logo.png" width="100px" class="m-auto"/>
+                  <img src="/assets/thinking-north-logo.png" width="200px" height="200px" class="m-auto"/>
                   <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
                     presents
                   </span>
