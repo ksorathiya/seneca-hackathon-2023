@@ -19,7 +19,7 @@ export default function Footer()
                     />
                   </a>
                 </div>
-                <div className="w-auto p-4">
+                {/* <div className="w-auto p-4">
                   <ul className="-m-6">
                     <li className="inline-flex text-sm p-6">
                       <a
@@ -31,7 +31,7 @@ export default function Footer()
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="w-auto p-4">
                   <div className="flex flex-wrap -m-4">
                     <div className="w-auto p-4">
