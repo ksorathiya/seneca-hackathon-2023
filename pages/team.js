@@ -173,7 +173,7 @@ function  team(params){
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Molika Tan</h5>
-            <p class="mb-6">Social Media</p>
+            <p class="mb-6">Marketing Director</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="https://www.linkedin.com/in/molikatan/" class="px-2">
@@ -1281,8 +1281,7 @@ function  team(params){
     </div>
      
     <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-1">
-     
-      
+
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
