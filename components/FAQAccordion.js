@@ -52,7 +52,7 @@ export default function FAQAccordion() {
               class="hidden"
               aria-labelledby={"accordion-flush-heading-" + index}
             >
-              <div class="p-2 mb-2 rounded-xl text-xl font-light font-medium border-b-2 border-gray-500 dark:border-gray-600 text-justify">
+              <div class="p-2 mb-2 rounded-xl text-xl font-light font-medium border-b-2 bg-white border-gray-500 dark:border-gray-600 text-center md:text-justify">
                 <p class="mb-2 p-2 text-xl font-medium text-black dark:text-gray-500">
                   {faq.answer}
                 </p>
