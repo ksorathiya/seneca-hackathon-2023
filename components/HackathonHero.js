@@ -1,14 +1,13 @@
 export default function HackathonHero(props) {
   return (
-    <div className="bg-white overflow-hidden border border-gray-100 " style={{
+    <div className="bg-white py-16 px-8 rounded-3xl overflow-hidden border border-gray-100 " style={{
               "background-image":
                 "url('/assets/Hackathon_bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;",}}>
               <div
-                className="px-8 py-20 w-full h-full flex justify-center items-center 
-             bg-gray-900/30 backdrop-brightness-75"
+                className="w-full h-full flex justify-center items-center"
               >
                 <div className="md:max-w-2xl text-center mx-auto">
-                  <img src="/assets/thinking-north-logo.png" width="200px" height="200px" class="m-auto"/>
+                 <a href="https://thinkingnorth.com/" target={"_blank"}><img src="/assets/thinking-north-logo.png" width="200px" height="200px" class="m-auto"/></a> 
                   <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
                     presents
                   </span>
@@ -26,10 +25,10 @@ export default function HackathonHero(props) {
                     <br />
                     {/* <span>build innovation for the future</span> */}
                   </h1>
-                  <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
+                  {/* <span className="inline-block mb-3 text-sm font-bold tracking-widest text-white">
                     hosted by
                   </span>
-                  <img src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg" width="150px" class="m-auto mb-4"/>
+                  <img src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg" width="150px" class="m-auto mb-4"/> */}
                   <p className="m-8 text-xl text-white ">
                     Join the brightest minds and help
                     solve real-world challenges in making cities smarter.
