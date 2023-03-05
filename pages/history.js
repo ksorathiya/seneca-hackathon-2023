@@ -27,6 +27,30 @@ function History(params){
         </div>
         <div class="max-w-5xl mx-auto">
           <div class="flex flex-wrap -m-5 mb-10">
+          <div class="w-full p-5">
+              <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                <div class="w-full md:w-1/2">
+                  <img class="w-full h-full bg-white object-contain" src="/assets/sustainability2022.png" alt=""/>
+                </div>
+                <div class="flex-1 hover:bg-white">
+                  <div class="md:max-w-lg p-10 h-full">
+                    <div class="flex flex-col justify-between h-full">
+                      <div class="flex-initial mb-8">
+                        <a class="group inline-block mb-4" href="https://sustainability.senecahackathon.com/" target="_blank">
+                          <h3 class="font-heading text-2xl text-gray-900 hover:text-red-700 group-hover:underline font-black">Sustainability Hackathon</h3>
+                        </a>
+                        <p class="text-gray-800 text-base font-light text-justify">The Seneca Sustainability Hackathon was a creative and collaborative event that brought together individuals with a passion for sustainability to generate innovative solutions to environmental challenges. Participants worked in teams to develop sustainable solutions that addressed a range of environmental issues, including climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
+                      </div>
+                      <div class="flex-initial">
+                        <div class="flex flex-wrap -m-2">
+                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-red-700 focus:ring-4 focus:ring-gray-600 rounded-full" href="https://sustainability.senecahackathon.com/" target="_blank">Visit Hackathon Site</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="w-full p-5">
               <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
                 <div class="w-full md:w-1/2">
@@ -44,30 +68,6 @@ function History(params){
                       <div class="flex-initial">
                         <div class="flex flex-wrap -m-2">
                           <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-red-700 focus:ring-4 focus:ring-gray-600 rounded-full" href="#">Visit Hackathon Site</a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full p-5">
-              <div class="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
-                <div class="w-full md:w-1/2">
-                  <img class="w-full h-full bg-white object-contain" src="/assets/sustainability2022.png" alt=""/>
-                </div>
-                <div class="flex-1 hover:bg-white">
-                  <div class="md:max-w-lg p-10 h-full">
-                    <div class="flex flex-col justify-between h-full">
-                      <div class="flex-initial mb-8">
-                        <a class="group inline-block mb-4" href="https://sustainability.senecahackathon.com/" target="_blank">
-                          <h3 class="font-heading text-2xl text-gray-900 hover:text-red-700 group-hover:underline font-black">Sustainability Hackathon</h3>
-                        </a>
-                        <p class="text-gray-800 text-base font-light text-justify">The Seneca Sustainability Hackathon was a creative and collaborative event that brought together individuals with a passion for sustainability to generate innovative solutions to environmental challenges. Participants worked in teams to develop sustainable solutions that addressed a range of environmental issues, including climate change, waste reduction, and biodiversity conservation. The event provided a unique opportunity for participants to network, share ideas, and engage in hands-on problem-solving.</p>
-                      </div>
-                      <div class="flex-initial">
-                        <div class="flex flex-wrap -m-2">
-                          <div class="w-full md:w-auto p-2"><a class="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-red-700 focus:ring-4 focus:ring-gray-600 rounded-full" href="https://sustainability.senecahackathon.com/" target="_blank">Visit Hackathon Site</a></div>
                         </div>
                       </div>
                     </div>
