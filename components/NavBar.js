@@ -98,6 +98,14 @@ export default function NavBar(props) {
                 History
               </a>
             </li>
+            <li className="my-2 md:flex items-center w-auto">
+              <a
+                href="/faq"
+                className="text-lg text-center hover:text-red-700 font-medium"
+              >
+                FAQ
+              </a>
+            </li>
             <li className="my-2">
               <a
                 href="#"
