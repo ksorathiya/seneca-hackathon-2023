@@ -81,14 +81,14 @@ export default function NavBar(props) {
                 About Us
               </a>
             </li>
-            {/* <li className="my-2 md:flex items-center w-auto">
+            <li className="my-2 md:flex items-center w-auto">
               <a
                 href="/challengesets"
                 className="text-lg text-center hover:text-red-700 font-medium"
               >
                 Challenge Sets
               </a>
-            </li> */}
+            </li>
             {/*  */}
             <li className="my-2 md:flex items-center w-auto">
               <a
