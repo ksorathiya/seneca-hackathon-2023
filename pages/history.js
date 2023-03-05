@@ -32,7 +32,7 @@ function History(params){
                 <div class="w-full md:w-1/2">
                   <img class="w-full h-full bg-white object-contain" src="/assets/digitalhealth2021.png" alt=""/>
                 </div>
-                <div class="flex-1">
+                <div class="flex-1 hover:bg-white">
                   <div class="md:max-w-lg p-10 h-full">
                     <div class="flex flex-col justify-between h-full">
                       <div class="flex-initial mb-8">
@@ -56,7 +56,7 @@ function History(params){
                 <div class="w-full md:w-1/2">
                   <img class="w-full h-full bg-white object-contain" src="/assets/sustainability2022.png" alt=""/>
                 </div>
-                <div class="flex-1">
+                <div class="flex-1 hover:bg-white">
                   <div class="md:max-w-lg p-10 h-full">
                     <div class="flex flex-col justify-between h-full">
                       <div class="flex-initial mb-8">

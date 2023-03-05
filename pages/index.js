@@ -26,12 +26,9 @@ function Home() {
       
 
       <section className="pb-4 bg-gray-50 overflow-hidden">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-2/3">
+        <div className="w-full lg:w-2/3 mx-auto px-4">
+          <div className="">
             <HackathonHero/>
-          </div>
-          <div className="w-full lg:w-1/3">
-            <DesignJamHero/>
           </div>
         </div>
       </section>
@@ -1364,7 +1361,7 @@ function Home() {
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image
-                            src="/assets/email-message-mail-envelope-svgrepo-com.svg"
+                            src="/assets/mailseneca.png"
                             width="40"
                             height="40"
                           />
@@ -1372,7 +1369,7 @@ function Home() {
                       </div>
                       <div className="flex-1 p-3">
                         <p className="text-gray-500 font-bold">Email</p>
-                        <h3 className="font-heading md:text-xl text-md text-gray-900 font-black">
+                        <h3 className="font-heading md:text-l text-sm text-gray-900 font-black">
                           info@senecahackathon.com
                         </h3>
                       </div>
