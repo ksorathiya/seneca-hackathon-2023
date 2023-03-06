@@ -1,6 +1,6 @@
 export default function NavBar(props) {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 md:justify-start md:flex-nowrap">
+    <nav className="container m-auto bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 md:justify-start md:flex-nowrap">
       <div className="flex flex-wrap items-center justify-between mx-auto">
         <div class="md:grid md:grid-cols-2 md:divide-x flex">
           <a href="/" className="flex flex-end">
@@ -13,7 +13,11 @@ export default function NavBar(props) {
           <div className="hidden md:block mx-1 px-1 md:mx-4 md:px-4 border-l-2">
             <div className="md:relative md:top-2 ">
               <span className=" mb-0 text-xs">hosted by</span>
-              <a href="https://www.senecacollege.ca" target={"_blank"} className="flex flex-end">
+              <a
+                href="https://www.senecacollege.ca"
+                target={"_blank"}
+                className="flex flex-end"
+              >
                 <img
                   src="https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg"
                   width="85"
