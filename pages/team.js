@@ -506,7 +506,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Khyati.png" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -652,28 +652,7 @@ function  team(params){
 
     </div>
      
-    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-4">
-
-      <div class="mb-24 md:mb-0">
-        <div class="rounded-lg shadow-lg h-full block bg-white">
-          <div class="flex justify-center">
-            <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
-                style={{"width": "150px; "}} />
-            </div>
-          </div>
-          <div class="p-6">
-            <h5 class="text-lg font-bold mb-4">Muhammed Deensha</h5>
-            <p class="mb-6">Challenge Set 6</p>
-            <ul class="list-inside flex mx-auto justify-center">
-              
-              <a href="#!" class="px-2">
-                <img src="/assets/linkedin-logo.png" alt="" style={{"width":"80px; height: 18px"}}/>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
 
       <div class="mb-24 md:mb-0">
         <div class="rounded-lg shadow-lg h-full block bg-white">
@@ -793,7 +772,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Shivani_Nalamati.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -835,7 +814,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Neev_Amitkumar.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -877,7 +856,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Sapna_Tiwari.png" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -898,7 +877,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Rutt_Desai.jpg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
