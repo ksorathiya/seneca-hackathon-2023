@@ -72,7 +72,7 @@ function About(params) {
               </p>
               <br></br>
               <span class="text-right text-base md:text-lg text-coolGray-400 font-bold ">
-                2023 Thinking North Smart Cities Organizers
+                2023 ThinkingNorth Smart Cities Organizers
               </span>
               {/* <span class="text-base md:text-lg text-coolGray-400 font-medium">&mdash; John Doe, CEO &amp; Founder</span> */}
             </div>

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
 import HackathonHero from "../components/HackathonHero";
+import About from "../components/About";
 import DesignJamHero from "../components/DesignJamHero";
 import Timeline from "../components/Timeline";
 import ImageGrid from "../components/ImageGrid";
@@ -21,366 +22,17 @@ function throwError() {
 function Home() {
   return (
     <>
-      {/* // HERO SECTION */}
-      <NavBar />
-      
-
-      <section className="pb-20 bg-gray-50 overflow-hidden">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2">
-            <HackathonHero/>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <DesignJamHero/>
-          </div>
-        </div>
-      </section>
-      
-      {/* DESIGN JAM SECTION 1 */}
-
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="w-full lg:w-2/3 mx-auto px-4">
-          <div className="py-16 px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap -m-8 mb-10">
-                <div className="w-full md:w-1/2 p-8">
-                  <div className="md:max-w-xl">
-                    <h2
-                      class="text-center font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
-                      contenteditable="false"
-                    >
-                      Design Jam by{" "}
-                      <img
-                        class="mx-auto mt-5"
-                        src="https://yfile.news.yorku.ca/wp-content/uploads/2021/09/yu-logo-header.png"
-                        alt=""
-                      />
-                    </h2>
-
-                    <p class="text-center mb-3 text-xl font-bold" contenteditable="false">
-                      A 12 - 16 hours asynchronous online learning organized by
-                      &nbsp;
-                      <span className="text-red-600">
-                        Smart Cities Hackathon
-                      </span>
-                      , in association with York University's YSpace.
-                      <br></br>
-                      <br></br>
-                      <span className="text-red-600">
-                        Deadline till March 10!
-                      </span>
-                    </p>
-
-                    <div class="flex flex-wrap -m-2 justify-center">
-                      <div class="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold focus:ring-4 focus:ring-blue-200 rounded-full bg-red-600 hover:bg-red-700"
-                          href="https://yspace.apps01.yorku.ca/forms/view.php?id=104364"
-                          target="_blank"
-                        >
-                          Enroll Now
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="w-full md:w-1/4 p-8">
-                  <video
-                    autoplay="{true}"
-                    loop
-                    muted
-                    controls
-                    className="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/design-jam1.mov"
-                    alt=""
-                  />
-                </div>
-
-                <div class="w-full md:w-1/4 p-8">
-                  <img
-                    class="mx-auto md:mr-0 rounded-3xl"
-                    src="/assets/design-jam2.png"
-                    alt="" width="272" height="480"
-                  />
-                </div>
-              </div>
-              <div className="p-8 md:p-12 bg-gray-100 rounded-3xl">
-                <div className="flex flex-wrap -m-8">
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/flag-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Enhance Your Chances
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          Improve your chances of success in the upcoming Smart
-                          Cities Hackathon by participating in the Design Jam
-                          and learning valuable design thinking skills.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/speed-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Accelerate Your Skills
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          Gain lifelong design thinking skills for a better
-                          chance at winning the Smart Cities Hackathon.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/sofa-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Limited Spots Available
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          50 spots for domestic and 50 for international
-                          students. First-come, first-served basis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/dollar-symbol-money-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Earn a $325 Stipend
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          Participate and earn a stipend for your efforts. *Only
-                          domestic students are eligible for the stipend.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/fast-forward-button-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Fast Track to the Hackathon
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          Participating in the Design Jam provides a fast track
-                          to the Smart Cities Hackathon qualifier event.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-8">
-                    <div className="flex flex-wrap -m-3">
-                      <div className="w-auto md:w-full lg:w-auto p-3">
-                        <div className="flex items-center justify-center w-12 h-12 bg-white rounded-xl">
-                          <Image
-                            src="/assets/deadline-stopwatch-hourglass-svgrepo-com.svg"
-                            height={30}
-                            width={30}
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 p-3">
-                        <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                          Submission Deadline
-                        </h3>
-                        <p className="text-sm text-gray-700 font-bold">
-                          The submission deadline for the playbook and video
-                          pitch or in-person feedback session at Seneca HELIX is
-                          March 10th at 11:59pm. Make sure to submit your
-                          application in time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="my-20 mx-auto px-4">
-          <div className="max-w-lg mx-auto text-center">
-            <h2 className="font-heading max-w-xl mb-4 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              How to enroll for the Design Jam
-            </h2>
-            
-          </div>
-          <div
-            className="py-16 px-8 md:px-16 overflow-hidden rounded-3xl"
-            style={{
-              "background-image":
-                "url('zanrly-assets/images/how-it-works/work.png')",
-              "background-size": "cover",
-              "background-position": "center",
-              "background-repeat": "no-repeat",
-            }}
-          >
-            <div className="max-w-md">
-              <div className="flex flex-wrap">
-                <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
-                    <div className="flex flex-col items-center w-auto p-3.5">
-                      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
-                        <svg
-                          width="21"
-                          height="21"
-                          viewBox="0 0 21 21"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
-                            stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="w-px flex-1 border border-gray-600 border-dashed"></div>
-                    </div>
-                    <div className="flex-1 p-3.5 pb-14">
-                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
-                        Step 1
-                      </span>
-                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        This is step 1
-                      </h3>
-                      <p className="text-gray-300 font-bold">
-                        More details on step 1
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
-                    <div className="flex flex-col items-center w-auto p-3.5">
-                      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-red-600">
-                        <svg
-                          width="21"
-                          height="21"
-                          viewBox="0 0 21 21"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
-                            stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="w-px flex-1 border border-gray-600 border-dashed"></div>
-                    </div>
-                    <div className="flex-1 p-3.5 pb-14">
-                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
-                        Step 2
-                      </span>
-                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        This is step 2
-                      </h3>
-                      <p className="text-gray-300 font-bold">
-                        more details on step 2
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full">
-                  <div className="flex flex-wrap -m-3.5">
-                    <div className="flex flex-col items-center w-auto p-3.5">
-                      <div className="flex items-center justify-center w-9 h-9 border border-gray-700 rounded-full bg-red-600">
-                        <svg
-                          width="21"
-                          height="21"
-                          viewBox="0 0 21 21"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M4.66699 11.3333L8.00033 14.6666L16.3337 6.33325"
-                            stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="flex-1 p-3.5">
-                      <span className="inline-block mb-2.5 text-sm text-gray-400 font-bold uppercase">
-                        Step 3
-                      </span>
-                      <h3 className="font-heading mb-2.5 text-xl text-white font-black">
-                        This is step 3
-                      </h3>
-                      <p className="text-gray-300 font-bold">
-                        More details on step 3
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-            </div>
-          </div>
-        </div>
-        
+      <section className="pb-4 bg-white overflow-hidden">
+        <NavBar />
       </section>
 
-      
+      <section className="pb-4 bg-gray-50 overflow-hidden">
+        <HackathonHero />
+      </section>
 
-      
-      {/* DESIGN JAM SECTION 3 */}
+      <section class="pb-4 bg-gray-50 overflow-hidden">
+        <About />
+      </section>
       {/* <section className="py-16 bg-gray-100 overflow-hidden">
         <div className="container mx-auto px-4">
           <div
@@ -500,54 +152,54 @@ function Home() {
       </section> */}
       {/* DESIGN JAM SECTION 3 */}
       {/* HACKATHON TIMELINE SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <Timeline/>
+      <section className="py-4 bg-gray-50 overflow-hidden">
+        <Timeline />
       </section>
       {/* HACKATHON TIMELINE SECTION */}
       {/* SPONSORS SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        
+      <section className="py-4 bg-gray-50 overflow-hidden">
         {/* CTA SECTION */}
-        
-          <div className="container mx-auto px-4">
-          <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
+
+        <div className="container mx-auto px-4">
+          <h2 className="font-heading m-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-center">
             Our Sponsors
           </h2>
-            <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
-              <div className="flex flex-wrap items-center -m-4">
-                <div className="w-full md:w-1/5 p-4 items-left">
-                  <div className="md:max-w-md md:mr-auto">
-                    <div className="flex flex-wrap -m-2">
-                      {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
-                      {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
-                      <img
-                        src="/assets/thinkingnorthlogo.png"
-                        width="300"
-                        alt=""
-                        style={{
-                          "background-color": "white; border-radius:10%",
-                        }}
-                      />
-                    </div>
+          <div className="py-10 mb-10 px-8 md:px-10 bg-red-700 overflow-hidden rounded-3xl">
+            <div className="flex flex-wrap items-center -m-4">
+              <div className="w-full md:w-1/5 p-4 items-left">
+                <div className="md:max-w-md md:mr-auto">
+                  <div className="flex flex-wrap justify-center -m-2">
+                    {/* <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">Newsletter</span> */}
+                    {/* <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">Join to get exclusive contents for free.</h2> */}
+                    <img
+                      src="/assets/thinkingnorthlogo.png"
+                      width="300"
+                      alt=""
+                      style={{
+                        "background-color": "white; border-radius:10%",
+                      }}
+                    />
                   </div>
                 </div>
-                <div className="w-full md:w-4/5 p-4">
-                  <div className="w-full lg:flex-1 p-2">
-                    {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
-                    <h2 className="font-heading text-4xl md:text-5xl text-white font-black">
-                      Thinking North Investors Group, <br/> <br/>A big shoutout to our title sponsor.
-                    </h2>
-                  </div>
-                  {/* <br></br>
+              </div>
+              <div className="w-full md:w-4/5 p-4">
+                <div className="w-full lg:flex-1 p-2">
+                  {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
+                  <h2 className="font-heading text-4xl text-center md:text-left md:text-5xl text-white font-black">
+                    Thinking North Investors Group, <br /> <br />A big shoutout
+                    to our title sponsor!!!
+                  </h2>
+                </div>
+                {/* <br></br>
               <div className="w-full lg:w-auto p-2">
                 <div className="flex flex-wrap justify-center -m-2">
                   <div className="w-full lg:w-auto p-2"><a className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-800 hover:bg-red-400 focus:ring-4 focus:ring-gray-800 rounded-full" href="#">Get Connected</a></div>
                 </div>
               </div> */}
-                </div>
               </div>
             </div>
           </div>
+        </div>
 
         {/* CTA SECTION */}
         <div className="container mx-auto px-4">
@@ -700,7 +352,22 @@ function Home() {
                   </a>
                 </div>
               </div>
-              
+              <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
+                <div className="py-12 lg:py-20 px-8">
+                  <a
+                    href="https://www.vaughan.ca/Pages/Home.aspx"
+                    target="_blank"
+                  >
+                    <img
+                      className="mx-auto"
+                      src="https://www.vaughan.ca/style%20library/images/logo.png"
+                      width="300px"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3"></div> */}
@@ -711,14 +378,14 @@ function Home() {
       {/* SPONSORS SECTION */}
 
       <section className="p-20 bg-gray-900 overflow-hidden">
-      <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
-              The Organizing Committee
-            </h2>
-        <ImageGrid/>
+        <h2 className="font-heading mb-10 text-4xl md:text-5xl text-white font-black tracking-tight text-center">
+          The Organizing Committee
+        </h2>
+        <ImageGrid />
       </section>
 
       {/* INSTAFEED */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 md:px-16 insta-background overflow-hidden rounded-3xl">
             <div className="flex flex-wrap items-center -m-4">
@@ -1408,7 +1075,7 @@ function Home() {
 {/* TEAM SECTION */}
 
       {/* CONTACT US SECTION */}
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="py-4 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 bg-white overflow-hidden border border-gray-100 rounded-3xl">
             <div className="max-w-7xl mx-auto">
@@ -1456,7 +1123,7 @@ function Home() {
                       <div className="w-auto p-3">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white rounded-xl">
                           <Image
-                            src="/assets/email-message-mail-envelope-svgrepo-com.svg"
+                            src="/assets/mailseneca.png"
                             width="40"
                             height="40"
                           />
@@ -1464,7 +1131,7 @@ function Home() {
                       </div>
                       <div className="flex-1 p-3">
                         <p className="text-gray-500 font-bold">Email</p>
-                        <h3 className="font-heading md:text-xl text-md text-gray-900 font-black">
+                        <h3 className="font-heading md:text-l text-sm text-gray-900 font-black">
                           info@senecahackathon.com
                         </h3>
                       </div>
