@@ -112,14 +112,6 @@ export default function NavBar(props) {
             </li>
             <li className="my-2">
               <a
-                href="/team"
-                className="block px-5 py-3 text-sm bg-red-600 hover:bg-red-600 text-white font-semibold border border-red-500 hover:border-red-600 rounded-full transition duration-200"
-              >
-                Our Team
-              </a>
-            </li>
-            <li className="my-2">
-              <a
                 href="#"
                 className="block px-5 py-3 text-sm bg-black hover:bg-black text-white font-semibold border border-black hover:border-black rounded-full transition duration-200"
               >
