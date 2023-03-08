@@ -110,6 +110,14 @@ export default function NavBar(props) {
                 FAQ
               </a>
             </li>
+            <li className="my-2 md:flex items-center w-auto">
+              <a
+                href="/team"
+                className="text-lg text-center hover:text-red-700 font-medium"
+              >
+                Our Team
+              </a>
+            </li>
             <li className="my-2">
               <a
                 href="#"
