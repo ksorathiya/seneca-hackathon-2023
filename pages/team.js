@@ -658,7 +658,7 @@ function  team(params){
         <div class="rounded-lg shadow-lg h-full block bg-white">
           <div class="flex justify-center">
             <div class="flex justify-center" style={{"margin-top": "-75px"}}>
-              <img src="\assets\team\blank.png" class="rounded-full mx-auto shadow-lg" alt=""
+              <img src="\assets\team\Shalmonne_Berson.jpeg" class="rounded-full mx-auto shadow-lg" alt=""
                 style={{"width": "150px; "}} />
             </div>
           </div>
@@ -736,7 +736,7 @@ function  team(params){
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Nithila Balasubramanian</h5>
-            <p class="mb-6">Challenge Set 3</p>
+            <p class="mb-6">Partner Student Success Manager</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="https://www.linkedin.com/in/nithila-balasubramanian-4414a71a6/" class="px-2">
@@ -757,7 +757,7 @@ function  team(params){
           </div>
           <div class="p-6">
             <h5 class="text-lg font-bold mb-4">Kavitha Raman</h5>
-            <p class="mb-6">Challenge Set 4</p>
+            <p class="mb-6">International Student Success Manager</p>
             <ul class="list-inside flex mx-auto justify-center">
               
               <a href="https://www.linkedin.com/in/kavitha-raman-319317a1/" class="px-2">

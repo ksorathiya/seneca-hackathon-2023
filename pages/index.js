@@ -354,19 +354,18 @@ function Home() {
               </div>
               <div className="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50">
                 <div className="py-12 lg:py-20 px-8">
-                  <a
-                    href="https://www.vaughan.ca/Pages/Home.aspx"
-                    target="_blank"
-                  >
+                  <a href="https://www.vaughan.ca/" target="_blank">
                     <img
                       className="mx-auto"
-                      src="https://www.vaughan.ca/style%20library/images/logo.png"
+                      src="https://www.vaughan.ca/themes/custom/city_of_vaughan/images/logo.svg"
                       width="300px"
                       alt=""
                     />
                   </a>
                 </div>
               </div>
+              
+              
 
               {/* <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
               <div class="w-full sm:w-1/3 border-b sm:border-b-0 sm:border-r border-gray-50"></div>
