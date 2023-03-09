@@ -8,26 +8,28 @@ import styles from "../styles/home.module.css";
 import Footer from "../components/footer";
 
 function Challenge(params) {
-    return (
-        <>
-            {/* // HERO SECTION */}
+  return (
+    <>
+      {/* // HERO SECTION */}
 
-            <NavBar />
-            <section class="py-4 md:py-8 bg-coolGray-50">
-                <div class="container px-4 mx-auto">
-                    <div class="md:max-w-4xl mx-auto mb-12 text-center">
-                        <FAQAccordion />
-                    </div>
-                </div>
-            </section>
+      <section className="pb-4 bg-white overflow-hidden">
+        <NavBar />
+      </section>
+      <section class="py-4 md:py-8 bg-coolGray-50">
+        <div class="container px-4 mx-auto">
+          <div class="md:max-w-4xl mx-auto mb-12 text-center">
+            <FAQAccordion />
+          </div>
+        </div>
+      </section>
 
-            {/* // FOOTER SECTION */}
+      {/* // FOOTER SECTION */}
 
-            <Footer />
+      <Footer />
 
-            {/* FOOTER SECTION */}
-        </>
-    );
+      {/* FOOTER SECTION */}
+    </>
+  );
 }
 
 export default Challenge;

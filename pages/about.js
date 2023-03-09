@@ -12,7 +12,9 @@ function About(params) {
     <>
       {/* // HERO SECTION */}
 
-      <NavBar />
+      <section className="pb-4 bg-white overflow-hidden">
+        <NavBar />
+      </section>
       {/* ABOUT US CONTENT */}
       <section
         class="py-8 md:py-12 bg-coolGray-50"
@@ -59,16 +61,31 @@ function About(params) {
                 Welcome Message
               </p>
               <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
-                Get ready for an unforgettable experience as we announce the return of the Hackathon! This student-focused innovation competition is the ultimate learning opportunity that will challenge you to think outside the box and create innovative solutions to real-world problems.
+                Get ready for an unforgettable experience as we announce the
+                return of the Hackathon! This student-focused innovation
+                competition is the ultimate learning opportunity that will
+                challenge you to think outside the box and create innovative
+                solutions to real-world problems.
               </p>
               <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
-                Gather your friends and colleagues from different backgrounds to collaborate and develop your problem-solving skills. Our technical experts and mentors will guide you every step of the way to ensure that you are ready for the ultimate presentation to our expert panel of investors, school representatives, and specialists.
+                Gather your friends and colleagues from different backgrounds to
+                collaborate and develop your problem-solving skills. Our
+                technical experts and mentors will guide you every step of the
+                way to ensure that you are ready for the ultimate presentation
+                to our expert panel of investors, school representatives, and
+                specialists.
               </p>
               <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
-                Excitingly, the winning teams won't just walk away with amazing prizes, but will also be given consideration for investment opportunities.
+                Excitingly, the winning teams won't just walk away with amazing
+                prizes, but will also be given consideration for investment
+                opportunities.
               </p>
               <p class="mb-4 text-xl md:text-xl leading-tight font-light text-coolGray-800 text-justify ">
-                This year, we're taking things to the next level and hosting the event in person at the incredible Seneca CITE Building. We can't wait to see you on May 5th and 6th for an unforgettable experience. Don't miss out on this opportunity to showcase your skills and make a difference in the world! 
+                This year, we're taking things to the next level and hosting the
+                event in person at the incredible Seneca CITE Building. We can't
+                wait to see you on May 5th and 6th for an unforgettable
+                experience. Don't miss out on this opportunity to showcase your
+                skills and make a difference in the world! 
               </p>
               <br></br>
               <span class="text-right text-base md:text-lg text-coolGray-400 font-bold ">
@@ -82,7 +99,7 @@ function About(params) {
       {/* ABOUT US CONTENT */}
       {/* // FOOTER SECTION */}
 
-      <Footer/>
+      <Footer />
 
       {/* FOOTER SECTION */}
     </>
