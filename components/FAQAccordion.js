@@ -2,41 +2,46 @@ import React from "react";
 
 let FAQs = [
   {
-    question: "1. What is a Smart City?",
+    question: `1. What is "Smart City"?`,
     answer:
-      "A Smart City is an urban development vision to integrate information and communication technology (ICT) and Internet of Things (IoT) technology in a secure fashion to manage a city's assets and resources more efficiently for the city's future development",
+      `For our hackathon, "Smart City" serves as a guiding concept for selecting a range of local social issues that resonate with you and ignite your passion. Together, these causes strive to enhance the well-being of you and your fellow citizens by improving various aspects of life such as sustainability, security, comfort, affordability, and productivity.`,
   },
   {
-    question: "2. What are the criteria for a city to become a Smart City?",
+    question: "2. How can you help transform a city into a Smart City?",
     answer:
-      "The criteria for a city to become a Smart City include a solid and reliable ICT infrastructure with efficient energy management systems, smart transportation, and mobility solutions. Moreover, with effective waste management systems and efficient public services, including the basic needs like electricity, water, heating, and other households that need to be managed within these areas.",
+      "It's imperative that our participants recognize their vital role in shaping the future of their city. You are responsible for educating yourself on crucial social issues and not accepting them at face value from politicians or the media. To facilitate this, the hackathon motivates participants to explore areas of concern, discover a cause that deeply resonates with them, form a group of like-minded individuals, conduct research to understand the problem, utilize their innovation and skills to define a solution, and finally, with the help of provided expertise, create a tangible solution.",
   },
   {
-    question: "3. What is a Smart Cities hackathon?",
+    question: "3. What does our Smart Cities hackathon entail?",
     answer:
-      "A Smart Cities hackathon is where developers, designers, data scientists, and other tech-savvy individuals come together to develop innovative solutions for urban problems related to the development of Smart Cities.",
+      "The hackathon presents an avenue for you to effect change by educating yourself, scrutinizing issues, employing critical thinking, absorbing guidance from subject matter experts, devising potential solutions, and presenting them to leaders in industry, government, and education who can help bring your vision to fruition. This is an exceptional opportunity for you to make a meaningful difference.",
   },
   {
-    question: "4. Who can participate in a Smart Cities hackathon?",
+    question: "4. Who is eligible to compete in the hackahton?",
     answer:
-      "Anyone with a passion for technology and innovation can participate in a Smart Cities hackathon, including students, developers, data scientists, and urban planners, if they think they have a solution to making an efficient and effective city transformation that is technically and realistically feasible.",
+      "Seneca students and alumni are encouraged to collaborate with students from any school or program to form their teams. However, official partner schools have the exclusive privilege to submit teams that only consist of students from their respective schools to participate in the competition. There is no cost to any student thanks to the generous sponsors.",
   },
   {
-    question: "5. What is the format of a Smart Cities hackathon?",
+    question: "5. How do I increase my chances of winning?",
     answer:
-      "A Smart Cities hackathon typically begins with a series of presentations and workshops on the theme of Smart Cities. Participants then form teams and work on a solution to a specific problem related to the development of Smart Cities. The hackathon culminates in a pitch competition, where teams present their solutions to a panel of judges.",
+      "Diversity! To increase their chances of winning, a team should possess a well-rounded skill set that includes strong communication skills, leadership abilities, project management expertise, engineering skills, and proficiency in software development such as front-end, coding, back-end, and data if software is a part of the solution. A balanced combination of these skills will give a team a competitive advantage and make them more likely to succeed in the hackathon.",
   },
   {
     question:
-      "6. What solutions are typically developed during a Smart Cities hackathon?",
+      "6. What is the format of the hackathon?",
     answer:
-      "Solutions developed during a Smart Cities hackathon can range from smart transportation systems to efficient energy management systems, from waste management solutions to public safety systems, and from smart healthcare systems to citizen engagement platforms.",
+      "The hackathon will consist of an all-virtual qualifier session on May 2-3, which will feature keynote speakers, breakout sessions, and technical and subject matter breakouts. Participants will be required to submit a playbook and a 4-minute video presentation for judging by a panel. The finalists will be selected based on their submissions and will compete on May 5th and 6th. May 5th will be a virtual event with keynote speeches, breakout sessions, and mentoring opportunities. On Saturday, May 6th, the event will be held in-person and run all day at the Seneca York CITE building. Breakfast, lunch dinner and snacks are provided. Virtual accommodations will be made available for participants from out of town or out of the country.",
   },
   {
-    question: "7. How can I get involved in a Smart Cities hackathon?",
+    question: "7. What kind of solutions are typically developed?",
     answer:
-      "You can get involved in a Smart Cities hackathon by searching for events in your area or by contacting organizations specializing in developing Smart Cities. You can also sign up for updates on hackathons and other events related to Smart Cities.",
+      "Participants are expected to use the challenge sets as a guide to define the scope of their solutions. The most successful solutions will adhere to design thinking principles and solid system analysis and design methods. Participants should use highly iterative agile processes to work within the time constraints. The evaluation criteria for the solutions will be formally published. Each team's solution will be assessed by assigned independent expert  judges who will deliberate and rank the submissions they review based on the rubric",
   },
+  {
+    question: "8. What do I get?",
+    answer:
+      "Competing in a hackathon offers significant advantages for all participants, including microcredentials that are awarded to both participants and organizers. Winners are eligible for prizes that range from investor advice, internship and research opportunities, investor opportunities, and cash prizes. Participating in a hackathon provides valuable experiential learning opportunities that can be useful when building a resume or interviewing with potential employers. Employers also benefit from hackathons as they are viewed as effective HR/hiring tools for identifying top talent.",
+  }
 ];
 
 export default function FAQAccordion() {
