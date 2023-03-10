@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
 import HackathonHero from "../components/HackathonHero";
+import ChallengeSetCategories from "../components/ChallengeSetCategories";
 import About from "../components/About";
 import DesignJamHero from "../components/DesignJamHero";
 import Timeline from "../components/Timeline";
@@ -33,129 +34,14 @@ function Home() {
       <section class="pb-4 bg-gray-50 overflow-hidden">
         <About />
       </section>
-      {/* <section className="py-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div
-            className="py-16 px-8 md:px-16 rounded-3xl"
-            style={{
-              "background-image":
-                "url(zanrly-assets/images/features/people.png)",
-              "background-size": "cover",
-              "background-position": "center",
-              "background-repeat": "no-repeat",
-            }}
-          >
-            <h2 className="font-heading mb-6 text-4xl md:text-5xl text-white font-black tracking-tight md:max-w-lg">
-              Build website animations and interactions visually.
-            </h2>
-            <p className="mb-14 text-lg text-gray-200 font-bold md:max-w-4xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              venenatis volutpat velit, quis iaculis velit bibendum a. Maecenas
-              accumsan fermentum nisl.
-            </p>
-            <div className="flex flex-wrap -m-2">
-              <div className="w-auto p-2">
-                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div className="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-gray-900 font-bold">
-                      Exportable code
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto p-2">
-                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div className="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-gray-900 font-bold">
-                      Easy integration
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto p-2">
-                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div className="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-gray-900 font-bold">
-                      Satisfied customers
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="w-auto p-2">
-                <div className="flex flex-wrap px-3 py-2 bg-white rounded-full">
-                  <div className="w-auto mr-2 pt-1">
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z"
-                        fill="#3B82F6"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-gray-900 font-bold">
-                      Increased conversion
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* DESIGN JAM SECTION 3 */}
-      {/* HACKATHON TIMELINE SECTION */}
+
       <section className="py-4 bg-gray-50 overflow-hidden">
         <Timeline />
       </section>
-      {/* HACKATHON TIMELINE SECTION */}
+      <section className="py-4 bg-gray-50 overflow-hidden">
+        <ChallengeSetCategories />
+      </section>
+
       {/* SPONSORS SECTION */}
       <section className="py-4 bg-gray-50 overflow-hidden">
         {/* CTA SECTION */}
@@ -187,7 +73,7 @@ function Home() {
                   {/* <input className="px-6 py-3.5 w-full text-lg text-gray-500 font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-gray-500 rounded-full" id="newsletterLightInput3-1" type="text" placeholder="Email address"/> */}
                   <h2 className="font-heading text-4xl text-center md:text-left md:text-5xl text-white font-black">
                     Thinking North Investors Group, <br /> <br />A big shoutout
-                    to our title sponsor!!!
+                    to our title sponsor.
                   </h2>
                 </div>
                 {/* <br></br>
